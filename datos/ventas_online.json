@@ -1,0 +1,6794 @@
+[
+  {
+    "order_id": "ONL-00233",
+    "timestamp": "2025-03-22T00:00:00",
+    "product": "Webcam Logitech C920",
+    "qty": 3,
+    "unit_price": 725.77,
+    "customer": {
+      "name": "Sebastián López",
+      "email": "@yahoo.com",
+      "city": "santa cruz"
+    },
+    "payment_method": "QR",
+    "status": "Entregado",
+    "shipping_cost": 53.3,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00055",
+    "timestamp": "24 de July de 2024",
+    "product": "MEMORIA USB 64GB",
+    "qty": 1,
+    "unit_price": "Bs 89",
+    "customer": {
+      "name": "Mónica Choque",
+      "email": "mónica.choque@ucb.edu.bo",
+      "city": "Cochabamba"
+    },
+    "payment_method": "QR",
+    "status": "Entregado",
+    "shipping_cost": 49.96,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00245",
+    "timestamp": "21/03/2024",
+    "product": "Impresora Epson L3250  ",
+    "qty": -4,
+    "unit_price": "bs. 1476.71",
+    "customer": {
+      "name": "Gabriela Salazar",
+      "email": "",
+      "city": "CBBA"
+    },
+    "payment_method": "Efectivo",
+    "status": "Entregado",
+    "shipping_cost": 52.68,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00316",
+    "timestamp": "2025-03-05T00:00:00",
+    "product": " Laptop Dell Inspiron",
+    "qty": 2,
+    "unit_price": "BOB 5623.91",
+    "customer": {
+      "name": "Patricia Quispe",
+      "email": "patricia.quispe@gmail.com",
+      "city": "Cobija"
+    },
+    "payment_method": "QR",
+    "status": "Cancelado",
+    "shipping_cost": 72.57,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00086",
+    "timestamp": "2024/11/24",
+    "product": " Laptop HP Pavilion",
+    "qty": 1,
+    "unit_price": 6212.15,
+    "customer": {
+      "name": "Fernando Quispe",
+      "email": "fernando.quispe@outlook.com",
+      "city": "Potosi"
+    },
+    "payment_method": "QR",
+    "status": "Entregado",
+    "shipping_cost": 46.2,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00143",
+    "timestamp": "2024-02-13T00:00:00",
+    "product": " Memoria USB 128GB",
+    "qty": 1,
+    "unit_price": null,
+    "customer": {
+      "name": "Pablo Morales",
+      "email": "pablo.morales@outlook.com",
+      "city": "Oruro"
+    },
+    "payment_method": "QR",
+    "status": "Cancelado",
+    "shipping_cost": 64.73,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00067",
+    "timestamp": "2024-06-02T00:00:00",
+    "product": "Cargador Universal USB-C  ",
+    "qty": 4,
+    "unit_price": 111.65,
+    "customer": {
+      "name": "Daniela García",
+      "email": "daniela.garcía@outlook.com",
+      "city": "La Paz"
+    },
+    "payment_method": "Tarjeta Crédito",
+    "status": "Entregado",
+    "shipping_cost": 22.65,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00161",
+    "timestamp": "2024-01-19T00:00:00",
+    "product": "kit limpieza pantalla",
+    "qty": 1,
+    "unit_price": 31.24,
+    "customer": {
+      "name": "Pablo Gutiérrez",
+      "email": "pablo.gutiérrez@ucb.edu.bo",
+      "city": "Trinidad"
+    },
+    "payment_method": "Tarjeta Crédito",
+    "status": "En camino",
+    "shipping_cost": 45.18,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00050",
+    "timestamp": "2024/03/17",
+    "product": "Batería Externa 20000mAh  ",
+    "qty": 1,
+    "unit_price": 218.0,
+    "customer": null,
+    "payment_method": "QR",
+    "status": "En camino",
+    "shipping_cost": 27.98,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00331",
+    "timestamp": "2024-07-31T00:00:00",
+    "product": "Parlante Bluetooth JBL",
+    "qty": 4,
+    "unit_price": "Bs. 735.72",
+    "customer": {
+      "name": "Alejandro Condori",
+      "email": "alejandro.condori@hotmail.com",
+      "city": "La Paz"
+    },
+    "payment_method": "QR",
+    "status": "Pendiente",
+    "shipping_cost": 24.08,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00356",
+    "timestamp": "2024-06-10T00:00:00",
+    "product": " Parlante Bluetooth JBL",
+    "qty": 4,
+    "unit_price": 749.91,
+    "customer": "Patricia Condori",
+    "payment_method": "QR",
+    "status": "Entregado",
+    "shipping_cost": 79.91,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00115",
+    "timestamp": "2024/07/12",
+    "product": " Monitor Samsung 24\"",
+    "qty": 1,
+    "unit_price": "Bs.2036.62",
+    "customer": {
+      "name": "Patricia García",
+      "email": "patricia.garcía@gmail.com",
+      "city": "Tarija"
+    },
+    "payment_method": "Efectivo",
+    "status": "Entregado",
+    "shipping_cost": 66.79,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00123",
+    "timestamp": "2024-12-16T00:00:00",
+    "product": " Webcam Logitech C920",
+    "qty": 3,
+    "unit_price": 574.15,
+    "customer": {
+      "name": "Fernando Morales",
+      "email": "fernando.morales@yahoo.com",
+      "city": "Potosí"
+    },
+    "payment_method": "QR",
+    "status": "Entregado",
+    "shipping_cost": 17.31,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00135",
+    "timestamp": "2024-04-19T00:00:00",
+    "product": "Tablet Samsung Galaxy Tab  ",
+    "qty": 1,
+    "unit_price": "Bs. 2774.57",
+    "customer": {
+      "name": "Gabriela Gutiérrez",
+      "email": "gabriela.gutiérrez@hotmail.com",
+      "city": "LP"
+    },
+    "payment_method": "Transferencia",
+    "status": "Cancelado",
+    "shipping_cost": null,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00267",
+    "timestamp": "21-Feb-2024",
+    "product": " Memoria USB 64GB",
+    "qty": 3,
+    "unit_price": 69.11,
+    "customer": {
+      "name": "Verónica Flores",
+      "email": "verónica.flores@hotmail.com..",
+      "city": "cochabamba"
+    },
+    "payment_method": "QR",
+    "status": "Entregado",
+    "shipping_cost": null,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00022",
+    "timestamp": "03-09-2024",
+    "product": "Monitor Samsung 24\"  ",
+    "qty": 4,
+    "unit_price": 1662.73,
+    "customer": {
+      "name": "Martín Rojas",
+      "email": "martín.rojas@hotmail.com",
+      "city": "Tarija"
+    },
+    "payment_method": "QR",
+    "status": "Entregado",
+    "shipping_cost": null,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00025",
+    "timestamp": "11 de April de 2024",
+    "product": "Tablet Samsung Galaxy Tab",
+    "qty": 4,
+    "unit_price": 3607.51,
+    "customer": {
+      "name": "Silvia López",
+      "email": "silvia.lópez@ucb.edu.bo",
+      "city": "SCZ"
+    },
+    "payment_method": "QR",
+    "status": "En camino",
+    "shipping_cost": 71.72,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00216",
+    "timestamp": "2024-03-01T00:00:00",
+    "product": "MONITOR SAMSUNG 24\"",
+    "qty": 2,
+    "unit_price": 1932.38,
+    "customer": {
+      "name": "Claudia Morales",
+      "email": "claudia.morales@ucb.edu.bo",
+      "city": "Cochabamba"
+    },
+    "payment_method": "Tarjeta Débito",
+    "status": "Cancelado",
+    "shipping_cost": 31.98,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00219",
+    "timestamp": "08/06/2024",
+    "product": "Procesador AMD Ryzen 5",
+    "qty": 1,
+    "unit_price": "1617.56 Bs",
+    "customer": {
+      "name": "Lorena López",
+      "email": "lorena.lópez@gmail.com",
+      "city": "Trinidad"
+    },
+    "payment_method": "Efectivo",
+    "status": "Entregado",
+    "shipping_cost": 42.24,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00204",
+    "timestamp": "2024-08-06T00:00:00",
+    "product": "batería externa 20000mah",
+    "qty": 1,
+    "unit_price": "Bs. 196.98",
+    "customer": {
+      "name": "Alejandro Flores",
+      "email": "alejandro.flores@outlook.com",
+      "city": "cochabamba"
+    },
+    "payment_method": "QR",
+    "status": "Entregado",
+    "shipping_cost": 63.83,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00378",
+    "timestamp": "December 09, 2024",
+    "product": "Monitor  Samsung  24\"",
+    "qty": 1,
+    "unit_price": 1674.84,
+    "customer": {
+      "name": "Javier Gutiérrez",
+      "email": "javier.gutiérrez@ucb.edu.bo",
+      "city": "Sucre"
+    },
+    "payment_method": "Tarjeta Crédito",
+    "status": "Devuelto",
+    "shipping_cost": 26.25,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00195",
+    "timestamp": "2024-06-05T00:00:00",
+    "product": "AUDÍFONOS JBL TUNE",
+    "qty": 1,
+    "unit_price": 345.41,
+    "customer": {
+      "name": "Verónica Fernández",
+      "email": "verónica.fernández@gmail.com",
+      "city": "La Paz"
+    },
+    "payment_method": "Tarjeta Débito",
+    "status": "Cancelado",
+    "shipping_cost": 17.11,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00398",
+    "timestamp": "2024-10-03T00:00:00",
+    "product": "parlante bluetooth jbl",
+    "qty": 1,
+    "unit_price": 887.68,
+    "customer": {
+      "name": "Martín Condori",
+      "email": "martín.condori@hotmail.com",
+      "city": "CBBA"
+    },
+    "payment_method": "QR",
+    "status": "Entregado",
+    "shipping_cost": 59.05,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00068",
+    "timestamp": "2024-09-14T00:00:00",
+    "product": "Webcam Logitech C920  ",
+    "qty": 1,
+    "unit_price": 675.5,
+    "customer": {
+      "name": "Mónica Quispe",
+      "email": "mónica.quispe@ucb.edu.bo",
+      "city": "santa cruz"
+    },
+    "payment_method": "Efectivo",
+    "status": "Pendiente",
+    "shipping_cost": 63.8,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00384",
+    "timestamp": "2024-02-21T00:00:00",
+    "product": "Kit Limpieza Pantalla  ",
+    "qty": 1,
+    "unit_price": 30.21,
+    "customer": {
+      "name": "Silvia Salazar",
+      "email": "silvia.salazar@yahoo.com",
+      "city": "santa cruz"
+    },
+    "payment_method": "QR",
+    "status": "Entregado",
+    "shipping_cost": 43.99,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00250",
+    "timestamp": "2024-05-05T00:00:00",
+    "product": "Funda para Laptop 15\"  ",
+    "qty": 3,
+    "unit_price": 149.97,
+    "customer": {
+      "name": "Patricia Flores",
+      "email": "patricia.flores@hotmail.com",
+      "city": "Santa Cruz"
+    },
+    "payment_method": "Tarjeta Crédito",
+    "status": "Pendiente",
+    "shipping_cost": 47.43,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00339",
+    "timestamp": "04 de June de 2024",
+    "product": "Procesador AMD Ryzen 5",
+    "qty": 3,
+    "unit_price": 2063.72,
+    "customer": {
+      "name": "Ricardo López",
+      "email": "ricardo.lópez@gmail.com",
+      "city": "cochabamba"
+    },
+    "payment_method": "QR",
+    "status": "Cancelado",
+    "shipping_cost": 36.76,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00296",
+    "timestamp": "2025-03-24T00:00:00",
+    "product": " Disco Duro Externo 1TB",
+    "qty": 1,
+    "unit_price": 538.63,
+    "customer": {
+      "name": "Silvia Salazar",
+      "email": "silvia.salazar@yahoo.com",
+      "city": "la paz"
+    },
+    "payment_method": "QR",
+    "status": "Entregado",
+    "shipping_cost": 42.88,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00064",
+    "timestamp": "2024-08-16T00:00:00",
+    "product": "Disco Duro Externo 1TB",
+    "qty": 1,
+    "unit_price": 582.97,
+    "customer": {
+      "name": "Alejandro García",
+      "email": "alejandro.garcía@gmail.com",
+      "city": "Cobija"
+    },
+    "payment_method": "QR",
+    "status": "En camino",
+    "shipping_cost": 30.22,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00346",
+    "timestamp": "2024-10-19T00:00:00",
+    "product": "Procesador AMD Ryzen 5",
+    "qty": 4,
+    "unit_price": 1768.83,
+    "customer": {
+      "name": "Daniela López",
+      "email": "",
+      "city": "Santa Cruz"
+    },
+    "payment_method": "Tarjeta Débito",
+    "status": "Entregado",
+    "shipping_cost": 21.79,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00389",
+    "timestamp": "March 24, 2025",
+    "product": "BATERÍA EXTERNA 20000MAH",
+    "qty": 4,
+    "unit_price": "Bs. 241.97",
+    "customer": {
+      "name": "Patricia Fernández",
+      "email": "patricia.fernández@ucb.edu.bo",
+      "city": "La Paz"
+    },
+    "payment_method": "Transferencia",
+    "status": "Devuelto",
+    "shipping_cost": 73.46,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00138",
+    "timestamp": "2024-02-28T00:00:00",
+    "product": "Memoria USB 128GB",
+    "qty": 1,
+    "unit_price": 144.08,
+    "customer": {
+      "name": "Martín Fernández",
+      "email": "martín.fernández@outlook.com..",
+      "city": "Oruro"
+    },
+    "payment_method": "Efectivo",
+    "status": "Devuelto",
+    "shipping_cost": 28.53,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00081",
+    "timestamp": "2024-07-07T00:00:00",
+    "product": " SSD Samsung 500GB",
+    "qty": 4,
+    "unit_price": "496.46 Bs",
+    "customer": {
+      "name": "Fernando Flores",
+      "email": "fernando.flores@outlook.com",
+      "city": "SCZ"
+    },
+    "payment_method": "Tarjeta Crédito",
+    "status": "Entregado",
+    "shipping_cost": 49.78,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00203",
+    "timestamp": "2024-11-19T00:00:00",
+    "product": "Hub USB 4 puertos  ",
+    "qty": 1,
+    "unit_price": 89.03,
+    "customer": {
+      "name": "Martín Torrez",
+      "email": "martín.torrez@gmail.com",
+      "city": "Cochabamba"
+    },
+    "payment_method": "Tarjeta Débito",
+    "status": "Entregado",
+    "shipping_cost": 62.48,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00089",
+    "timestamp": "2024-06-17T00:00:00",
+    "product": "Monitor Samsung 24\"",
+    "qty": 4,
+    "unit_price": 1604.72,
+    "customer": {
+      "name": "Eduardo Mamani",
+      "email": "eduardo.mamani@gmail.com",
+      "city": "santa cruz"
+    },
+    "payment_method": "QR",
+    "status": "Pendiente",
+    "shipping_cost": 79.58,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00167",
+    "timestamp": "2024-03-17T00:00:00",
+    "product": "adaptador hdmi a vga",
+    "qty": 3,
+    "unit_price": "61.76 Bs",
+    "customer": {
+      "name": "Claudia López",
+      "email": "claudia.lópez@outlook.com",
+      "city": "Cobija"
+    },
+    "payment_method": "Efectivo",
+    "status": "Entregado",
+    "shipping_cost": 40.3,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00083",
+    "timestamp": "2024-02-01T00:00:00",
+    "product": " Cargador Universal USB-C",
+    "qty": 2,
+    "unit_price": 119.33,
+    "customer": {
+      "name": "Pablo Morales",
+      "email": "pablo.morales@gmail.com",
+      "city": "Cochabamba"
+    },
+    "payment_method": "Efectivo",
+    "status": "Entregado",
+    "shipping_cost": null,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00397",
+    "timestamp": "2024-02-27T00:00:00",
+    "product": "Webcam Logitech C920",
+    "qty": 3,
+    "unit_price": null,
+    "customer": "Verónica Fernández",
+    "payment_method": "QR",
+    "status": "Entregado",
+    "shipping_cost": 57.05,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00313",
+    "timestamp": "06 de March de 2025",
+    "product": "Mouse  Inalámbrico  Logitech",
+    "qty": 3,
+    "unit_price": 167.91,
+    "customer": {
+      "name": "Eduardo Salazar",
+      "email": "eduardo.salazar@hotmail.com",
+      "city": "Oruro"
+    },
+    "payment_method": "Transferencia",
+    "status": "Devuelto",
+    "shipping_cost": 36.84,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00308",
+    "timestamp": "2024-12-16T00:00:00",
+    "product": "Memoria USB 128GB",
+    "qty": 4,
+    "unit_price": 134.03,
+    "customer": {
+      "name": "Claudia Flores",
+      "email": "@hotmail.com",
+      "city": "SCZ"
+    },
+    "payment_method": "Tarjeta Crédito",
+    "status": "Cancelado",
+    "shipping_cost": null,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00285",
+    "timestamp": "2024-07-21T00:00:00",
+    "product": " Audífonos JBL Tune",
+    "qty": 1,
+    "unit_price": "Bs.350.92",
+    "customer": {
+      "name": "Miguel García",
+      "email": "miguel.garcía@gmail.com",
+      "city": "Sucre"
+    },
+    "payment_method": "Tarjeta Crédito",
+    "status": "En camino",
+    "shipping_cost": 70.09,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00132",
+    "timestamp": "June 13, 2024",
+    "product": "BATERÍA EXTERNA 20000MAH",
+    "qty": 3,
+    "unit_price": "BOB 204.42",
+    "customer": {
+      "name": "Lorena Fernández",
+      "email": "lorena.fernández@outlook.com",
+      "city": "Tarija"
+    },
+    "payment_method": "Tarjeta Crédito",
+    "status": "En camino",
+    "shipping_cost": 16.34,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00110",
+    "timestamp": "2024-06-28T00:00:00",
+    "product": "Cargador Universal USB-C",
+    "qty": 2,
+    "unit_price": 103.61,
+    "customer": {
+      "name": "Gabriela Torrez",
+      "email": "gabriela.torrez@ucb.edu.bo",
+      "city": "Tarija"
+    },
+    "payment_method": "Tarjeta Crédito",
+    "status": "En camino",
+    "shipping_cost": 32.04,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00228",
+    "timestamp": "2024-07-14T00:00:00",
+    "product": "Impresora HP DeskJet",
+    "qty": 4,
+    "unit_price": 1197.77,
+    "customer": {
+      "name": "Miguel Mamani",
+      "email": "miguel.mamani @hotmail.com",
+      "city": "santa cruz"
+    },
+    "payment_method": "Transferencia",
+    "status": "Pendiente",
+    "shipping_cost": 73.3,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00036",
+    "timestamp": "2024/04/11",
+    "product": "Tarjeta Gráfica NVIDIA RTX  ",
+    "qty": 4,
+    "unit_price": 3938.34,
+    "customer": {
+      "name": "Gabriela Quispe",
+      "email": "gabriela.quispe@",
+      "city": "Oruro"
+    },
+    "payment_method": "Tarjeta Crédito",
+    "status": "En camino",
+    "shipping_cost": 46.94,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00263",
+    "timestamp": "2024-11-26",
+    "product": "Laptop HP Pavilion",
+    "qty": 2,
+    "unit_price": "5445.96 Bs",
+    "customer": {
+      "name": "Daniela Gutiérrez",
+      "email": "daniela.gutiérrez@gmail.com",
+      "city": "Potosi"
+    },
+    "payment_method": "Efectivo",
+    "status": "En camino",
+    "shipping_cost": 57.33,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00262",
+    "timestamp": "2024-12-05T00:00:00",
+    "product": "AUDÍFONOS SONY WH-1000",
+    "qty": 4,
+    "unit_price": 2165.13,
+    "customer": {
+      "name": "Claudia Vargas",
+      "email": "claudia.vargas@yahoo.com",
+      "city": "Potosí"
+    },
+    "payment_method": "QR",
+    "status": "Devuelto",
+    "shipping_cost": 15.23,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00084",
+    "timestamp": "2025-01-09T00:00:00",
+    "product": "Funda para Laptop 15\"  ",
+    "qty": 4,
+    "unit_price": 140.91,
+    "customer": "Claudia Choque",
+    "payment_method": "Efectivo",
+    "status": "Entregado",
+    "shipping_cost": 54.62,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00295",
+    "timestamp": "18-Feb-2024",
+    "product": "LAPTOP DELL INSPIRON",
+    "qty": 2,
+    "unit_price": 5340.85,
+    "customer": {
+      "name": "Verónica Salazar",
+      "email": "verónica.salazar@ucb.edu.bo",
+      "city": "Potosi"
+    },
+    "payment_method": "Transferencia",
+    "status": "Devuelto",
+    "shipping_cost": 29.34,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00215",
+    "timestamp": "21/03/2025",
+    "product": "Laptop Lenovo ThinkPad  ",
+    "qty": 2,
+    "unit_price": "7967.8 Bs",
+    "customer": {
+      "name": "Andrés Mendoza",
+      "email": "andrés.mendoza@yahoo.com",
+      "city": "Sucre"
+    },
+    "payment_method": "Tarjeta Débito",
+    "status": "Entregado",
+    "shipping_cost": 61.46,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00146",
+    "timestamp": "2024-06-14T00:00:00",
+    "product": "Laptop Dell Inspiron  ",
+    "qty": 2,
+    "unit_price": 5417.81,
+    "customer": {
+      "name": "Daniela Vargas",
+      "email": "daniela.vargas@outlook.com",
+      "city": "Oruro"
+    },
+    "payment_method": "Tarjeta Débito",
+    "status": "Entregado",
+    "shipping_cost": null,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00131",
+    "timestamp": "2024-08-20T00:00:00",
+    "product": "Mouse Gamer Razer",
+    "qty": 3,
+    "unit_price": 477.24,
+    "customer": {
+      "name": "Pablo Torrez",
+      "email": "pablo.torrez@gmail.com",
+      "city": "Tarija"
+    },
+    "payment_method": "Transferencia",
+    "status": "Entregado",
+    "shipping_cost": 59.21,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00091",
+    "timestamp": "2024-01-05T00:00:00",
+    "product": " SSD Samsung 500GB",
+    "qty": 4,
+    "unit_price": 448.34,
+    "customer": {
+      "name": "Carla Morales",
+      "email": "carla.morales@yahoo.com",
+      "city": "LP"
+    },
+    "payment_method": "QR",
+    "status": "Entregado",
+    "shipping_cost": 23.1,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00278",
+    "timestamp": "May 26, 2024",
+    "product": "Cargador Universal USB-C",
+    "qty": 1,
+    "unit_price": 106.93,
+    "customer": {
+      "name": "Natalia Gutiérrez",
+      "email": "natalia.gutiérrez@ucb.edu.bo",
+      "city": "LP"
+    },
+    "payment_method": "QR",
+    "status": "Entregado",
+    "shipping_cost": 17.89,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00241",
+    "timestamp": "2025-01-10T00:00:00",
+    "product": "Impresora  HP  DeskJet",
+    "qty": 3,
+    "unit_price": "1345.07 Bs",
+    "customer": {
+      "name": "Sebastián Torrez",
+      "email": "sebastián.torrez@ucb.edu.bo",
+      "city": "santa cruz"
+    },
+    "payment_method": "Transferencia",
+    "status": "Devuelto",
+    "shipping_cost": 34.94,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00302",
+    "timestamp": "05/01/2024",
+    "product": "Procesador AMD Ryzen 5",
+    "qty": 1,
+    "unit_price": 1576.98,
+    "customer": {
+      "name": "Carla Mamani",
+      "email": "carla.mamani@yahoo.com",
+      "city": "La Paz"
+    },
+    "payment_method": "Efectivo",
+    "status": "Entregado",
+    "shipping_cost": null,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00291",
+    "timestamp": "2025-01-02T00:00:00",
+    "product": "Tarjeta Gráfica NVIDIA RTX",
+    "qty": 1,
+    "unit_price": 4319.57,
+    "customer": {
+      "name": "Carla Vargas",
+      "email": "carla.vargas@outlook.com",
+      "city": "Santa Cruz"
+    },
+    "payment_method": "Tarjeta Débito",
+    "status": "Entregado",
+    "shipping_cost": 64.05,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00293",
+    "timestamp": "2024-07-05",
+    "product": " Teclado Logitech K380",
+    "qty": 4,
+    "unit_price": 334.24,
+    "customer": {
+      "name": "Martín Quispe",
+      "email": "martín.quispe@",
+      "city": "Potosi"
+    },
+    "payment_method": "QR",
+    "status": "Entregado",
+    "shipping_cost": 63.48,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00357",
+    "timestamp": "2024-11-15T00:00:00",
+    "product": "Kit Limpieza Pantalla",
+    "qty": 1,
+    "unit_price": 34.12,
+    "customer": {
+      "name": "Verónica Torrez",
+      "email": "verónica.torrez@yahoo.com",
+      "city": "la paz"
+    },
+    "payment_method": "Tarjeta Débito",
+    "status": "Devuelto",
+    "shipping_cost": 78.37,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00223",
+    "timestamp": "21-Mar-2025",
+    "product": "Tablet iPad Air",
+    "qty": 4,
+    "unit_price": "Bs. 4940.66",
+    "customer": {
+      "name": "Carla Quispe",
+      "email": "carla.quispe@yahoo.com",
+      "city": "la paz"
+    },
+    "payment_method": "QR",
+    "status": "Devuelto",
+    "shipping_cost": 31.94,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00003",
+    "timestamp": "20/02/2024",
+    "product": "HUB USB 4 PUERTOS",
+    "qty": 4,
+    "unit_price": 99.2,
+    "customer": {
+      "name": "Ricardo Fernández",
+      "email": "ricardo.fernández@ucb.edu.bo",
+      "city": "Oruro"
+    },
+    "payment_method": "Efectivo",
+    "status": "En camino",
+    "shipping_cost": 42.2,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00176",
+    "timestamp": "2024-03-30T00:00:00",
+    "product": "Cargador Universal USB-C",
+    "qty": 4,
+    "unit_price": null,
+    "customer": {
+      "name": "Pablo Rojas",
+      "email": "pablo.rojas@hotmail.com",
+      "city": "Potosi"
+    },
+    "payment_method": "Transferencia",
+    "status": "Entregado",
+    "shipping_cost": 47.13,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00187",
+    "timestamp": "2025-02-23T00:00:00",
+    "product": "Tablet iPad Air",
+    "qty": 4,
+    "unit_price": 4702.57,
+    "customer": {
+      "name": "Claudia Vargas",
+      "email": "claudia.vargas@yahoo.com..",
+      "city": "Santa Cruz"
+    },
+    "payment_method": "Tarjeta Débito",
+    "status": "Entregado",
+    "shipping_cost": 26.55,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00180",
+    "timestamp": "2024/04/01",
+    "product": "Cable HDMI 2m",
+    "qty": 4,
+    "unit_price": "Bs 47",
+    "customer": {
+      "name": "Sebastián Vargas",
+      "email": "sebastián.vargas@hotmail.com",
+      "city": "cochabamba"
+    },
+    "payment_method": "Tarjeta Débito",
+    "status": "Entregado",
+    "shipping_cost": 67.68,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00231",
+    "timestamp": "2024-02-02T00:00:00",
+    "product": "SSD Samsung 500GB  ",
+    "qty": 2,
+    "unit_price": 444.83,
+    "customer": {
+      "name": "Eduardo Rojas",
+      "email": "eduardo.rojas@gmail.com",
+      "city": "cochabamba"
+    },
+    "payment_method": "Transferencia",
+    "status": "Cancelado",
+    "shipping_cost": 50.17,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00192",
+    "timestamp": "2024-06-24T00:00:00",
+    "product": " Hub USB 4 puertos",
+    "qty": 4,
+    "unit_price": 106.26,
+    "customer": {
+      "name": "Ricardo Rojas",
+      "email": "",
+      "city": "santa cruz"
+    },
+    "payment_method": "Tarjeta Crédito",
+    "status": "Cancelado",
+    "shipping_cost": 27.36,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00112",
+    "timestamp": "February 20, 2024",
+    "product": "Audífonos JBL Tune  ",
+    "qty": 3,
+    "unit_price": 426.71,
+    "customer": {
+      "name": "Javier Mendoza",
+      "email": "javier.mendoza @yahoo.com",
+      "city": "SCZ"
+    },
+    "payment_method": "Transferencia",
+    "status": "En camino",
+    "shipping_cost": 21.91,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00146",
+    "timestamp": "2024-06-14T00:00:00",
+    "product": "Laptop Dell Inspiron  ",
+    "qty": 2,
+    "unit_price": 5417.81,
+    "customer": {
+      "name": "Daniela Vargas",
+      "email": "daniela.vargas@outlook.com",
+      "city": "Oruro"
+    },
+    "payment_method": "Tarjeta Débito",
+    "status": "Entregado",
+    "shipping_cost": null,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00391",
+    "timestamp": "2025-02-09T00:00:00",
+    "product": "Impresora Epson L3250",
+    "qty": 2,
+    "unit_price": 1788.3,
+    "customer": {
+      "name": "Mónica López",
+      "email": "mónica.lópez@yahoo.com",
+      "city": "SCZ"
+    },
+    "payment_method": null,
+    "status": "Entregado",
+    "shipping_cost": 50.35,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00081",
+    "timestamp": "2024-07-07T00:00:00",
+    "product": " SSD Samsung 500GB",
+    "qty": 4,
+    "unit_price": "496.46 Bs",
+    "customer": {
+      "name": "Fernando Flores",
+      "email": "fernando.flores@outlook.com",
+      "city": "SCZ"
+    },
+    "payment_method": "Tarjeta Crédito",
+    "status": "Entregado",
+    "shipping_cost": 49.78,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00033",
+    "timestamp": "2024/10/23",
+    "product": " Router WiFi TP-Link",
+    "qty": 4,
+    "unit_price": 433.37,
+    "customer": {
+      "name": "Eduardo Fernández",
+      "email": "eduardo.fernández@outlook.com",
+      "city": "Santa Cruz"
+    },
+    "payment_method": "Efectivo",
+    "status": "Entregado",
+    "shipping_cost": 70.91,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00166",
+    "timestamp": "2024-08-24T00:00:00",
+    "product": "Procesador  AMD  Ryzen  5",
+    "qty": 3,
+    "unit_price": 1955.36,
+    "customer": {
+      "name": "Lorena Torrez",
+      "email": "lorena.torrez@gmail.com",
+      "city": "La Paz"
+    },
+    "payment_method": "Tarjeta Crédito",
+    "status": "Entregado",
+    "shipping_cost": 66.35,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00126",
+    "timestamp": "19-Mar-2024",
+    "product": "laptop hp pavilion",
+    "qty": 4,
+    "unit_price": 6117.55,
+    "customer": {
+      "name": "Fernando Salazar",
+      "email": "fernando.salazar@gmail.com",
+      "city": "la paz"
+    },
+    "payment_method": "QR",
+    "status": "Cancelado",
+    "shipping_cost": 55.38,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00073",
+    "timestamp": "2025-03-16T00:00:00",
+    "product": "impresora hp deskjet",
+    "qty": 1,
+    "unit_price": 1305.67,
+    "customer": {
+      "name": "Verónica Flores",
+      "email": "verónica.flores@gmail.com",
+      "city": "Santa Cruz"
+    },
+    "payment_method": "Tarjeta Crédito",
+    "status": "Entregado",
+    "shipping_cost": 34.39,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00383",
+    "timestamp": "2024-06-26T00:00:00",
+    "product": " Impresora HP DeskJet",
+    "qty": 1,
+    "unit_price": 1248.87,
+    "customer": {
+      "name": "Martín Salazar",
+      "email": "",
+      "city": "La Paz"
+    },
+    "payment_method": "Transferencia",
+    "status": "Cancelado",
+    "shipping_cost": 74.96,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00338",
+    "timestamp": "07/11/2024",
+    "product": "SSD SAMSUNG 500GB",
+    "qty": 2,
+    "unit_price": 459.21,
+    "customer": {
+      "name": "Natalia Morales",
+      "email": "natalia.morales@",
+      "city": "Trinidad"
+    },
+    "payment_method": "Tarjeta Crédito",
+    "status": "En camino",
+    "shipping_cost": 71.93,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00286",
+    "timestamp": "2024-07-18T00:00:00",
+    "product": "Monitor Samsung 24\"",
+    "qty": 3,
+    "unit_price": 1559.47,
+    "customer": {
+      "name": "Silvia Fernández",
+      "email": "silvia.fernández@outlook.com",
+      "city": "LP"
+    },
+    "payment_method": "Efectivo",
+    "status": "Pendiente",
+    "shipping_cost": null,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00298",
+    "timestamp": "2024-03-20T00:00:00",
+    "product": "Procesador AMD Ryzen 5",
+    "qty": 2,
+    "unit_price": 1538.01,
+    "customer": {
+      "name": "Carla Fernández",
+      "email": "carla.fernández@gmail.com",
+      "city": "Tarija"
+    },
+    "payment_method": "QR",
+    "status": "Cancelado",
+    "shipping_cost": 30.87,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00197",
+    "timestamp": "2024-09-22T00:00:00",
+    "product": "Batería  Externa  20000mAh",
+    "qty": 1,
+    "unit_price": 195.26,
+    "customer": {
+      "name": "Daniela Choque",
+      "email": "daniela.choque@gmail.com",
+      "city": "cochabamba"
+    },
+    "payment_method": "QR",
+    "status": "Entregado",
+    "shipping_cost": 28.7,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00103",
+    "timestamp": "2025-01-25T00:00:00",
+    "product": " Teclado Logitech K380",
+    "qty": 1,
+    "unit_price": 314.65,
+    "customer": {
+      "name": "Eduardo Rojas",
+      "email": "eduardo.rojas@gmail.com",
+      "city": "Santa Cruz"
+    },
+    "payment_method": "Tarjeta Débito",
+    "status": "En camino",
+    "shipping_cost": 47.01,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00332",
+    "timestamp": "02-Aug-2024",
+    "product": "Impresora  HP  DeskJet",
+    "qty": 1,
+    "unit_price": "Bs. 1127.76",
+    "customer": {
+      "name": "Eduardo López",
+      "email": "eduardo.lópez@yahoo.com",
+      "city": "Santa Cruz"
+    },
+    "payment_method": "Transferencia",
+    "status": "Cancelado",
+    "shipping_cost": 53.76,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00318",
+    "timestamp": "2024-10-09T00:00:00",
+    "product": " Cargador Universal USB-C",
+    "qty": 2,
+    "unit_price": "Bs. 108.14",
+    "customer": {
+      "name": "Mónica Torrez",
+      "email": "mónica.torrez @yahoo.com",
+      "city": "Oruro"
+    },
+    "payment_method": "Tarjeta Débito",
+    "status": "En camino",
+    "shipping_cost": 67.65,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00101",
+    "timestamp": "29 de February de 2024",
+    "product": "Memoria USB 64GB",
+    "qty": 3,
+    "unit_price": 88.45,
+    "customer": {
+      "name": "Verónica Quispe",
+      "email": "verónica.quispe@ucb.edu.bo",
+      "city": "santa cruz"
+    },
+    "payment_method": "Efectivo",
+    "status": "Entregado",
+    "shipping_cost": 57.78,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00230",
+    "timestamp": "2024-08-31T00:00:00",
+    "product": "Router  WiFi  TP-Link",
+    "qty": 4,
+    "unit_price": 376.68,
+    "customer": {
+      "name": "Eduardo García",
+      "email": "eduardo.garcía@yahoo.com",
+      "city": "LP"
+    },
+    "payment_method": "Transferencia",
+    "status": "Pendiente",
+    "shipping_cost": 71.05,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00114",
+    "timestamp": "2024-08-30T00:00:00",
+    "product": "Mouse  Gamer  Razer",
+    "qty": 1,
+    "unit_price": "476.12 Bs",
+    "customer": {
+      "name": "Alejandro Flores",
+      "email": "alejandro.flores@outlook.com",
+      "city": "LP"
+    },
+    "payment_method": "Efectivo",
+    "status": "Cancelado",
+    "shipping_cost": 23.76,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00200",
+    "timestamp": "2024-09-20T00:00:00",
+    "product": "Kit Limpieza Pantalla",
+    "qty": 1,
+    "unit_price": 38.47,
+    "customer": {
+      "name": "Alejandro Gutiérrez",
+      "email": "alejandro.gutiérrez@hotmail.com",
+      "city": "Potosi"
+    },
+    "payment_method": "Transferencia",
+    "status": "Entregado",
+    "shipping_cost": 78.53,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00234",
+    "timestamp": "29/03/2025",
+    "product": "Adaptador  HDMI  a  VGA",
+    "qty": 3,
+    "unit_price": "Bs. 59.21",
+    "customer": {
+      "name": "Javier Quispe",
+      "email": "javier.quispe@hotmail.com",
+      "city": "cochabamba"
+    },
+    "payment_method": "QR",
+    "status": "Pendiente",
+    "shipping_cost": 75.68,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00220",
+    "timestamp": "2024-11-07T00:00:00",
+    "product": "Laptop  HP  Pavilion",
+    "qty": 4,
+    "unit_price": 4978.51,
+    "customer": {
+      "name": "Daniela Morales",
+      "email": "daniela.morales@yahoo.com",
+      "city": "Tarija"
+    },
+    "payment_method": "Efectivo",
+    "status": "Devuelto",
+    "shipping_cost": 42.62,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00035",
+    "timestamp": "2024-08-14T00:00:00",
+    "product": "MONITOR SAMSUNG 24\"",
+    "qty": 3,
+    "unit_price": "1653.89 Bs",
+    "customer": {
+      "name": "Sebastián Condori",
+      "email": "sebastián.condori@hotmail.com",
+      "city": "Cochabamba"
+    },
+    "payment_method": "QR",
+    "status": "En camino",
+    "shipping_cost": 79.94,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00323",
+    "timestamp": "2024-03-15T00:00:00",
+    "product": " Hub USB 4 puertos",
+    "qty": 1,
+    "unit_price": 103.24,
+    "customer": {
+      "name": "Sebastián Torrez",
+      "email": "sebastián.torrezgmail.com",
+      "city": "Cobija"
+    },
+    "payment_method": "Tarjeta Crédito",
+    "status": "Entregado",
+    "shipping_cost": 36.92,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00062",
+    "timestamp": "2025-02-18T00:00:00",
+    "product": "impresora hp deskjet",
+    "qty": 4,
+    "unit_price": 1282.99,
+    "customer": {
+      "name": "Sebastián García",
+      "email": "sebastián.garcía@outlook.com",
+      "city": "cochabamba"
+    },
+    "payment_method": "Tarjeta Crédito",
+    "status": "Entregado",
+    "shipping_cost": 61.85,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00028",
+    "timestamp": "2024-06-15T00:00:00",
+    "product": "memoria usb 64gb",
+    "qty": 2,
+    "unit_price": 80.81,
+    "customer": {
+      "name": "Verónica López",
+      "email": "verónica.lópez@ucb.edu.bo",
+      "city": "Potosí"
+    },
+    "payment_method": "Tarjeta Crédito",
+    "status": "Entregado",
+    "shipping_cost": null,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00080",
+    "timestamp": "2024-09-21T00:00:00",
+    "product": " Memoria USB 128GB",
+    "qty": 3,
+    "unit_price": 171.68,
+    "customer": {
+      "name": "Carla Quispe",
+      "email": "carla.quispe@ucb.edu.bo",
+      "city": "SCZ"
+    },
+    "payment_method": "QR",
+    "status": "Pendiente",
+    "shipping_cost": 19.28,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00317",
+    "timestamp": "June 03, 2024",
+    "product": "Funda para Laptop 15\"",
+    "qty": 3,
+    "unit_price": 166.29,
+    "customer": {
+      "name": "Pablo Quispe",
+      "email": "pablo.quispe@yahoo.com",
+      "city": "Oruro"
+    },
+    "payment_method": "Transferencia",
+    "status": "Cancelado",
+    "shipping_cost": 71.66,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00031",
+    "timestamp": "2024-07-02T00:00:00",
+    "product": "monitor samsung 24\"",
+    "qty": 1,
+    "unit_price": 1747.62,
+    "customer": {
+      "name": "Fernando Torrez",
+      "email": "fernando.torrez@yahoo.com",
+      "city": "LP"
+    },
+    "payment_method": "Tarjeta Débito",
+    "status": "En camino",
+    "shipping_cost": 79.91,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00315",
+    "timestamp": "2024-11-04T00:00:00",
+    "product": "Mouse Inalambrico Logitech",
+    "qty": 1,
+    "unit_price": "Bs. 189.24",
+    "customer": {
+      "name": "Lorena Gutiérrez",
+      "email": "lorena.gutiérrez@outlook.com",
+      "city": "La Paz"
+    },
+    "payment_method": "Tarjeta Débito",
+    "status": "En camino",
+    "shipping_cost": 39.86,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00227",
+    "timestamp": "2024-12-07T00:00:00",
+    "product": " Audífonos Sony WH-1000",
+    "qty": 4,
+    "unit_price": "Bs 2036",
+    "customer": {
+      "name": "Javier Condori",
+      "email": "javier.condori@ucb.edu.bo",
+      "city": "santa cruz"
+    },
+    "payment_method": "QR",
+    "status": "Entregado",
+    "shipping_cost": null,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00363",
+    "timestamp": "2024-06-08T00:00:00",
+    "product": "Tarjeta Gráfica NVIDIA RTX  ",
+    "qty": 1,
+    "unit_price": 4566.1,
+    "customer": {
+      "name": "Eduardo Rojas",
+      "email": "eduardo.rojas@gmail.com",
+      "city": "Cobija"
+    },
+    "payment_method": "Efectivo",
+    "status": "Pendiente",
+    "shipping_cost": 20.86,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00183",
+    "timestamp": "2025-03-18T00:00:00",
+    "product": "memoria usb 64gb",
+    "qty": 4,
+    "unit_price": "Bs.76.72",
+    "customer": {
+      "name": "Patricia Fernández",
+      "email": "patricia.fernández@ucb.edu.bo",
+      "city": "LP"
+    },
+    "payment_method": "QR",
+    "status": "Entregado",
+    "shipping_cost": 23.91,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00322",
+    "timestamp": "2024-05-01T00:00:00",
+    "product": "Adaptador HDMI a VGA",
+    "qty": 4,
+    "unit_price": "BOB 66.59",
+    "customer": {
+      "name": "Fernando López",
+      "email": "fernando.lópez@gmail.com",
+      "city": "cochabamba"
+    },
+    "payment_method": "Tarjeta Crédito",
+    "status": "En camino",
+    "shipping_cost": 16.7,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00015",
+    "timestamp": "2024-03-08T00:00:00",
+    "product": "procesador amd ryzen 5",
+    "qty": 4,
+    "unit_price": "bs. 1596.83",
+    "customer": {
+      "name": "Mónica Mamani",
+      "email": "mónica.mamani@hotmail.com",
+      "city": "La Paz"
+    },
+    "payment_method": "QR",
+    "status": "Entregado",
+    "shipping_cost": 18.77,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00136",
+    "timestamp": "12-16-2024",
+    "product": "procesador amd ryzen 5",
+    "qty": 3,
+    "unit_price": 1932.61,
+    "customer": {
+      "name": "Claudia López",
+      "email": "claudia.lópez@hotmail.com..",
+      "city": "SCZ"
+    },
+    "payment_method": "Tarjeta Débito",
+    "status": "Entregado",
+    "shipping_cost": 47.76,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00040",
+    "timestamp": "2024-12-08T00:00:00",
+    "product": "Laptop Dell Inspiron  ",
+    "qty": 3,
+    "unit_price": "Bs 6084",
+    "customer": {
+      "name": "Sebastián Torrez",
+      "email": "",
+      "city": "Potosí"
+    },
+    "payment_method": "Tarjeta Crédito",
+    "status": "Entregado",
+    "shipping_cost": 46.81,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00090",
+    "timestamp": "2024-05-12T00:00:00",
+    "product": "Memoria USB 128GB  ",
+    "qty": 3,
+    "unit_price": 151.31,
+    "customer": {
+      "name": "Eduardo Mamani",
+      "email": "eduardo.mamani@yahoo.com",
+      "city": "Santa Cruz"
+    },
+    "payment_method": "Tarjeta Crédito",
+    "status": "Entregado",
+    "shipping_cost": 59.9,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00310",
+    "timestamp": "2024-10-08",
+    "product": "Parlante Bluetooth JBL",
+    "qty": -2,
+    "unit_price": 720.43,
+    "customer": {
+      "name": "Lorena Morales",
+      "email": "lorena.morales@ucb.edu.bo..",
+      "city": "Oruro"
+    },
+    "payment_method": "Tarjeta Débito",
+    "status": "Pendiente",
+    "shipping_cost": 75.11,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00242",
+    "timestamp": "2024-08-06T00:00:00",
+    "product": "Parlante  Bluetooth  JBL",
+    "qty": 1,
+    "unit_price": 766.45,
+    "customer": {
+      "name": "Eduardo Condori",
+      "email": "eduardo.condori @outlook.com",
+      "city": "Trinidad"
+    },
+    "payment_method": "QR",
+    "status": "Pendiente",
+    "shipping_cost": 62.33,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00094",
+    "timestamp": "2024-01-11T00:00:00",
+    "product": "Tablet iPad Air",
+    "qty": null,
+    "unit_price": 4611.24,
+    "customer": {
+      "name": "Javier Condori",
+      "email": "javier.condori@yahoo.com",
+      "city": "SCZ"
+    },
+    "payment_method": "Tarjeta Crédito",
+    "status": "Devuelto",
+    "shipping_cost": null,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00056",
+    "timestamp": "2025-02-26T00:00:00",
+    "product": "Tarjeta Gráfica NVIDIA RTX",
+    "qty": 1,
+    "unit_price": 4230.55,
+    "customer": {
+      "name": "Natalia García",
+      "email": "natalia.garcía@outlook.com",
+      "city": "La Paz"
+    },
+    "payment_method": "QR",
+    "status": "Entregado",
+    "shipping_cost": 58.6,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00229",
+    "timestamp": "2025-03-14T00:00:00",
+    "product": "Router WiFi TP-Link  ",
+    "qty": 1,
+    "unit_price": 422.57,
+    "customer": {
+      "name": "Gabriela Gutiérrez",
+      "email": "gabriela.gutiérrez @hotmail.com",
+      "city": "Trinidad"
+    },
+    "payment_method": "Tarjeta Débito",
+    "status": "En camino",
+    "shipping_cost": 52.2,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00370",
+    "timestamp": "2024-10-29T00:00:00",
+    "product": "teclado logitech k380",
+    "qty": 4,
+    "unit_price": "Bs.399.17",
+    "customer": {
+      "name": "Miguel Condori",
+      "email": "miguel.condori@gmail.com",
+      "city": "Potosí"
+    },
+    "payment_method": "Efectivo",
+    "status": "Devuelto",
+    "shipping_cost": 48.92,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00169",
+    "timestamp": "03-26-2025",
+    "product": "Router WiFi TP-Link",
+    "qty": 1,
+    "unit_price": 365.95,
+    "customer": {
+      "name": "Ricardo Choque",
+      "email": "ricardo.choque@hotmail.com",
+      "city": "SCZ"
+    },
+    "payment_method": "Transferencia",
+    "status": "Entregado",
+    "shipping_cost": null,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00098",
+    "timestamp": "2024-08-28T00:00:00",
+    "product": "impresora hp deskjet",
+    "qty": 3,
+    "unit_price": 1245.54,
+    "customer": {
+      "name": "Alejandro García",
+      "email": "alejandro.garcía@outlook.com",
+      "city": "Potosí"
+    },
+    "payment_method": "Transferencia",
+    "status": "Entregado",
+    "shipping_cost": 77.07,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00351",
+    "timestamp": "2024-11-05T00:00:00",
+    "product": " Batería Externa 20000mAh",
+    "qty": 1,
+    "unit_price": 223.12,
+    "customer": {
+      "name": "Carla Condori",
+      "email": "carla.condori@ucb.edu.bo",
+      "city": "SCZ"
+    },
+    "payment_method": "QR",
+    "status": "Entregado",
+    "shipping_cost": null,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00045",
+    "timestamp": "2024-02-23T00:00:00",
+    "product": " Memoria USB 128GB",
+    "qty": 2,
+    "unit_price": 162.99,
+    "customer": {
+      "name": "Lorena Vargas",
+      "email": "lorena.vargas@yahoo.com",
+      "city": "santa cruz"
+    },
+    "payment_method": "QR",
+    "status": "Entregado",
+    "shipping_cost": null,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00281",
+    "timestamp": "2024-08-16T00:00:00",
+    "product": "IMPRESORA EPSON L3250",
+    "qty": 3,
+    "unit_price": "Bs 1600",
+    "customer": {
+      "name": "Ricardo Fernández",
+      "email": "ricardo.fernández@hotmail.com",
+      "city": "Potosi"
+    },
+    "payment_method": "Tarjeta Débito",
+    "status": "Entregado",
+    "shipping_cost": 28.33,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00328",
+    "timestamp": "2024-03-01T00:00:00",
+    "product": "MONITOR LG 27\"",
+    "qty": 1,
+    "unit_price": 2513.2,
+    "customer": {
+      "name": "Miguel Salazar",
+      "email": "miguel.salazar@hotmail.com",
+      "city": "SCZ"
+    },
+    "payment_method": "QR",
+    "status": "Pendiente",
+    "shipping_cost": 34.14,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00154",
+    "timestamp": "2024-05-05T00:00:00",
+    "product": "impresora epson l3250",
+    "qty": 1,
+    "unit_price": 1714.57,
+    "customer": {
+      "name": "Javier Salazar",
+      "email": "javier.salazar@outlook.com",
+      "city": "la paz"
+    },
+    "payment_method": "Efectivo",
+    "status": "Entregado",
+    "shipping_cost": 64.47,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00089",
+    "timestamp": "2024-06-17T00:00:00",
+    "product": "Monitor Samsung 24\"",
+    "qty": 4,
+    "unit_price": 1604.72,
+    "customer": {
+      "name": "Eduardo Mamani",
+      "email": "eduardo.mamani@gmail.com",
+      "city": "santa cruz"
+    },
+    "payment_method": "QR",
+    "status": "Pendiente",
+    "shipping_cost": 79.58,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00243",
+    "timestamp": "2024-05-03T00:00:00",
+    "product": " Monitor LG 27\"",
+    "qty": 3,
+    "unit_price": "2129.8 Bs",
+    "customer": {
+      "name": "Eduardo Torrez",
+      "email": "@outlook.com",
+      "city": "Trinidad"
+    },
+    "payment_method": "QR",
+    "status": "Pendiente",
+    "shipping_cost": 37.53,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00065",
+    "timestamp": "2024-01-19T00:00:00",
+    "product": "Router  WiFi  TP-Link",
+    "qty": 3,
+    "unit_price": "BOB 385.7",
+    "customer": {
+      "name": "Silvia Salazar",
+      "email": "silvia.salazar@yahoo.com",
+      "city": "La Paz"
+    },
+    "payment_method": "Tarjeta Débito",
+    "status": "Entregado",
+    "shipping_cost": null,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00063",
+    "timestamp": "09-11-2024",
+    "product": "funda para laptop 15\"",
+    "qty": 4,
+    "unit_price": 149.3,
+    "customer": {
+      "name": "Fernando Condori",
+      "email": "fernando.condori@ucb.edu.bo",
+      "city": "Santa Cruz"
+    },
+    "payment_method": "QR",
+    "status": "Cancelado",
+    "shipping_cost": 29.49,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00297",
+    "timestamp": "May 04, 2024",
+    "product": "ADAPTADOR HDMI A VGA",
+    "qty": 1,
+    "unit_price": 68.12,
+    "customer": {
+      "name": "Martín Salazar",
+      "email": "martín.salazar@gmail.com",
+      "city": "LP"
+    },
+    "payment_method": "Tarjeta Crédito",
+    "status": "Pendiente",
+    "shipping_cost": 34.48,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00255",
+    "timestamp": "2025/02/28",
+    "product": "laptop lenovo thinkpad",
+    "qty": 1,
+    "unit_price": "bs. 7870.42",
+    "customer": {
+      "name": "Verónica Morales",
+      "email": "verónica.morales@ucb.edu.bo",
+      "city": "la paz"
+    },
+    "payment_method": "Tarjeta Débito",
+    "status": "Entregado",
+    "shipping_cost": 73.71,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00344",
+    "timestamp": "06-Feb-2024",
+    "product": "FUNDA PARA LAPTOP 15\"",
+    "qty": 3,
+    "unit_price": 130.26,
+    "customer": {
+      "name": "Eduardo Torrez",
+      "email": "eduardo.torrez@outlook.com..",
+      "city": "CBBA"
+    },
+    "payment_method": "QR",
+    "status": "Entregado",
+    "shipping_cost": null,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00228",
+    "timestamp": "2024-07-14T00:00:00",
+    "product": "Impresora HP DeskJet",
+    "qty": 4,
+    "unit_price": 1197.77,
+    "customer": {
+      "name": "Miguel Mamani",
+      "email": "miguel.mamani @hotmail.com",
+      "city": "santa cruz"
+    },
+    "payment_method": "Transferencia",
+    "status": "Pendiente",
+    "shipping_cost": 73.3,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00007",
+    "timestamp": "2024-02-07T00:00:00",
+    "product": "Webcam Logitech C920",
+    "qty": 2,
+    "unit_price": 587.51,
+    "customer": {
+      "name": "Andrés Gutiérrez",
+      "email": "andrés.gutiérrez@ucb.edu.bo",
+      "city": "la paz"
+    },
+    "payment_method": "Tarjeta Débito",
+    "status": "Cancelado",
+    "shipping_cost": null,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00039",
+    "timestamp": "2024-07-06T00:00:00",
+    "product": "Adaptador HDMI a VGA",
+    "qty": 4,
+    "unit_price": "Bs 67",
+    "customer": {
+      "name": "Ricardo Fernández",
+      "email": "ricardo.fernández@gmail.com",
+      "city": "Cochabamba"
+    },
+    "payment_method": "Efectivo",
+    "status": "Cancelado",
+    "shipping_cost": 50.46,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00174",
+    "timestamp": "2024-03-28T00:00:00",
+    "product": "Mouse  Gamer  Razer",
+    "qty": 1,
+    "unit_price": "bs. 437.9",
+    "customer": {
+      "name": "Carla Quispe",
+      "email": "carla.quispe@ucb.edu.bo",
+      "city": "La Paz"
+    },
+    "payment_method": "Efectivo",
+    "status": "Entregado",
+    "shipping_cost": 43.07,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00252",
+    "timestamp": "27/03/2024",
+    "product": "MONITOR LG 27\"",
+    "qty": 1,
+    "unit_price": 2617.68,
+    "customer": {
+      "name": "Miguel Gutiérrez",
+      "email": "miguel.gutiérrez@ucb.edu.bo",
+      "city": "Cochabamba"
+    },
+    "payment_method": "Tarjeta Débito",
+    "status": "Entregado",
+    "shipping_cost": 20.06,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00053",
+    "timestamp": "2024-03-01T00:00:00",
+    "product": "Audifonos Sony WH-1000",
+    "qty": 4,
+    "unit_price": 2050.06,
+    "customer": {
+      "name": "Martín Choque",
+      "email": "martín.choque@outlook.com",
+      "city": "Potosi"
+    },
+    "payment_method": "Tarjeta Crédito",
+    "status": "Entregado",
+    "shipping_cost": 52.96,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00244",
+    "timestamp": "February 24, 2024",
+    "product": "Hub  USB  4  puertos",
+    "qty": 4,
+    "unit_price": "bs. 92.56",
+    "customer": {
+      "name": "Eduardo Fernández",
+      "email": "eduardo.fernández@yahoo.com",
+      "city": "CBBA"
+    },
+    "payment_method": "Tarjeta Crédito",
+    "status": "Devuelto",
+    "shipping_cost": 30.71,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00188",
+    "timestamp": "2024-12-25T00:00:00",
+    "product": "tablet samsung galaxy tab",
+    "qty": 2,
+    "unit_price": 2892.85,
+    "customer": {
+      "name": "Pablo Salazar",
+      "email": "pablo.salazar@hotmail.com",
+      "city": "Cobija"
+    },
+    "payment_method": "Tarjeta Débito",
+    "status": "En camino",
+    "shipping_cost": 61.77,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00052",
+    "timestamp": "2024-04-07T00:00:00",
+    "product": "Router  WiFi  TP-Link",
+    "qty": 1,
+    "unit_price": 374.53,
+    "customer": {
+      "name": "Andrés Mendoza",
+      "email": "andrés.mendoza@hotmail.com",
+      "city": "Tarija"
+    },
+    "payment_method": "Tarjeta Débito",
+    "status": "Entregado",
+    "shipping_cost": null,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00260",
+    "timestamp": "2024-11-20T00:00:00",
+    "product": "Cargador  Universal  USB-C",
+    "qty": 2,
+    "unit_price": "Bs 133",
+    "customer": {
+      "name": "Patricia Gutiérrez",
+      "email": "patricia.gutiérrez@ucb.edu.bo",
+      "city": "Cobija"
+    },
+    "payment_method": "Transferencia",
+    "status": "Cancelado",
+    "shipping_cost": 29.75,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00319",
+    "timestamp": "2024-08-26T00:00:00",
+    "product": "Audífonos Sony WH-1000",
+    "qty": 2,
+    "unit_price": 2365.52,
+    "customer": {
+      "name": "Fernando Mendoza",
+      "email": "fernando.mendoza@yahoo.com",
+      "city": "cochabamba"
+    },
+    "payment_method": "Efectivo",
+    "status": "Entregado",
+    "shipping_cost": null,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00058",
+    "timestamp": "09-30-2024",
+    "product": "Router WiFi TP-Link  ",
+    "qty": 1,
+    "unit_price": "Bs 423",
+    "customer": {
+      "name": "Claudia Fernández",
+      "email": "claudia.fernández@yahoo.com",
+      "city": "La Paz"
+    },
+    "payment_method": "Efectivo",
+    "status": "Cancelado",
+    "shipping_cost": 23.91,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00261",
+    "timestamp": "2024-08-04",
+    "product": "Hub USB 4 puertos  ",
+    "qty": 4,
+    "unit_price": 98.02,
+    "customer": {
+      "name": "Andrés López",
+      "email": "andrés.lópez@outlook.com",
+      "city": "SCZ"
+    },
+    "payment_method": "Tarjeta Crédito",
+    "status": "Entregado",
+    "shipping_cost": 20.28,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00368",
+    "timestamp": "2024-12-16T00:00:00",
+    "product": "Laptop Lenovo ThinkPad",
+    "qty": 4,
+    "unit_price": 8236.26,
+    "customer": {
+      "name": "Verónica Condori",
+      "email": "verónica.condori@outlook.com",
+      "city": "LP"
+    },
+    "payment_method": "Transferencia",
+    "status": "Entregado",
+    "shipping_cost": 69.28,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00266",
+    "timestamp": "2024-10-20T00:00:00",
+    "product": "Funda para Laptop 15\"  ",
+    "qty": 3,
+    "unit_price": 163.05,
+    "customer": {
+      "name": "Patricia Fernández",
+      "email": "patricia.fernández@yahoo.com",
+      "city": "Cochabamba"
+    },
+    "payment_method": "QR",
+    "status": "Entregado",
+    "shipping_cost": 32.31,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00027",
+    "timestamp": "2024-12-02T00:00:00",
+    "product": "Audifonos JBL Tune",
+    "qty": 2,
+    "unit_price": "Bs.415.77",
+    "customer": {
+      "name": "Pablo Choque",
+      "email": "pablo.choque@outlook.com",
+      "city": "Tarija"
+    },
+    "payment_method": "QR",
+    "status": "Entregado",
+    "shipping_cost": 18.55,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00014",
+    "timestamp": "2025/03/02",
+    "product": "Tarjeta Grafica NVIDIA RTX",
+    "qty": 2,
+    "unit_price": null,
+    "customer": {
+      "name": "Patricia Mendoza",
+      "email": "patricia.mendoza@ucb.edu.bo",
+      "city": "Santa Cruz"
+    },
+    "payment_method": "Tarjeta Débito",
+    "status": "Entregado",
+    "shipping_cost": 39.93,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00202",
+    "timestamp": "2024-06-16T00:00:00",
+    "product": "audífonos sony wh-1000",
+    "qty": 1,
+    "unit_price": 1958.29,
+    "customer": {
+      "name": "Lorena García",
+      "email": "lorena.garcía@gmail.com",
+      "city": "Potosí"
+    },
+    "payment_method": "Transferencia",
+    "status": "En camino",
+    "shipping_cost": 52.92,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00209",
+    "timestamp": "2024-06-16T00:00:00",
+    "product": "router wifi tp-link",
+    "qty": 3,
+    "unit_price": 401.98,
+    "customer": {
+      "name": "Carla García",
+      "email": "carla.garcía@outlook.com",
+      "city": "Potosi"
+    },
+    "payment_method": null,
+    "status": "En camino",
+    "shipping_cost": 20.13,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00107",
+    "timestamp": "2024-10-28T00:00:00",
+    "product": "batería externa 20000mah",
+    "qty": 1,
+    "unit_price": 223.41,
+    "customer": {
+      "name": "Patricia Flores",
+      "email": "patricia.flores@gmail.com",
+      "city": "SCZ"
+    },
+    "payment_method": "QR",
+    "status": "Entregado",
+    "shipping_cost": 57.46,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00144",
+    "timestamp": "2024-06-08T00:00:00",
+    "product": "TECLADO LOGITECH K380",
+    "qty": 1,
+    "unit_price": "369.59 Bs",
+    "customer": {
+      "name": "Daniela Flores",
+      "email": "daniela.flores@gmail.com",
+      "city": "Santa Cruz"
+    },
+    "payment_method": "QR",
+    "status": "Pendiente",
+    "shipping_cost": 66.67,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00367",
+    "timestamp": "2024-11-13T00:00:00",
+    "product": " Audífonos JBL Tune",
+    "qty": 4,
+    "unit_price": 344.79,
+    "customer": {
+      "name": "Carla Flores",
+      "email": "carla.flores@ucb.edu.bo",
+      "city": "La Paz"
+    },
+    "payment_method": "Tarjeta Crédito",
+    "status": "Entregado",
+    "shipping_cost": 46.99,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00012",
+    "timestamp": "2025-01-30T00:00:00",
+    "product": "Batería Externa 20000mAh  ",
+    "qty": 3,
+    "unit_price": 231.47,
+    "customer": {
+      "name": "Javier Mamani",
+      "email": "javier.mamani@outlook.com",
+      "city": "Santa Cruz"
+    },
+    "payment_method": "Efectivo",
+    "status": "En camino",
+    "shipping_cost": 34.08,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00263",
+    "timestamp": "2024-11-26",
+    "product": "Laptop HP Pavilion",
+    "qty": 2,
+    "unit_price": "5445.96 Bs",
+    "customer": {
+      "name": "Daniela Gutiérrez",
+      "email": "daniela.gutiérrez@gmail.com",
+      "city": "Potosi"
+    },
+    "payment_method": "Efectivo",
+    "status": "En camino",
+    "shipping_cost": 57.33,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00376",
+    "timestamp": "2025-01-20T00:00:00",
+    "product": "memoria usb 128gb",
+    "qty": 3,
+    "unit_price": "BOB 131.17",
+    "customer": {
+      "name": "Claudia Mendoza",
+      "email": "claudia.mendoza@gmail.com",
+      "city": "cochabamba"
+    },
+    "payment_method": "Transferencia",
+    "status": "Cancelado",
+    "shipping_cost": null,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00275",
+    "timestamp": "15-Apr-2024",
+    "product": "Batería  Externa  20000mAh",
+    "qty": 4,
+    "unit_price": 251.36,
+    "customer": {
+      "name": "Lorena Mendoza",
+      "email": "lorena.mendoza@gmail.com",
+      "city": "CBBA"
+    },
+    "payment_method": "Tarjeta Crédito",
+    "status": "En camino",
+    "shipping_cost": 49.58,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00095",
+    "timestamp": "August 08, 2024",
+    "product": "Monitor LG 27\"",
+    "qty": null,
+    "unit_price": 2657.41,
+    "customer": {
+      "name": "Daniela Gutiérrez",
+      "email": "daniela.gutiérrez@yahoo.com",
+      "city": "Potosí"
+    },
+    "payment_method": "Efectivo",
+    "status": "En camino",
+    "shipping_cost": 44.76,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00116",
+    "timestamp": "2024-06-03T00:00:00",
+    "product": "BATERÍA EXTERNA 20000MAH",
+    "qty": 1,
+    "unit_price": 197.36,
+    "customer": {
+      "name": "Pablo Condori",
+      "email": "pablo.condori@gmail.com",
+      "city": "cochabamba"
+    },
+    "payment_method": "Tarjeta Débito",
+    "status": "Entregado",
+    "shipping_cost": 27.14,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00280",
+    "timestamp": "2024-09-17T00:00:00",
+    "product": "SSD SAMSUNG 500GB",
+    "qty": 3,
+    "unit_price": 593.42,
+    "customer": {
+      "name": "Lorena Torrez",
+      "email": "lorena.torrez@yahoo.com",
+      "city": "CBBA"
+    },
+    "payment_method": "Tarjeta Débito",
+    "status": "Entregado",
+    "shipping_cost": 16.07,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00147",
+    "timestamp": "2024-12-04T00:00:00",
+    "product": "Mouse Gamer Razer  ",
+    "qty": 4,
+    "unit_price": 400.91,
+    "customer": {
+      "name": "Lorena Rojas",
+      "email": "lorena.rojas@ucb.edu.bo",
+      "city": "SCZ"
+    },
+    "payment_method": "Efectivo",
+    "status": "Entregado",
+    "shipping_cost": 52.45,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00400",
+    "timestamp": "2024-04-16T00:00:00",
+    "product": "adaptador hdmi a vga",
+    "qty": 3,
+    "unit_price": 60.08,
+    "customer": {
+      "name": "Patricia Mendoza",
+      "email": "patricia.mendoza@hotmail.com",
+      "city": "CBBA"
+    },
+    "payment_method": "Efectivo",
+    "status": "Entregado",
+    "shipping_cost": 62.96,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00342",
+    "timestamp": "17 de February de 2025",
+    "product": " Memoria USB 64GB",
+    "qty": 3,
+    "unit_price": 83.56,
+    "customer": {
+      "name": "Gabriela Quispe",
+      "email": "gabriela.quispe@outlook.com",
+      "city": "CBBA"
+    },
+    "payment_method": "Tarjeta Débito",
+    "status": "Cancelado",
+    "shipping_cost": 57.66,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00077",
+    "timestamp": "14-Nov-2024",
+    "product": "Monitor  LG  27\"",
+    "qty": 1,
+    "unit_price": 2647.99,
+    "customer": {
+      "name": "Eduardo Quispe",
+      "email": "eduardo.quispe@outlook.com",
+      "city": "Santa Cruz"
+    },
+    "payment_method": "Tarjeta Débito",
+    "status": "En camino",
+    "shipping_cost": 32.42,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00314",
+    "timestamp": "21-Jul-2024",
+    "product": "disco duro externo 1tb",
+    "qty": 2,
+    "unit_price": "Bs. 480.65",
+    "customer": {
+      "name": "Mónica Vargas",
+      "email": "",
+      "city": "Potosí"
+    },
+    "payment_method": "Efectivo",
+    "status": "Pendiente",
+    "shipping_cost": null,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00130",
+    "timestamp": "2024-12-29T00:00:00",
+    "product": " Cargador Universal USB-C",
+    "qty": 2,
+    "unit_price": "Bs 115",
+    "customer": {
+      "name": "Pablo Choque",
+      "email": "@outlook.com",
+      "city": "LP"
+    },
+    "payment_method": "QR",
+    "status": "Entregado",
+    "shipping_cost": 48.76,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00365",
+    "timestamp": "2024-09-29T00:00:00",
+    "product": "Monitor Samsung 24\"",
+    "qty": 4,
+    "unit_price": 1833.14,
+    "customer": {
+      "name": "Silvia Mendoza",
+      "email": "silvia.mendoza@hotmail.com",
+      "city": "SCZ"
+    },
+    "payment_method": "Efectivo",
+    "status": "En camino",
+    "shipping_cost": 26.19,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00238",
+    "timestamp": "2025-02-14T00:00:00",
+    "product": " Mouse Gamer Razer",
+    "qty": 1,
+    "unit_price": 411.96,
+    "customer": {
+      "name": "Pablo Flores",
+      "email": "pablo.flores@",
+      "city": "Cobija"
+    },
+    "payment_method": "Efectivo",
+    "status": "Entregado",
+    "shipping_cost": null,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00041",
+    "timestamp": "2024-05-23T00:00:00",
+    "product": "LAPTOP DELL INSPIRON",
+    "qty": 2,
+    "unit_price": 5599.44,
+    "customer": {
+      "name": "Javier Condori",
+      "email": "javier.condori@gmail.com",
+      "city": "Tarija"
+    },
+    "payment_method": "Transferencia",
+    "status": "Entregado",
+    "shipping_cost": 51.68,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00226",
+    "timestamp": "2024-01-23T00:00:00",
+    "product": "MOUSE INALÁMBRICO LOGITECH",
+    "qty": 1,
+    "unit_price": 175.17,
+    "customer": {
+      "name": "Gabriela López",
+      "email": "gabriela.lópez@hotmail.com",
+      "city": "CBBA"
+    },
+    "payment_method": "Tarjeta Crédito",
+    "status": "Entregado",
+    "shipping_cost": 58.29,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00100",
+    "timestamp": "2024-05-14T00:00:00",
+    "product": "Teclado Logitech K380",
+    "qty": 2,
+    "unit_price": "401.4 Bs",
+    "customer": {
+      "name": "Claudia Condori",
+      "email": "claudia.condori@ucb.edu.bo",
+      "city": "Santa Cruz"
+    },
+    "payment_method": "QR",
+    "status": "Entregado",
+    "shipping_cost": 72.24,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00046",
+    "timestamp": "2024-03-02T00:00:00",
+    "product": "Monitor Samsung 24\"  ",
+    "qty": 3,
+    "unit_price": "Bs.1893.02",
+    "customer": {
+      "name": "Sebastián Salazar",
+      "email": "sebastián.salazar@outlook.com",
+      "city": "Tarija"
+    },
+    "payment_method": "Transferencia",
+    "status": "Entregado",
+    "shipping_cost": 20.27,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00394",
+    "timestamp": "06/12/2024",
+    "product": "Monitor LG 27\"",
+    "qty": 4,
+    "unit_price": 2519.89,
+    "customer": {
+      "name": "Carla López",
+      "email": "carla.lópez@yahoo.com",
+      "city": "Cochabamba"
+    },
+    "payment_method": "QR",
+    "status": "Devuelto",
+    "shipping_cost": null,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00360",
+    "timestamp": "2024-09-24T00:00:00",
+    "product": "Laptop HP Pavilion",
+    "qty": 4,
+    "unit_price": "BOB 5448.26",
+    "customer": {
+      "name": "Pablo Choque",
+      "email": "pablo.choque@ucb.edu.bo",
+      "city": "Trinidad"
+    },
+    "payment_method": "QR",
+    "status": "Pendiente",
+    "shipping_cost": 16.67,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00301",
+    "timestamp": "January 23, 2025",
+    "product": "ssd samsung 500gb",
+    "qty": 2,
+    "unit_price": "571.41 Bs",
+    "customer": {
+      "name": "Carla Quispe",
+      "email": "carla.quispe@yahoo.com",
+      "city": "Potosí"
+    },
+    "payment_method": "Transferencia",
+    "status": "Pendiente",
+    "shipping_cost": 40.31,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00270",
+    "timestamp": "2025-01-12T00:00:00",
+    "product": "Impresora  HP  DeskJet",
+    "qty": 2,
+    "unit_price": 1157.44,
+    "customer": {
+      "name": "Claudia Fernández",
+      "email": "claudia.fernández@yahoo.com",
+      "city": "Potosí"
+    },
+    "payment_method": "Tarjeta Crédito",
+    "status": "Entregado",
+    "shipping_cost": 58.58,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00048",
+    "timestamp": "2024-02-27T00:00:00",
+    "product": "Hub USB 4 puertos",
+    "qty": 3,
+    "unit_price": 96.74,
+    "customer": {
+      "name": "Miguel López",
+      "email": "miguel.lópez@yahoo.com..",
+      "city": "Sucre"
+    },
+    "payment_method": "Efectivo",
+    "status": "Entregado",
+    "shipping_cost": 67.81,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00272",
+    "timestamp": "03 de December de 2024",
+    "product": "Laptop Dell Inspiron",
+    "qty": 4,
+    "unit_price": "bs. 6551.53",
+    "customer": {
+      "name": "Silvia Morales",
+      "email": "silvia.morales@yahoo.com",
+      "city": "Santa Cruz"
+    },
+    "payment_method": "Tarjeta Débito",
+    "status": "En camino",
+    "shipping_cost": 69.8,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00122",
+    "timestamp": "2025-01-19T00:00:00",
+    "product": "HUB USB 4 PUERTOS",
+    "qty": 2,
+    "unit_price": 84.42,
+    "customer": {
+      "name": "Alejandro Torrez",
+      "email": "alejandro.torrez@outlook.com",
+      "city": "Oruro"
+    },
+    "payment_method": "Transferencia",
+    "status": "En camino",
+    "shipping_cost": 45.41,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00117",
+    "timestamp": "2024-10-14T00:00:00",
+    "product": "Hub USB 4 puertos  ",
+    "qty": 3,
+    "unit_price": 91.22,
+    "customer": {
+      "name": "Sebastián López",
+      "email": "@outlook.com",
+      "city": "Cochabamba"
+    },
+    "payment_method": "Efectivo",
+    "status": "Entregado",
+    "shipping_cost": 54.63,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00286",
+    "timestamp": "2024-07-18T00:00:00",
+    "product": "Monitor Samsung 24\"",
+    "qty": 3,
+    "unit_price": 1559.47,
+    "customer": {
+      "name": "Silvia Fernández",
+      "email": "silvia.fernández@outlook.com",
+      "city": "LP"
+    },
+    "payment_method": "Efectivo",
+    "status": "Pendiente",
+    "shipping_cost": null,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00289",
+    "timestamp": "2024-03-17T00:00:00",
+    "product": "Bateria Externa 20000mAh",
+    "qty": 4,
+    "unit_price": 244.94,
+    "customer": {
+      "name": "Miguel Quispe",
+      "email": "miguel.quispe@ucb.edu.bo",
+      "city": "Potosí"
+    },
+    "payment_method": "Tarjeta Débito",
+    "status": "Cancelado",
+    "shipping_cost": 16.32,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00012",
+    "timestamp": "2025-01-30T00:00:00",
+    "product": "Batería Externa 20000mAh  ",
+    "qty": 3,
+    "unit_price": 231.47,
+    "customer": {
+      "name": "Javier Mamani",
+      "email": "javier.mamani@outlook.com",
+      "city": "Santa Cruz"
+    },
+    "payment_method": "Efectivo",
+    "status": "En camino",
+    "shipping_cost": 34.08,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00160",
+    "timestamp": "2025-01-28T00:00:00",
+    "product": "Memoria USB 64GB",
+    "qty": 2,
+    "unit_price": 91.79,
+    "customer": {
+      "name": "Eduardo Mendoza",
+      "email": "eduardo.mendoza@yahoo.com",
+      "city": "Oruro"
+    },
+    "payment_method": "Tarjeta Crédito",
+    "status": "Devuelto",
+    "shipping_cost": 59.44,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00005",
+    "timestamp": "2024-09-20T00:00:00",
+    "product": "LAPTOP LENOVO THINKPAD",
+    "qty": -3,
+    "unit_price": 7271.82,
+    "customer": {
+      "name": "Verónica Salazar",
+      "email": "verónica.salazar@gmail.com",
+      "city": "LP"
+    },
+    "payment_method": "Efectivo",
+    "status": "Pendiente",
+    "shipping_cost": null,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00060",
+    "timestamp": "2024-08-24T00:00:00",
+    "product": "webcam logitech c920",
+    "qty": 1,
+    "unit_price": 694.21,
+    "customer": {
+      "name": "Gabriela Rojas",
+      "email": "",
+      "city": "Santa Cruz"
+    },
+    "payment_method": "Transferencia",
+    "status": "Cancelado",
+    "shipping_cost": 56.78,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00327",
+    "timestamp": "2024-09-26T00:00:00",
+    "product": "MONITOR LG 27\"",
+    "qty": 4,
+    "unit_price": "Bs.2171.31",
+    "customer": {
+      "name": "Miguel García",
+      "email": "miguel.garcía@outlook.com",
+      "city": "Santa Cruz"
+    },
+    "payment_method": "QR",
+    "status": "Entregado",
+    "shipping_cost": 54.14,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00121",
+    "timestamp": "10 de January de 2024",
+    "product": "Parlante Bluetooth JBL",
+    "qty": 2,
+    "unit_price": 793.4,
+    "customer": {
+      "name": "Lorena Gutiérrez",
+      "email": "lorena.gutiérrez@outlook.com",
+      "city": "Sucre"
+    },
+    "payment_method": "Tarjeta Crédito",
+    "status": "Entregado",
+    "shipping_cost": 61.53,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00321",
+    "timestamp": "2024-10-31",
+    "product": "cable hdmi 2m",
+    "qty": 2,
+    "unit_price": 46.28,
+    "customer": {
+      "name": "Lorena Choque",
+      "email": "lorena.choque@outlook.com",
+      "city": "CBBA"
+    },
+    "payment_method": "Tarjeta Débito",
+    "status": "Pendiente",
+    "shipping_cost": 24.44,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00352",
+    "timestamp": "2024-09-27T00:00:00",
+    "product": "Monitor LG 27\"",
+    "qty": 2,
+    "unit_price": 2345.68,
+    "customer": {
+      "name": "Daniela Mamani",
+      "email": "daniela.mamanigmail.com",
+      "city": "LP"
+    },
+    "payment_method": "Transferencia",
+    "status": "Entregado",
+    "shipping_cost": 16.08,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00247",
+    "timestamp": "2024-07-19T00:00:00",
+    "product": "Laptop Lenovo ThinkPad  ",
+    "qty": 4,
+    "unit_price": 8438.89,
+    "customer": {
+      "name": "Ricardo García",
+      "email": "ricardo.garcía@ucb.edu.bo",
+      "city": "cochabamba"
+    },
+    "payment_method": "Transferencia",
+    "status": "Entregado",
+    "shipping_cost": 42.3,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00142",
+    "timestamp": "06-27-2024",
+    "product": "Impresora HP DeskJet",
+    "qty": 1,
+    "unit_price": 1100.61,
+    "customer": {
+      "name": "Ricardo Gutiérrez",
+      "email": "ricardo.gutiérrez@yahoo.com",
+      "city": "Trinidad"
+    },
+    "payment_method": "QR",
+    "status": "En camino",
+    "shipping_cost": 39.35,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00096",
+    "timestamp": "28 de July de 2024",
+    "product": "impresora epson l3250",
+    "qty": 4,
+    "unit_price": "Bs. 1581.36",
+    "customer": {
+      "name": "Pablo Fernández",
+      "email": "pablo.fernández@ucb.edu.bo",
+      "city": "Cobija"
+    },
+    "payment_method": "Tarjeta Crédito",
+    "status": "Entregado",
+    "shipping_cost": 51.91,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00264",
+    "timestamp": "19-Dec-2024",
+    "product": "Tablet Samsung Galaxy Tab",
+    "qty": 4,
+    "unit_price": 3650.75,
+    "customer": {
+      "name": "Alejandro López",
+      "email": "alejandro.lópez@ucb.edu.bo",
+      "city": "Cochabamba"
+    },
+    "payment_method": "Tarjeta Débito",
+    "status": "Entregado",
+    "shipping_cost": null,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00276",
+    "timestamp": "2025-01-07T00:00:00",
+    "product": "Hub USB 4 puertos  ",
+    "qty": 2,
+    "unit_price": 93.82,
+    "customer": {
+      "name": "Mónica García",
+      "email": "mónica.garcía@outlook.com",
+      "city": "Oruro"
+    },
+    "payment_method": "Transferencia",
+    "status": "Entregado",
+    "shipping_cost": 15.09,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00051",
+    "timestamp": "2024-05-12T00:00:00",
+    "product": "mouse inalámbrico logitech",
+    "qty": 2,
+    "unit_price": 178.29,
+    "customer": {
+      "name": "Lorena Rojas",
+      "email": "lorena.rojas@yahoo.com",
+      "city": "Sucre"
+    },
+    "payment_method": "Tarjeta Crédito",
+    "status": "Entregado",
+    "shipping_cost": 37.23,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00337",
+    "timestamp": "2024-07-02T00:00:00",
+    "product": "Procesador AMD Ryzen 5  ",
+    "qty": 2,
+    "unit_price": 1606.97,
+    "customer": {
+      "name": "Eduardo Mamani",
+      "email": "eduardo.mamani@hotmail.com",
+      "city": "Trinidad"
+    },
+    "payment_method": "Tarjeta Crédito",
+    "status": "Cancelado",
+    "shipping_cost": 39.2,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00265",
+    "timestamp": "2024-03-04T00:00:00",
+    "product": "Audífonos JBL Tune  ",
+    "qty": 4,
+    "unit_price": "BOB 422.66",
+    "customer": {
+      "name": "Silvia López",
+      "email": "silvia.lópez@gmail.com",
+      "city": "Santa Cruz"
+    },
+    "payment_method": "Tarjeta Crédito",
+    "status": "Devuelto",
+    "shipping_cost": 23.59,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00335",
+    "timestamp": "2024-11-01T00:00:00",
+    "product": "Tablet iPad Air",
+    "qty": 4,
+    "unit_price": 4874.68,
+    "customer": {
+      "name": "Patricia Torrez",
+      "email": "@outlook.com",
+      "city": "Sucre"
+    },
+    "payment_method": "Tarjeta Débito",
+    "status": "En camino",
+    "shipping_cost": 79.61,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00186",
+    "timestamp": "2024-08-30T00:00:00",
+    "product": "Impresora  Epson  L3250",
+    "qty": 1,
+    "unit_price": 1454.91,
+    "customer": {
+      "name": "Pablo Choque",
+      "email": "pablo.choque@hotmail.com",
+      "city": "La Paz"
+    },
+    "payment_method": "Transferencia",
+    "status": "Entregado",
+    "shipping_cost": 28.02,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00004",
+    "timestamp": "2024-10-03T00:00:00",
+    "product": "Parlante Bluetooth JBL",
+    "qty": 4,
+    "unit_price": 797.64,
+    "customer": {
+      "name": "Claudia Mamani",
+      "email": "claudia.mamani@hotmail.com",
+      "city": "Tarija"
+    },
+    "payment_method": "Tarjeta Crédito",
+    "status": "Cancelado",
+    "shipping_cost": 33.23,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00087",
+    "timestamp": "2024-06-21T00:00:00",
+    "product": " Kit Limpieza Pantalla",
+    "qty": 2,
+    "unit_price": 35.99,
+    "customer": {
+      "name": "Eduardo Quispe",
+      "email": "eduardo.quispe@hotmail.com",
+      "city": "cochabamba"
+    },
+    "payment_method": "Efectivo",
+    "status": "Entregado",
+    "shipping_cost": 55.96,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00111",
+    "timestamp": "08-25-2024",
+    "product": " Mouse Gamer Razer",
+    "qty": 2,
+    "unit_price": 487.19,
+    "customer": {
+      "name": "Eduardo Rojas",
+      "email": "eduardo.rojas@hotmail.com",
+      "city": "cochabamba"
+    },
+    "payment_method": "Tarjeta Débito",
+    "status": "Entregado",
+    "shipping_cost": 21.82,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00358",
+    "timestamp": "04 de December de 2024",
+    "product": "Webcam  Logitech  C920",
+    "qty": 4,
+    "unit_price": 706.88,
+    "customer": {
+      "name": "Andrés Fernández",
+      "email": "andrés.fernández@ucb.edu.bo",
+      "city": "Tarija"
+    },
+    "payment_method": null,
+    "status": "Entregado",
+    "shipping_cost": null,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00069",
+    "timestamp": "20-Feb-2024",
+    "product": "MOUSE INALÁMBRICO LOGITECH",
+    "qty": 2,
+    "unit_price": "Bs. 172.16",
+    "customer": {
+      "name": "Fernando Quispe",
+      "email": "fernando.quispe@hotmail.com",
+      "city": "cochabamba"
+    },
+    "payment_method": "Transferencia",
+    "status": "Entregado",
+    "shipping_cost": 66.88,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00236",
+    "timestamp": "2024-11-26T00:00:00",
+    "product": "parlante bluetooth jbl",
+    "qty": 2,
+    "unit_price": 786.96,
+    "customer": {
+      "name": "Andrés Salazar",
+      "email": "andrés.salazar@",
+      "city": "la paz"
+    },
+    "payment_method": "Tarjeta Crédito",
+    "status": "Entregado",
+    "shipping_cost": null,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00132",
+    "timestamp": "June 13, 2024",
+    "product": "BATERÍA EXTERNA 20000MAH",
+    "qty": 3,
+    "unit_price": "BOB 204.42",
+    "customer": {
+      "name": "Lorena Fernández",
+      "email": "lorena.fernández@outlook.com",
+      "city": "Tarija"
+    },
+    "payment_method": "Tarjeta Crédito",
+    "status": "En camino",
+    "shipping_cost": 16.34,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00251",
+    "timestamp": "2024-05-29T00:00:00",
+    "product": "Procesador  AMD  Ryzen  5",
+    "qty": 3,
+    "unit_price": 1683.73,
+    "customer": {
+      "name": "Ricardo Salazar",
+      "email": "ricardo.salazar @outlook.com",
+      "city": "CBBA"
+    },
+    "payment_method": "Tarjeta Débito",
+    "status": "Entregado",
+    "shipping_cost": 73.85,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00390",
+    "timestamp": "16/06/2024",
+    "product": "Funda para Laptop 15\"  ",
+    "qty": 1,
+    "unit_price": 130.23,
+    "customer": {
+      "name": "Carla López",
+      "email": "carla.lópez@hotmail.com",
+      "city": "Cobija"
+    },
+    "payment_method": "Efectivo",
+    "status": "Cancelado",
+    "shipping_cost": 74.07,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00253",
+    "timestamp": "2024-05-18T00:00:00",
+    "product": "Impresora  Epson  L3250",
+    "qty": 1,
+    "unit_price": 1755.27,
+    "customer": {
+      "name": "Natalia Rojas",
+      "email": "natalia.rojas@outlook.com",
+      "city": "LP"
+    },
+    "payment_method": "Transferencia",
+    "status": "Pendiente",
+    "shipping_cost": 32.7,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00191",
+    "timestamp": "2024-10-22T00:00:00",
+    "product": "Impresora HP DeskJet",
+    "qty": 2,
+    "unit_price": "BOB 1066.67",
+    "customer": {
+      "name": "Andrés Fernández",
+      "email": "andrés.fernández@yahoo.com",
+      "city": "La Paz"
+    },
+    "payment_method": "Tarjeta Débito",
+    "status": "Entregado",
+    "shipping_cost": 60.44,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00006",
+    "timestamp": "2024-09-12T00:00:00",
+    "product": "Adaptador HDMI a VGA  ",
+    "qty": 2,
+    "unit_price": "bs. 60.39",
+    "customer": null,
+    "payment_method": "Efectivo",
+    "status": "Entregado",
+    "shipping_cost": 22.14,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00113",
+    "timestamp": "2025/01/29",
+    "product": "Batería  Externa  20000mAh",
+    "qty": 1,
+    "unit_price": 211.27,
+    "customer": {
+      "name": "Silvia Rojas",
+      "email": "silvia.rojas@gmail.com",
+      "city": "Trinidad"
+    },
+    "payment_method": "Efectivo",
+    "status": "Cancelado",
+    "shipping_cost": 48.62,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00288",
+    "timestamp": "2024-04-15T00:00:00",
+    "product": "Cargador Universal USB-C  ",
+    "qty": 2,
+    "unit_price": 110.35,
+    "customer": {
+      "name": "Miguel López",
+      "email": "miguel.lópez@yahoo.com",
+      "city": "Cochabamba"
+    },
+    "payment_method": "Tarjeta Débito",
+    "status": "Entregado",
+    "shipping_cost": 15.83,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00385",
+    "timestamp": "July 16, 2024",
+    "product": "Batería Externa 20000mAh  ",
+    "qty": 1,
+    "unit_price": 240.67,
+    "customer": {
+      "name": "Javier Rojas",
+      "email": "javier.rojas@hotmail.com",
+      "city": "Oruro"
+    },
+    "payment_method": "Transferencia",
+    "status": "En camino",
+    "shipping_cost": 75.55,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00149",
+    "timestamp": "2024-09-25T00:00:00",
+    "product": "Cable  HDMI  2m",
+    "qty": 2,
+    "unit_price": 47.24,
+    "customer": {
+      "name": "Patricia Gutiérrez",
+      "email": "patricia.gutiérrez@hotmail.com",
+      "city": "LP"
+    },
+    "payment_method": "Transferencia",
+    "status": "Pendiente",
+    "shipping_cost": 55.79,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00108",
+    "timestamp": "2024-05-20T00:00:00",
+    "product": "Mouse Gamer Razer",
+    "qty": 3,
+    "unit_price": 456.17,
+    "customer": {
+      "name": "Carla Rojas",
+      "email": "carla.rojas@gmail.com",
+      "city": "la paz"
+    },
+    "payment_method": "Tarjeta Crédito",
+    "status": "Devuelto",
+    "shipping_cost": 45.65,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00268",
+    "timestamp": "2025-01-30",
+    "product": "MONITOR LG 27\"",
+    "qty": 4,
+    "unit_price": 2273.09,
+    "customer": {
+      "name": "Ricardo Choque",
+      "email": "ricardo.choque@hotmail.com",
+      "city": "LP"
+    },
+    "payment_method": "Efectivo",
+    "status": "Pendiente",
+    "shipping_cost": 47.59,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00109",
+    "timestamp": "2024-01-16T00:00:00",
+    "product": "Procesador AMD Ryzen 5",
+    "qty": 3,
+    "unit_price": 1578.64,
+    "customer": {
+      "name": "Eduardo Salazar",
+      "email": "eduardo.salazar@outlook.com",
+      "city": "CBBA"
+    },
+    "payment_method": "QR",
+    "status": "Devuelto",
+    "shipping_cost": 70.52,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00173",
+    "timestamp": "2024-08-19T00:00:00",
+    "product": "CARGADOR UNIVERSAL USB-C",
+    "qty": 4,
+    "unit_price": "Bs.113.16",
+    "customer": {
+      "name": "Daniela Gutiérrez",
+      "email": "",
+      "city": "SCZ"
+    },
+    "payment_method": "Tarjeta Débito",
+    "status": "Entregado",
+    "shipping_cost": 73.85,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00282",
+    "timestamp": "2025-02-27T00:00:00",
+    "product": "MEMORIA USB 128GB",
+    "qty": 1,
+    "unit_price": 132.03,
+    "customer": {
+      "name": "Patricia Gutiérrez",
+      "email": "patricia.gutiérrez@yahoo.com",
+      "city": "Oruro"
+    },
+    "payment_method": "Transferencia",
+    "status": "Entregado",
+    "shipping_cost": 37.82,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00098",
+    "timestamp": "2024-08-28T00:00:00",
+    "product": "impresora hp deskjet",
+    "qty": 3,
+    "unit_price": 1245.54,
+    "customer": {
+      "name": "Alejandro García",
+      "email": "alejandro.garcía@outlook.com",
+      "city": "Potosí"
+    },
+    "payment_method": "Transferencia",
+    "status": "Entregado",
+    "shipping_cost": 77.07,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00008",
+    "timestamp": "2024-01-04T00:00:00",
+    "product": "mouse inalámbrico logitech",
+    "qty": 4,
+    "unit_price": 191.14,
+    "customer": {
+      "name": "Eduardo Fernández",
+      "email": "eduardo.fernández@outlook.com",
+      "city": "Sucre"
+    },
+    "payment_method": "Tarjeta Débito",
+    "status": "En camino",
+    "shipping_cost": 28.02,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00242",
+    "timestamp": "2024-08-06T00:00:00",
+    "product": "Parlante  Bluetooth  JBL",
+    "qty": 1,
+    "unit_price": 766.45,
+    "customer": {
+      "name": "Eduardo Condori",
+      "email": "eduardo.condori @outlook.com",
+      "city": "Trinidad"
+    },
+    "payment_method": "QR",
+    "status": "Pendiente",
+    "shipping_cost": 62.33,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00379",
+    "timestamp": "27/01/2024",
+    "product": "Audífonos JBL Tune",
+    "qty": 4,
+    "unit_price": 382.42,
+    "customer": {
+      "name": "Pablo Torrez",
+      "email": "pablo.torrez@hotmail.com",
+      "city": "Potosí"
+    },
+    "payment_method": "Tarjeta Crédito",
+    "status": "Pendiente",
+    "shipping_cost": 25.64,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00029",
+    "timestamp": "2024-12-09T00:00:00",
+    "product": "Cable  HDMI  2m",
+    "qty": 1,
+    "unit_price": 40.72,
+    "customer": {
+      "name": "Sebastián Morales",
+      "email": "sebastián.morales@yahoo.com",
+      "city": "CBBA"
+    },
+    "payment_method": "Tarjeta Débito",
+    "status": "Entregado",
+    "shipping_cost": 25.72,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00232",
+    "timestamp": "2025-01-04T00:00:00",
+    "product": "Router WiFi TP-Link",
+    "qty": 3,
+    "unit_price": 469.68,
+    "customer": {
+      "name": "Daniela Fernández",
+      "email": "daniela.fernández@ucb.edu.bo",
+      "city": "Oruro"
+    },
+    "payment_method": "Tarjeta Débito",
+    "status": "Entregado",
+    "shipping_cost": 59.1,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00210",
+    "timestamp": "2025-02-03T00:00:00",
+    "product": "funda para laptop 15\"",
+    "qty": 3,
+    "unit_price": 165.88,
+    "customer": {
+      "name": "Claudia Choque",
+      "email": "claudia.choque@hotmail.com",
+      "city": "Sucre"
+    },
+    "payment_method": "Transferencia",
+    "status": "Entregado",
+    "shipping_cost": null,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00227",
+    "timestamp": "2024-12-07T00:00:00",
+    "product": " Audífonos Sony WH-1000",
+    "qty": 4,
+    "unit_price": "Bs 2036",
+    "customer": {
+      "name": "Javier Condori",
+      "email": "javier.condori@ucb.edu.bo",
+      "city": "santa cruz"
+    },
+    "payment_method": "QR",
+    "status": "Entregado",
+    "shipping_cost": null,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00221",
+    "timestamp": "2025-01-16T00:00:00",
+    "product": "Funda para Laptop 15\"",
+    "qty": 2,
+    "unit_price": 132.16,
+    "customer": {
+      "name": "Gabriela Mamani",
+      "email": "gabriela.mamani@yahoo.com",
+      "city": "La Paz"
+    },
+    "payment_method": "Tarjeta Crédito",
+    "status": "Entregado",
+    "shipping_cost": 52.96,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00153",
+    "timestamp": "2024-11-13T00:00:00",
+    "product": "monitor samsung 24\"",
+    "qty": 1,
+    "unit_price": 1929.88,
+    "customer": {
+      "name": "Gabriela Flores",
+      "email": "gabriela.flores@yahoo.com",
+      "city": "Cochabamba"
+    },
+    "payment_method": "Transferencia",
+    "status": "Entregado",
+    "shipping_cost": 72.77,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00349",
+    "timestamp": "16 de September de 2024",
+    "product": " Adaptador HDMI a VGA",
+    "qty": 2,
+    "unit_price": 57.37,
+    "customer": {
+      "name": "Fernando Quispe",
+      "email": "",
+      "city": "Cobija"
+    },
+    "payment_method": "Transferencia",
+    "status": "Entregado",
+    "shipping_cost": 44.37,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00038",
+    "timestamp": "2024-08-13T00:00:00",
+    "product": "Audífonos  JBL  Tune",
+    "qty": 3,
+    "unit_price": 427.44,
+    "customer": {
+      "name": "Lorena Morales",
+      "email": "lorena.morales@ucb.edu.bo",
+      "city": "Santa Cruz"
+    },
+    "payment_method": "Tarjeta Crédito",
+    "status": "Entregado",
+    "shipping_cost": 35.42,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00326",
+    "timestamp": "2024-12-06T00:00:00",
+    "product": "Procesador AMD Ryzen 5",
+    "qty": 4,
+    "unit_price": 1655.65,
+    "customer": {
+      "name": "Andrés Gutiérrez",
+      "email": "andrés.gutiérrez@ucb.edu.bo",
+      "city": "Trinidad"
+    },
+    "payment_method": "Transferencia",
+    "status": "Entregado",
+    "shipping_cost": null,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00325",
+    "timestamp": "2024-06-12T00:00:00",
+    "product": "Monitor LG 27\"",
+    "qty": 2,
+    "unit_price": "Bs.2690.82",
+    "customer": {
+      "name": "Alejandro Mendoza",
+      "email": "alejandro.mendoza@hotmail.com",
+      "city": "Potosi"
+    },
+    "payment_method": "QR",
+    "status": "Entregado",
+    "shipping_cost": 52.91,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00380",
+    "timestamp": "2024-11-12T00:00:00",
+    "product": "WEBCAM LOGITECH C920",
+    "qty": 2,
+    "unit_price": 624.79,
+    "customer": {
+      "name": "Martín Fernández",
+      "email": "martín.fernández@gmail.com",
+      "city": "Cobija"
+    },
+    "payment_method": "Tarjeta Débito",
+    "status": "Entregado",
+    "shipping_cost": 20.16,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00372",
+    "timestamp": "2024-01-22T00:00:00",
+    "product": "batería externa 20000mah",
+    "qty": 2,
+    "unit_price": "Bs 211",
+    "customer": {
+      "name": "Verónica García",
+      "email": "",
+      "city": "santa cruz"
+    },
+    "payment_method": "Transferencia",
+    "status": "Entregado",
+    "shipping_cost": 74.9,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00184",
+    "timestamp": "2024-08-16T00:00:00",
+    "product": "impresora epson l3250",
+    "qty": 2,
+    "unit_price": 1421.98,
+    "customer": {
+      "name": "Ricardo Salazar",
+      "email": "ricardo.salazar@ucb.edu.bo",
+      "city": "Sucre"
+    },
+    "payment_method": "Tarjeta Crédito",
+    "status": "Entregado",
+    "shipping_cost": null,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00305",
+    "timestamp": "2024-04-01T00:00:00",
+    "product": "Laptop  Dell  Inspiron",
+    "qty": 4,
+    "unit_price": 6114.61,
+    "customer": {
+      "name": "Patricia Torrez",
+      "email": "patricia.torrez@",
+      "city": "cochabamba"
+    },
+    "payment_method": "QR",
+    "status": "Entregado",
+    "shipping_cost": 19.58,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00172",
+    "timestamp": "2025-03-24T00:00:00",
+    "product": "MONITOR SAMSUNG 24\"",
+    "qty": 4,
+    "unit_price": 1761.62,
+    "customer": {
+      "name": "Sebastián Mendoza",
+      "email": "sebastián.mendoza@ucb.edu.bo",
+      "city": "SCZ"
+    },
+    "payment_method": "Efectivo",
+    "status": "Pendiente",
+    "shipping_cost": 30.31,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00199",
+    "timestamp": "2024-06-20T00:00:00",
+    "product": "Webcam  Logitech  C920",
+    "qty": 3,
+    "unit_price": 746.83,
+    "customer": {
+      "name": "Martín Gutiérrez",
+      "email": "martín.gutiérrez@yahoo.com",
+      "city": "Oruro"
+    },
+    "payment_method": "Transferencia",
+    "status": "Entregado",
+    "shipping_cost": 70.78,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00129",
+    "timestamp": "2024-01-12T00:00:00",
+    "product": "Cable  HDMI  2m",
+    "qty": 1,
+    "unit_price": 40.47,
+    "customer": {
+      "name": "Martín Mamani",
+      "email": "martín.mamani@",
+      "city": "Sucre"
+    },
+    "payment_method": "Efectivo",
+    "status": "Pendiente",
+    "shipping_cost": 45.52,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00259",
+    "timestamp": "2024-08-15T00:00:00",
+    "product": "WEBCAM LOGITECH C920",
+    "qty": 2,
+    "unit_price": 664.35,
+    "customer": {
+      "name": "Silvia Morales",
+      "email": "silvia.morales@gmail.com",
+      "city": "SCZ"
+    },
+    "payment_method": "Efectivo",
+    "status": "Devuelto",
+    "shipping_cost": 72.11,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00009",
+    "timestamp": "2024-01-15T00:00:00",
+    "product": " Webcam Logitech C920",
+    "qty": 2,
+    "unit_price": "Bs 633",
+    "customer": {
+      "name": "Eduardo Condori",
+      "email": "eduardo.condori@ucb.edu.bo",
+      "city": "SCZ"
+    },
+    "payment_method": "Efectivo",
+    "status": "Entregado",
+    "shipping_cost": 63.67,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00290",
+    "timestamp": "2025-02-27T00:00:00",
+    "product": "Monitor  LG  27\"",
+    "qty": 1,
+    "unit_price": 2774.4,
+    "customer": {
+      "name": "Mónica García",
+      "email": "mónica.garcía@gmail.com..",
+      "city": "LP"
+    },
+    "payment_method": "Tarjeta Débito",
+    "status": "Entregado",
+    "shipping_cost": 68.4,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00388",
+    "timestamp": "2024-11-04T00:00:00",
+    "product": "Disco Duro Externo 1TB  ",
+    "qty": 1,
+    "unit_price": 506.32,
+    "customer": {
+      "name": "Andrés López",
+      "email": "andrés.lópez @outlook.com",
+      "city": "Cochabamba"
+    },
+    "payment_method": "Tarjeta Crédito",
+    "status": "Entregado",
+    "shipping_cost": null,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00350",
+    "timestamp": "2024/08/25",
+    "product": "SSD Samsung 500GB  ",
+    "qty": 3,
+    "unit_price": 554.83,
+    "customer": {
+      "name": "Andrés López",
+      "email": "andrés.lópez@ucb.edu.bo",
+      "city": "Potosí"
+    },
+    "payment_method": "Transferencia",
+    "status": "En camino",
+    "shipping_cost": 33.77,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00348",
+    "timestamp": "September 25, 2024",
+    "product": "Mouse Gamer Razer",
+    "qty": 1,
+    "unit_price": "BOB 428.69",
+    "customer": {
+      "name": "Claudia Mendoza",
+      "email": "claudia.mendoza@outlook.com",
+      "city": "Cobija"
+    },
+    "payment_method": "Efectivo",
+    "status": "Devuelto",
+    "shipping_cost": 37.35,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00264",
+    "timestamp": "19-Dec-2024",
+    "product": "Tablet Samsung Galaxy Tab",
+    "qty": 4,
+    "unit_price": 3650.75,
+    "customer": {
+      "name": "Alejandro López",
+      "email": "alejandro.lópez@ucb.edu.bo",
+      "city": "Cochabamba"
+    },
+    "payment_method": "Tarjeta Débito",
+    "status": "Entregado",
+    "shipping_cost": null,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00171",
+    "timestamp": "2025-01-25T00:00:00",
+    "product": " Memoria USB 64GB",
+    "qty": 1,
+    "unit_price": "Bs 77",
+    "customer": {
+      "name": "Verónica Salazar",
+      "email": "verónica.salazar@yahoo.com",
+      "city": "Potosí"
+    },
+    "payment_method": "Transferencia",
+    "status": "Entregado",
+    "shipping_cost": 62.53,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00287",
+    "timestamp": "2024-04-21T00:00:00",
+    "product": "Impresora HP DeskJet",
+    "qty": 2,
+    "unit_price": 1127.11,
+    "customer": {
+      "name": "Martín Salazar",
+      "email": "@yahoo.com",
+      "city": "Cochabamba"
+    },
+    "payment_method": "Tarjeta Crédito",
+    "status": "Entregado",
+    "shipping_cost": 45.39,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00001",
+    "timestamp": "2024-10-02T00:00:00",
+    "product": "MOUSE GAMER RAZER",
+    "qty": 2,
+    "unit_price": 470.51,
+    "customer": {
+      "name": "Andrés Fernández",
+      "email": "andrés.fernández@gmail.com",
+      "city": "Potosi"
+    },
+    "payment_method": "Tarjeta Crédito",
+    "status": "Entregado",
+    "shipping_cost": 56.66,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00307",
+    "timestamp": "2024-01-23T00:00:00",
+    "product": " Laptop Lenovo ThinkPad",
+    "qty": 1,
+    "unit_price": 6930.79,
+    "customer": {
+      "name": "Natalia Flores",
+      "email": "natalia.flores@ucb.edu.bo",
+      "city": "santa cruz"
+    },
+    "payment_method": "Tarjeta Crédito",
+    "status": "Pendiente",
+    "shipping_cost": 57.99,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00011",
+    "timestamp": "2024-12-30T00:00:00",
+    "product": "TABLET SAMSUNG GALAXY TAB",
+    "qty": 3,
+    "unit_price": 2893.58,
+    "customer": {
+      "name": "Claudia Salazar",
+      "email": "claudia.salazar@outlook.com",
+      "city": "Oruro"
+    },
+    "payment_method": "QR",
+    "status": "Pendiente",
+    "shipping_cost": null,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00168",
+    "timestamp": "2024-07-31T00:00:00",
+    "product": "webcam logitech c920",
+    "qty": 2,
+    "unit_price": 602.27,
+    "customer": {
+      "name": "Verónica García",
+      "email": "verónica.garcía@hotmail.com",
+      "city": "Potosi"
+    },
+    "payment_method": "Tarjeta Débito",
+    "status": "Entregado",
+    "shipping_cost": 68.19,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00041",
+    "timestamp": "2024-05-23T00:00:00",
+    "product": "LAPTOP DELL INSPIRON",
+    "qty": 2,
+    "unit_price": 5599.44,
+    "customer": {
+      "name": "Javier Condori",
+      "email": "javier.condori@gmail.com",
+      "city": "Tarija"
+    },
+    "payment_method": "Transferencia",
+    "status": "Entregado",
+    "shipping_cost": 51.68,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00034",
+    "timestamp": "2024/05/29",
+    "product": "Batería  Externa  20000mAh",
+    "qty": 2,
+    "unit_price": "Bs. 210.66",
+    "customer": {
+      "name": "Verónica Flores",
+      "email": "verónica.flores@gmail.com",
+      "city": "Potosí"
+    },
+    "payment_method": "Tarjeta Crédito",
+    "status": "En camino",
+    "shipping_cost": 26.07,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00306",
+    "timestamp": "2024-10-22T00:00:00",
+    "product": "Mouse Inalámbrico Logitech",
+    "qty": 4,
+    "unit_price": "BOB 191.36",
+    "customer": {
+      "name": "Javier López",
+      "email": "javier.lópez@outlook.com",
+      "city": "Potosí"
+    },
+    "payment_method": "QR",
+    "status": "Entregado",
+    "shipping_cost": 37.17,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00185",
+    "timestamp": "2024-03-10T00:00:00",
+    "product": "Mouse  Gamer  Razer",
+    "qty": 4,
+    "unit_price": "Bs.398.46",
+    "customer": {
+      "name": "Patricia Mendoza",
+      "email": "patricia.mendoza@yahoo.com",
+      "city": "Oruro"
+    },
+    "payment_method": "Efectivo",
+    "status": "Entregado",
+    "shipping_cost": 77.11,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00124",
+    "timestamp": "2024-01-29T00:00:00",
+    "product": "Audífonos  Sony  WH-1000",
+    "qty": 4,
+    "unit_price": 2082.83,
+    "customer": {
+      "name": "Claudia Condori",
+      "email": "claudia.condori @hotmail.com",
+      "city": "Sucre"
+    },
+    "payment_method": null,
+    "status": "Entregado",
+    "shipping_cost": null,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00240",
+    "timestamp": "2024-06-11T00:00:00",
+    "product": "cargador universal usb-c",
+    "qty": 1,
+    "unit_price": 119.35,
+    "customer": {
+      "name": "Natalia Condori",
+      "email": "natalia.condori@outlook.com",
+      "city": "Oruro"
+    },
+    "payment_method": "Efectivo",
+    "status": "Entregado",
+    "shipping_cost": 66.93,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00104",
+    "timestamp": "2024-10-09T00:00:00",
+    "product": "Impresora Epson L3250",
+    "qty": 3,
+    "unit_price": 1516.84,
+    "customer": {
+      "name": "Javier López",
+      "email": "javier.lópez@ucb.edu.bo",
+      "city": "CBBA"
+    },
+    "payment_method": "Tarjeta Crédito",
+    "status": "Entregado",
+    "shipping_cost": 20.07,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00078",
+    "timestamp": "2025-02-19T00:00:00",
+    "product": "MEMORIA USB 64GB",
+    "qty": 1,
+    "unit_price": "75.63 Bs",
+    "customer": {
+      "name": "Sebastián Mamani",
+      "email": "sebastián.mamani@ucb.edu.bo",
+      "city": "Potosí"
+    },
+    "payment_method": "Efectivo",
+    "status": "Entregado",
+    "shipping_cost": 31.16,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00152",
+    "timestamp": "2025-02-05T00:00:00",
+    "product": "Impresora  Epson  L3250",
+    "qty": 4,
+    "unit_price": 1631.87,
+    "customer": {
+      "name": "Alejandro Quispe",
+      "email": "alejandro.quispe@outlook.com",
+      "city": "Sucre"
+    },
+    "payment_method": "Tarjeta Crédito",
+    "status": "Cancelado",
+    "shipping_cost": 46.86,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00010",
+    "timestamp": "2025-02-18T00:00:00",
+    "product": "WEBCAM LOGITECH C920",
+    "qty": 2,
+    "unit_price": 564.92,
+    "customer": {
+      "name": "Eduardo Gutiérrez",
+      "email": "eduardo.gutiérrez@hotmail.com",
+      "city": "cochabamba"
+    },
+    "payment_method": "Efectivo",
+    "status": "Devuelto",
+    "shipping_cost": 63.26,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00237",
+    "timestamp": "2024-02-13T00:00:00",
+    "product": " SSD Samsung 500GB",
+    "qty": 1,
+    "unit_price": "Bs.475.87",
+    "customer": {
+      "name": "Miguel Vargas",
+      "email": "miguel.vargas@ucb.edu.bo",
+      "city": "Cochabamba"
+    },
+    "payment_method": "Tarjeta Débito",
+    "status": "Entregado",
+    "shipping_cost": 27.5,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00224",
+    "timestamp": "April 11, 2024",
+    "product": "Memoria USB 64GB",
+    "qty": 3,
+    "unit_price": 91.56,
+    "customer": {
+      "name": "Mónica Fernández",
+      "email": "mónica.fernández@outlook.com",
+      "city": "Trinidad"
+    },
+    "payment_method": "Efectivo",
+    "status": "En camino",
+    "shipping_cost": 31.59,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00194",
+    "timestamp": "2024-04-17T00:00:00",
+    "product": "monitor lg 27\"",
+    "qty": 2,
+    "unit_price": 2646.16,
+    "customer": {
+      "name": "Miguel Condori",
+      "email": "miguel.condori@outlook.com",
+      "city": "Tarija"
+    },
+    "payment_method": "Transferencia",
+    "status": "Cancelado",
+    "shipping_cost": 55.69,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00047",
+    "timestamp": "07-27-2024",
+    "product": "Mouse  Gamer  Razer",
+    "qty": 1,
+    "unit_price": 516.68,
+    "customer": {
+      "name": "Eduardo Condori",
+      "email": "eduardo.condori@",
+      "city": "Sucre"
+    },
+    "payment_method": "Efectivo",
+    "status": "Entregado",
+    "shipping_cost": 43.04,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00177",
+    "timestamp": "2024-07-02T00:00:00",
+    "product": "tarjeta gráfica nvidia rtx",
+    "qty": 3,
+    "unit_price": 4854.58,
+    "customer": {
+      "name": "Javier Vargas",
+      "email": "javier.vargas@hotmail.com",
+      "city": "Potosi"
+    },
+    "payment_method": "Efectivo",
+    "status": "Entregado",
+    "shipping_cost": null,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00362",
+    "timestamp": "2024-04-14T00:00:00",
+    "product": "Tarjeta Gráfica NVIDIA RTX",
+    "qty": 3,
+    "unit_price": 4763.94,
+    "customer": {
+      "name": "Andrés García",
+      "email": "andrés.garcía@ucb.edu.bo",
+      "city": "Cobija"
+    },
+    "payment_method": "Tarjeta Crédito",
+    "status": "En camino",
+    "shipping_cost": 52.3,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00071",
+    "timestamp": "2024-07-29T00:00:00",
+    "product": "kit limpieza pantalla",
+    "qty": 2,
+    "unit_price": "bs. 34.48",
+    "customer": {
+      "name": "Miguel López",
+      "email": "miguel.lópez@outlook.com",
+      "city": "santa cruz"
+    },
+    "payment_method": "Tarjeta Crédito",
+    "status": "Entregado",
+    "shipping_cost": 39.86,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00163",
+    "timestamp": "2024-03-04T00:00:00",
+    "product": "Monitor  LG  27\"",
+    "qty": 1,
+    "unit_price": 2377.82,
+    "customer": {
+      "name": "Eduardo Condori",
+      "email": "eduardo.condori@outlook.com",
+      "city": "Potosí"
+    },
+    "payment_method": "Tarjeta Crédito",
+    "status": "Entregado",
+    "shipping_cost": 16.99,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00340",
+    "timestamp": "2024-08-28T00:00:00",
+    "product": "Tarjeta  Gráfica  NVIDIA  RTX",
+    "qty": 2,
+    "unit_price": 3990.9,
+    "customer": {
+      "name": "Lorena López",
+      "email": "lorena.lópez@hotmail.com",
+      "city": "La Paz"
+    },
+    "payment_method": "Tarjeta Débito",
+    "status": "Entregado",
+    "shipping_cost": 22.47,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00386",
+    "timestamp": "2024-07-14T00:00:00",
+    "product": "Audifonos Sony WH-1000",
+    "qty": 3,
+    "unit_price": 2075.89,
+    "customer": {
+      "name": "Natalia Morales",
+      "email": "natalia.morales@ucb.edu.bo",
+      "city": "Potosi"
+    },
+    "payment_method": "QR",
+    "status": "Pendiente",
+    "shipping_cost": 40.17,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00140",
+    "timestamp": "2024-10-10",
+    "product": "Teclado Logitech K380  ",
+    "qty": -1,
+    "unit_price": 363.68,
+    "customer": {
+      "name": "Fernando Torrez",
+      "email": "fernando.torrez @ucb.edu.bo",
+      "city": "santa cruz"
+    },
+    "payment_method": "Tarjeta Crédito",
+    "status": "Entregado",
+    "shipping_cost": 69.59,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00273",
+    "timestamp": "2024-11-20T00:00:00",
+    "product": "Mouse Gamer Razer  ",
+    "qty": 2,
+    "unit_price": 428.24,
+    "customer": {
+      "name": "Gabriela Vargas",
+      "email": "gabriela.vargas@outlook.com..",
+      "city": "Cobija"
+    },
+    "payment_method": "QR",
+    "status": "Cancelado",
+    "shipping_cost": null,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00026",
+    "timestamp": "2024-04-13T00:00:00",
+    "product": " Mouse Gamer Razer",
+    "qty": 1,
+    "unit_price": 456.1,
+    "customer": {
+      "name": "Alejandro Choque",
+      "email": "alejandro.choque @ucb.edu.bo",
+      "city": "Cobija"
+    },
+    "payment_method": "Tarjeta Crédito",
+    "status": "Devuelto",
+    "shipping_cost": 21.37,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00249",
+    "timestamp": "2024-01-12T00:00:00",
+    "product": "Monitor Samsung 24\"  ",
+    "qty": 2,
+    "unit_price": "1879.96 Bs",
+    "customer": {
+      "name": "Verónica Quispe",
+      "email": "verónica.quispe@outlook.com..",
+      "city": "cochabamba"
+    },
+    "payment_method": "Tarjeta Débito",
+    "status": "Pendiente",
+    "shipping_cost": 47.2,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00333",
+    "timestamp": "2024-01-04T00:00:00",
+    "product": "tablet samsung galaxy tab",
+    "qty": 1,
+    "unit_price": 3580.95,
+    "customer": {
+      "name": "Lorena Vargas",
+      "email": "lorena.vargas@hotmail.com",
+      "city": "la paz"
+    },
+    "payment_method": "Transferencia",
+    "status": "Entregado",
+    "shipping_cost": 40.61,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00239",
+    "timestamp": "2025-01-22T00:00:00",
+    "product": "tarjeta gráfica nvidia rtx",
+    "qty": 3,
+    "unit_price": "5029.86 Bs",
+    "customer": {
+      "name": "Lorena Salazar",
+      "email": "lorena.salazar@ucb.edu.bo",
+      "city": "Tarija"
+    },
+    "payment_method": "Tarjeta Débito",
+    "status": "Cancelado",
+    "shipping_cost": 25.9,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00159",
+    "timestamp": "2024-04-04T00:00:00",
+    "product": "Laptop  HP  Pavilion",
+    "qty": 3,
+    "unit_price": "Bs 5699",
+    "customer": {
+      "name": "Javier Torrez",
+      "email": "javier.torrez@yahoo.com",
+      "city": "Cobija"
+    },
+    "payment_method": "Tarjeta Crédito",
+    "status": "Devuelto",
+    "shipping_cost": 49.35,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00099",
+    "timestamp": "2024-09-09T00:00:00",
+    "product": "Memoria  USB  128GB",
+    "qty": -1,
+    "unit_price": 167.02,
+    "customer": {
+      "name": "Claudia Vargas",
+      "email": "claudia.vargas@ucb.edu.bo",
+      "city": "SCZ"
+    },
+    "payment_method": "Tarjeta Crédito",
+    "status": "En camino",
+    "shipping_cost": 24.89,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00207",
+    "timestamp": "2024-07-21T00:00:00",
+    "product": "Impresora Epson L3250",
+    "qty": 2,
+    "unit_price": 1853.66,
+    "customer": {
+      "name": "Carla Torrez",
+      "email": "carla.torrez@yahoo.com",
+      "city": "Tarija"
+    },
+    "payment_method": "QR",
+    "status": "Entregado",
+    "shipping_cost": 23.12,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00382",
+    "timestamp": "2024-01-05T00:00:00",
+    "product": " Monitor Samsung 24\"",
+    "qty": 1,
+    "unit_price": 1636.31,
+    "customer": {
+      "name": "Silvia Condori",
+      "email": "silvia.condori@outlook.com",
+      "city": "La Paz"
+    },
+    "payment_method": "QR",
+    "status": "En camino",
+    "shipping_cost": 64.98,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00222",
+    "timestamp": "2024-07-25T00:00:00",
+    "product": " Disco Duro Externo 1TB",
+    "qty": 2,
+    "unit_price": 474.06,
+    "customer": {
+      "name": "Fernando Choque",
+      "email": "fernando.choque@ucb.edu.bo",
+      "city": "Potosí"
+    },
+    "payment_method": "Transferencia",
+    "status": "Entregado",
+    "shipping_cost": 54.07,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00381",
+    "timestamp": "2024-09-05T00:00:00",
+    "product": "Audífonos Sony WH-1000",
+    "qty": 2,
+    "unit_price": "bs. 2273.43",
+    "customer": {
+      "name": "Fernando Gutiérrez",
+      "email": "fernando.gutiérrez@outlook.com",
+      "city": "Potosi"
+    },
+    "payment_method": "Transferencia",
+    "status": "Entregado",
+    "shipping_cost": 52.57,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00102",
+    "timestamp": "2024/06/30",
+    "product": "Mouse Gamer Razer",
+    "qty": 4,
+    "unit_price": "Bs. 408.57",
+    "customer": {
+      "name": "Patricia García",
+      "email": "patricia.garcía@outlook.com",
+      "city": "Tarija"
+    },
+    "payment_method": "Efectivo",
+    "status": "Entregado",
+    "shipping_cost": 63.01,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00134",
+    "timestamp": "2024/02/02",
+    "product": "Adaptador HDMI a VGA  ",
+    "qty": 4,
+    "unit_price": 73.77,
+    "customer": {
+      "name": "Ricardo Fernández",
+      "email": "ricardo.fernández@ucb.edu.bo",
+      "city": "SCZ"
+    },
+    "payment_method": "Transferencia",
+    "status": "Pendiente",
+    "shipping_cost": 18.96,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00042",
+    "timestamp": "2025-02-28T00:00:00",
+    "product": "laptop lenovo thinkpad",
+    "qty": 3,
+    "unit_price": 8755.4,
+    "customer": {
+      "name": "Verónica Vargas",
+      "email": "verónica.vargas@hotmail.com",
+      "city": "LP"
+    },
+    "payment_method": "Efectivo",
+    "status": "Entregado",
+    "shipping_cost": 47.13,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00234",
+    "timestamp": "29/03/2025",
+    "product": "Adaptador  HDMI  a  VGA",
+    "qty": 3,
+    "unit_price": "Bs. 59.21",
+    "customer": {
+      "name": "Javier Quispe",
+      "email": "javier.quispe@hotmail.com",
+      "city": "cochabamba"
+    },
+    "payment_method": "QR",
+    "status": "Pendiente",
+    "shipping_cost": 75.68,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00018",
+    "timestamp": "2024-01-15T00:00:00",
+    "product": " Teclado Logitech K380",
+    "qty": 1,
+    "unit_price": 348.16,
+    "customer": {
+      "name": "Verónica Salazar",
+      "email": "verónica.salazar@ucb.edu.bo",
+      "city": "Cochabamba"
+    },
+    "payment_method": "Tarjeta Débito",
+    "status": "Entregado",
+    "shipping_cost": 15.64,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00085",
+    "timestamp": "2024-05-22T00:00:00",
+    "product": "Cargador Universal USB-C",
+    "qty": 4,
+    "unit_price": "114.33 Bs",
+    "customer": {
+      "name": "Daniela Torrez",
+      "email": "daniela.torrez@hotmail.com",
+      "city": "Santa Cruz"
+    },
+    "payment_method": "Transferencia",
+    "status": "Entregado",
+    "shipping_cost": 73.0,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00158",
+    "timestamp": "2024-11-29T00:00:00",
+    "product": "IMPRESORA HP DESKJET",
+    "qty": 3,
+    "unit_price": 1326.22,
+    "customer": {
+      "name": "Fernando García",
+      "email": "fernando.garcía@hotmail.com",
+      "city": "la paz"
+    },
+    "payment_method": "QR",
+    "status": "Cancelado",
+    "shipping_cost": null,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00076",
+    "timestamp": "2024-01-08T00:00:00",
+    "product": " Laptop Dell Inspiron",
+    "qty": 4,
+    "unit_price": "Bs 6183",
+    "customer": {
+      "name": "Carla Morales",
+      "email": "carla.morales@gmail.com",
+      "city": "Trinidad"
+    },
+    "payment_method": "Transferencia",
+    "status": "Entregado",
+    "shipping_cost": 15.91,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00141",
+    "timestamp": "2024-10-29T00:00:00",
+    "product": " Audífonos JBL Tune",
+    "qty": null,
+    "unit_price": 390.14,
+    "customer": {
+      "name": "Silvia Vargas",
+      "email": "silvia.vargas@gmail.com",
+      "city": "Santa Cruz"
+    },
+    "payment_method": "Efectivo",
+    "status": "Entregado",
+    "shipping_cost": 51.76,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00175",
+    "timestamp": "2024/12/29",
+    "product": "IMPRESORA EPSON L3250",
+    "qty": 1,
+    "unit_price": 1460.09,
+    "customer": {
+      "name": "Pablo Torrez",
+      "email": "pablo.torrez@hotmail.com",
+      "city": "SCZ"
+    },
+    "payment_method": "Transferencia",
+    "status": "Entregado",
+    "shipping_cost": 25.33,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00212",
+    "timestamp": "2024-04-18T00:00:00",
+    "product": "Monitor LG 27\"",
+    "qty": 4,
+    "unit_price": "Bs 2552",
+    "customer": {
+      "name": "Claudia Rojas",
+      "email": "claudia.rojas@hotmail.com",
+      "city": "Sucre"
+    },
+    "payment_method": "Transferencia",
+    "status": "En camino",
+    "shipping_cost": 57.41,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00336",
+    "timestamp": "2024-12-28T00:00:00",
+    "product": " Memoria USB 128GB",
+    "qty": 3,
+    "unit_price": null,
+    "customer": {
+      "name": "Ricardo García",
+      "email": "ricardo.garcía@",
+      "city": "Potosi"
+    },
+    "payment_method": "Transferencia",
+    "status": "Entregado",
+    "shipping_cost": 72.85,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00070",
+    "timestamp": "2024-09-12T00:00:00",
+    "product": "MOUSE GAMER RAZER",
+    "qty": -3,
+    "unit_price": "BOB 405.26",
+    "customer": {
+      "name": "Javier Rojas",
+      "email": "javier.rojas@gmail.com",
+      "city": "Sucre"
+    },
+    "payment_method": "Efectivo",
+    "status": "Entregado",
+    "shipping_cost": 28.43,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00057",
+    "timestamp": "2025-02-14T00:00:00",
+    "product": "Tarjeta  Gráfica  NVIDIA  RTX",
+    "qty": 2,
+    "unit_price": 4637.98,
+    "customer": "Eduardo Torrez",
+    "payment_method": "Tarjeta Débito",
+    "status": "Cancelado",
+    "shipping_cost": 69.12,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00145",
+    "timestamp": "23/04/2024",
+    "product": " Parlante Bluetooth JBL",
+    "qty": 4,
+    "unit_price": 726.23,
+    "customer": {
+      "name": "Martín Gutiérrez",
+      "email": "martín.gutiérrez@gmail.com",
+      "city": "Cobija"
+    },
+    "payment_method": "Efectivo",
+    "status": "Entregado",
+    "shipping_cost": 47.85,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00156",
+    "timestamp": "2024-09-16T00:00:00",
+    "product": "IMPRESORA EPSON L3250",
+    "qty": 3,
+    "unit_price": 1863.28,
+    "customer": {
+      "name": "Eduardo Salazar",
+      "email": "eduardo.salazar@ucb.edu.bo",
+      "city": "Trinidad"
+    },
+    "payment_method": "Transferencia",
+    "status": "Entregado",
+    "shipping_cost": 54.38,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00334",
+    "timestamp": "2025-02-02T00:00:00",
+    "product": "ROUTER WIFI TP-LINK",
+    "qty": 3,
+    "unit_price": 451.08,
+    "customer": {
+      "name": "Silvia López",
+      "email": "silvia.lópez@yahoo.com",
+      "city": "Potosi"
+    },
+    "payment_method": "Efectivo",
+    "status": "Cancelado",
+    "shipping_cost": 26.39,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00257",
+    "timestamp": "07-Jan-2025",
+    "product": "hub usb 4 puertos",
+    "qty": 2,
+    "unit_price": 92.13,
+    "customer": {
+      "name": "Claudia López",
+      "email": "claudia.lópez@yahoo.com",
+      "city": "CBBA"
+    },
+    "payment_method": "QR",
+    "status": "Entregado",
+    "shipping_cost": 69.44,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00097",
+    "timestamp": "2024-10-07T00:00:00",
+    "product": "Funda  para  Laptop  15\"",
+    "qty": 2,
+    "unit_price": 147.66,
+    "customer": "Carla Fernández",
+    "payment_method": "Transferencia",
+    "status": "Entregado",
+    "shipping_cost": 48.44,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00037",
+    "timestamp": "2024-10-10",
+    "product": " Audífonos JBL Tune",
+    "qty": 1,
+    "unit_price": 422.53,
+    "customer": {
+      "name": "Lorena Condori",
+      "email": "lorena.condori@yahoo.com",
+      "city": "Santa Cruz"
+    },
+    "payment_method": "Efectivo",
+    "status": "Entregado",
+    "shipping_cost": 54.56,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00369",
+    "timestamp": "2024-08-15T00:00:00",
+    "product": "CARGADOR UNIVERSAL USB-C",
+    "qty": -1,
+    "unit_price": 117.59,
+    "customer": {
+      "name": "Silvia López",
+      "email": "silvia.lópez@outlook.com",
+      "city": "Cobija"
+    },
+    "payment_method": "Tarjeta Débito",
+    "status": "Entregado",
+    "shipping_cost": 77.51,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00002",
+    "timestamp": "02-21-2025",
+    "product": "Impresora HP DeskJet",
+    "qty": 4,
+    "unit_price": 1325.88,
+    "customer": {
+      "name": "Eduardo López",
+      "email": "eduardo.lópez@yahoo.com",
+      "city": "la paz"
+    },
+    "payment_method": "Efectivo",
+    "status": "Entregado",
+    "shipping_cost": 75.24,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00120",
+    "timestamp": "07-Feb-2025",
+    "product": "BATERÍA EXTERNA 20000MAH",
+    "qty": null,
+    "unit_price": 245.19,
+    "customer": {
+      "name": "Miguel García",
+      "email": "miguel.garcía@ucb.edu.bo",
+      "city": "cochabamba"
+    },
+    "payment_method": "Tarjeta Crédito",
+    "status": "Cancelado",
+    "shipping_cost": null,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00032",
+    "timestamp": "2024-03-28T00:00:00",
+    "product": "teclado logitech k380",
+    "qty": 3,
+    "unit_price": "Bs. 332.76",
+    "customer": {
+      "name": "Alejandro Mamani",
+      "email": "alejandro.mamani@gmail.com",
+      "city": "Santa Cruz"
+    },
+    "payment_method": "Efectivo",
+    "status": "En camino",
+    "shipping_cost": 42.5,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00059",
+    "timestamp": "2024-12-26T00:00:00",
+    "product": "Impresora Epson L3250",
+    "qty": 1,
+    "unit_price": "BOB 1758.78",
+    "customer": {
+      "name": "Silvia Flores",
+      "email": "silvia.flores@hotmail.com",
+      "city": "Tarija"
+    },
+    "payment_method": "Tarjeta Débito",
+    "status": "Cancelado",
+    "shipping_cost": 50.5,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00293",
+    "timestamp": "2024-07-05",
+    "product": " Teclado Logitech K380",
+    "qty": 4,
+    "unit_price": 334.24,
+    "customer": {
+      "name": "Martín Quispe",
+      "email": "martín.quispe@",
+      "city": "Potosi"
+    },
+    "payment_method": "QR",
+    "status": "Entregado",
+    "shipping_cost": 63.48,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00218",
+    "timestamp": "2024/06/07",
+    "product": "Tablet Samsung Galaxy Tab",
+    "qty": 4,
+    "unit_price": 3258.96,
+    "customer": {
+      "name": "Lorena García",
+      "email": "lorena.garcía@ucb.edu.bo",
+      "city": "Potosi"
+    },
+    "payment_method": "Transferencia",
+    "status": "Pendiente",
+    "shipping_cost": 28.29,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00269",
+    "timestamp": "2024-02-09T00:00:00",
+    "product": "Impresora Epson L3250",
+    "qty": 2,
+    "unit_price": 1697.08,
+    "customer": {
+      "name": "Carla Gutiérrez",
+      "email": "carla.gutiérrez@ucb.edu.bo",
+      "city": "cochabamba"
+    },
+    "payment_method": "Tarjeta Crédito",
+    "status": "En camino",
+    "shipping_cost": 45.33,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00162",
+    "timestamp": "2024-01-07T00:00:00",
+    "product": "Tablet iPad Air",
+    "qty": 2,
+    "unit_price": "5090.8 Bs",
+    "customer": {
+      "name": "Gabriela Mamani",
+      "email": "gabriela.mamani@gmail.com",
+      "city": "Potosí"
+    },
+    "payment_method": "Efectivo",
+    "status": "Entregado",
+    "shipping_cost": 20.95,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00072",
+    "timestamp": "2024-04-01T00:00:00",
+    "product": "monitor samsung 24\"",
+    "qty": 3,
+    "unit_price": 1565.0,
+    "customer": {
+      "name": "Verónica Rojas",
+      "email": "verónica.rojas@hotmail.com",
+      "city": "Santa Cruz"
+    },
+    "payment_method": "Efectivo",
+    "status": "Entregado",
+    "shipping_cost": 41.56,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00309",
+    "timestamp": "29 de February de 2024",
+    "product": "ADAPTADOR HDMI A VGA",
+    "qty": 3,
+    "unit_price": "Bs 60",
+    "customer": {
+      "name": "Claudia Vargas",
+      "email": "claudia.vargas@yahoo.com",
+      "city": "Cobija"
+    },
+    "payment_method": "Efectivo",
+    "status": "En camino",
+    "shipping_cost": 37.87,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00387",
+    "timestamp": "11-16-2024",
+    "product": "Router WiFi TP-Link",
+    "qty": 3,
+    "unit_price": 382.68,
+    "customer": {
+      "name": "Sebastián Choque",
+      "email": "sebastián.choque@yahoo.com",
+      "city": "LP"
+    },
+    "payment_method": null,
+    "status": "Entregado",
+    "shipping_cost": 69.69,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00066",
+    "timestamp": "2024-11-25T00:00:00",
+    "product": "Procesador AMD Ryzen 5",
+    "qty": 3,
+    "unit_price": 1764.0,
+    "customer": {
+      "name": "Gabriela Fernández",
+      "email": "gabriela.fernández@yahoo.com",
+      "city": "Potosí"
+    },
+    "payment_method": "Transferencia",
+    "status": "Cancelado",
+    "shipping_cost": 60.41,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00093",
+    "timestamp": "2025-01-31T00:00:00",
+    "product": "tablet ipad air",
+    "qty": 2,
+    "unit_price": 5254.6,
+    "customer": {
+      "name": "Andrés López",
+      "email": "andrés.lópez@gmail.com",
+      "city": "CBBA"
+    },
+    "payment_method": "Efectivo",
+    "status": "Entregado",
+    "shipping_cost": 30.93,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00043",
+    "timestamp": "2025-01-08T00:00:00",
+    "product": "Audífonos Sony WH-1000  ",
+    "qty": 4,
+    "unit_price": 2509.7,
+    "customer": {
+      "name": "Fernando Mamani",
+      "email": "fernando.mamani@outlook.com",
+      "city": "Cochabamba"
+    },
+    "payment_method": "Tarjeta Débito",
+    "status": "Entregado",
+    "shipping_cost": null,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00364",
+    "timestamp": "January 11, 2024",
+    "product": "Bateria Externa 20000mAh",
+    "qty": 3,
+    "unit_price": 200.86,
+    "customer": {
+      "name": "Eduardo Salazar",
+      "email": "eduardo.salazar@yahoo.com",
+      "city": "Tarija"
+    },
+    "payment_method": "Transferencia",
+    "status": "Entregado",
+    "shipping_cost": 65.15,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00299",
+    "timestamp": "2024-12-30T00:00:00",
+    "product": "Hub  USB  4  puertos",
+    "qty": 4,
+    "unit_price": 103.24,
+    "customer": {
+      "name": "Lorena Mendoza",
+      "email": "lorena.mendoza@ucb.edu.bo",
+      "city": "Tarija"
+    },
+    "payment_method": "Tarjeta Crédito",
+    "status": "Entregado",
+    "shipping_cost": 47.99,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00030",
+    "timestamp": "2024-03-03T00:00:00",
+    "product": "Memoria  USB  64GB",
+    "qty": 1,
+    "unit_price": 79.19,
+    "customer": {
+      "name": "Miguel Choque",
+      "email": "miguel.choque@ucb.edu.bo",
+      "city": "La Paz"
+    },
+    "payment_method": "Transferencia",
+    "status": "Entregado",
+    "shipping_cost": 57.45,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00206",
+    "timestamp": "2024-05-06T00:00:00",
+    "product": "Tablet iPad Air",
+    "qty": 1,
+    "unit_price": 4901.62,
+    "customer": {
+      "name": "Gabriela Vargas",
+      "email": "gabriela.vargas@yahoo.com",
+      "city": "Trinidad"
+    },
+    "payment_method": "Efectivo",
+    "status": "Cancelado",
+    "shipping_cost": 71.34,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00109",
+    "timestamp": "2024-01-16T00:00:00",
+    "product": "Procesador AMD Ryzen 5",
+    "qty": 3,
+    "unit_price": 1578.64,
+    "customer": {
+      "name": "Eduardo Salazar",
+      "email": "eduardo.salazar@outlook.com",
+      "city": "CBBA"
+    },
+    "payment_method": "QR",
+    "status": "Devuelto",
+    "shipping_cost": 70.52,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00392",
+    "timestamp": "2025-03-22T00:00:00",
+    "product": "Cable  HDMI  2m",
+    "qty": 4,
+    "unit_price": "49.23 Bs",
+    "customer": {
+      "name": "Carla Vargas",
+      "email": "carla.vargas@yahoo.com",
+      "city": "CBBA"
+    },
+    "payment_method": "Tarjeta Crédito",
+    "status": "Devuelto",
+    "shipping_cost": 27.41,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00019",
+    "timestamp": "2024-06-07T00:00:00",
+    "product": "Disco Duro Externo 1TB  ",
+    "qty": 2,
+    "unit_price": 508.12,
+    "customer": {
+      "name": "Pablo Morales",
+      "email": "pablo.morales@",
+      "city": "La Paz"
+    },
+    "payment_method": "Tarjeta Débito",
+    "status": "Entregado",
+    "shipping_cost": 54.74,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00020",
+    "timestamp": "2024-12-10T00:00:00",
+    "product": "Teclado Logitech K380",
+    "qty": 1,
+    "unit_price": 304.22,
+    "customer": {
+      "name": "Eduardo García",
+      "email": "eduardo.garcía@hotmail.com..",
+      "city": "CBBA"
+    },
+    "payment_method": "Transferencia",
+    "status": "Pendiente",
+    "shipping_cost": 31.89,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00294",
+    "timestamp": "2024-09-12T00:00:00",
+    "product": "laptop lenovo thinkpad",
+    "qty": 3,
+    "unit_price": 7718.83,
+    "customer": {
+      "name": "Verónica Vargas",
+      "email": "verónica.vargas@outlook.com",
+      "city": "CBBA"
+    },
+    "payment_method": "Tarjeta Crédito",
+    "status": "Entregado",
+    "shipping_cost": null,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00274",
+    "timestamp": "2024-08-08T00:00:00",
+    "product": "MOUSE INALÁMBRICO LOGITECH",
+    "qty": 4,
+    "unit_price": "Bs.204.35",
+    "customer": {
+      "name": "Natalia Torrez",
+      "email": "natalia.torrez@gmail.com",
+      "city": "la paz"
+    },
+    "payment_method": "Tarjeta Débito",
+    "status": "Cancelado",
+    "shipping_cost": 16.89,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00361",
+    "timestamp": "2024-04-13T00:00:00",
+    "product": "Memoria USB 128GB",
+    "qty": 3,
+    "unit_price": "Bs.150.6",
+    "customer": {
+      "name": "Natalia Torrez",
+      "email": "natalia.torrez@gmail.com",
+      "city": "cochabamba"
+    },
+    "payment_method": "QR",
+    "status": "Pendiente",
+    "shipping_cost": null,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00382",
+    "timestamp": "2024-01-05T00:00:00",
+    "product": " Monitor Samsung 24\"",
+    "qty": 1,
+    "unit_price": 1636.31,
+    "customer": {
+      "name": "Silvia Condori",
+      "email": "silvia.condori@outlook.com",
+      "city": "La Paz"
+    },
+    "payment_method": "QR",
+    "status": "En camino",
+    "shipping_cost": 64.98,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00292",
+    "timestamp": "2024-02-12T00:00:00",
+    "product": " Cargador Universal USB-C",
+    "qty": 3,
+    "unit_price": 124.17,
+    "customer": {
+      "name": "Natalia Condori",
+      "email": "natalia.condori @hotmail.com",
+      "city": "SCZ"
+    },
+    "payment_method": "Tarjeta Débito",
+    "status": "Entregado",
+    "shipping_cost": 58.76,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00210",
+    "timestamp": "2025-02-03T00:00:00",
+    "product": "funda para laptop 15\"",
+    "qty": 3,
+    "unit_price": 165.88,
+    "customer": {
+      "name": "Claudia Choque",
+      "email": "claudia.choque@hotmail.com",
+      "city": "Sucre"
+    },
+    "payment_method": "Transferencia",
+    "status": "Entregado",
+    "shipping_cost": null,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00347",
+    "timestamp": "2024-08-01T00:00:00",
+    "product": " SSD Samsung 500GB",
+    "qty": 4,
+    "unit_price": 470.82,
+    "customer": {
+      "name": "Sebastián Choque",
+      "email": "sebastián.choque@hotmail.com",
+      "city": "la paz"
+    },
+    "payment_method": "QR",
+    "status": "Entregado",
+    "shipping_cost": 20.29,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00279",
+    "timestamp": "2024-04-29T00:00:00",
+    "product": "Webcam Logitech C920",
+    "qty": 1,
+    "unit_price": 640.67,
+    "customer": {
+      "name": "Javier Mendoza",
+      "email": "javier.mendoza@ucb.edu.bo",
+      "city": "Potosí"
+    },
+    "payment_method": "Efectivo",
+    "status": "Entregado",
+    "shipping_cost": 27.52,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00170",
+    "timestamp": "2024-04-24T00:00:00",
+    "product": "Webcam Logitech C920  ",
+    "qty": 1,
+    "unit_price": 723.65,
+    "customer": {
+      "name": "Patricia Mendoza",
+      "email": "patricia.mendoza@ucb.edu.bo",
+      "city": "Potosi"
+    },
+    "payment_method": "Tarjeta Crédito",
+    "status": "Pendiente",
+    "shipping_cost": 58.49,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00189",
+    "timestamp": "2024-09-23T00:00:00",
+    "product": " Mouse Inalámbrico Logitech",
+    "qty": 4,
+    "unit_price": 175.27,
+    "customer": {
+      "name": "Carla Choque",
+      "email": "carla.choque@yahoo.com",
+      "city": "Oruro"
+    },
+    "payment_method": "Transferencia",
+    "status": "Entregado",
+    "shipping_cost": 72.41,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00128",
+    "timestamp": "2024-03-22T00:00:00",
+    "product": " Impresora Epson L3250",
+    "qty": 1,
+    "unit_price": 1547.44,
+    "customer": {
+      "name": "Patricia Mamani",
+      "email": "patricia.mamani@outlook.com",
+      "city": "SCZ"
+    },
+    "payment_method": "QR",
+    "status": "Cancelado",
+    "shipping_cost": 39.52,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00300",
+    "timestamp": "01 de December de 2024",
+    "product": "Memoria  USB  128GB",
+    "qty": 4,
+    "unit_price": 169.9,
+    "customer": {
+      "name": "Claudia Mamani",
+      "email": "claudia.mamani@ucb.edu.bo",
+      "city": "Oruro"
+    },
+    "payment_method": null,
+    "status": "Cancelado",
+    "shipping_cost": 17.49,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00044",
+    "timestamp": "15/03/2024",
+    "product": "Memoria USB 128GB",
+    "qty": 4,
+    "unit_price": 164.98,
+    "customer": "Alejandro Mamani",
+    "payment_method": "QR",
+    "status": "En camino",
+    "shipping_cost": 39.24,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00365",
+    "timestamp": "2024-09-29T00:00:00",
+    "product": "Monitor Samsung 24\"",
+    "qty": 4,
+    "unit_price": 1833.14,
+    "customer": {
+      "name": "Silvia Mendoza",
+      "email": "silvia.mendoza@hotmail.com",
+      "city": "SCZ"
+    },
+    "payment_method": "Efectivo",
+    "status": "En camino",
+    "shipping_cost": 26.19,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00190",
+    "timestamp": "2024-04-12T00:00:00",
+    "product": "Laptop HP Pavilion",
+    "qty": 4,
+    "unit_price": "Bs 6144",
+    "customer": {
+      "name": "Carla Vargas",
+      "email": "carla.vargas@hotmail.com",
+      "city": "Sucre"
+    },
+    "payment_method": "Efectivo",
+    "status": "En camino",
+    "shipping_cost": 26.97,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00049",
+    "timestamp": "2024-04-21T00:00:00",
+    "product": "LAPTOP LENOVO THINKPAD",
+    "qty": 2,
+    "unit_price": 7168.41,
+    "customer": {
+      "name": "Ricardo Vargas",
+      "email": "ricardo.vargas@hotmail.com",
+      "city": "Trinidad"
+    },
+    "payment_method": "Efectivo",
+    "status": "Pendiente",
+    "shipping_cost": 19.47,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00021",
+    "timestamp": "2025/02/09",
+    "product": " Audífonos JBL Tune",
+    "qty": 4,
+    "unit_price": 422.63,
+    "customer": "Miguel Vargas",
+    "payment_method": "QR",
+    "status": "Cancelado",
+    "shipping_cost": 70.04,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00283",
+    "timestamp": "2024-08-05T00:00:00",
+    "product": "Hub USB 4 puertos",
+    "qty": 3,
+    "unit_price": null,
+    "customer": {
+      "name": "Andrés Morales",
+      "email": "andrés.morales@hotmail.com",
+      "city": "Potosí"
+    },
+    "payment_method": "Transferencia",
+    "status": "Pendiente",
+    "shipping_cost": 44.88,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00182",
+    "timestamp": "31/05/2024",
+    "product": " Impresora Epson L3250",
+    "qty": 2,
+    "unit_price": 1767.36,
+    "customer": {
+      "name": "Mónica Rojas",
+      "email": "mónica.rojas@ucb.edu.bo",
+      "city": "LP"
+    },
+    "payment_method": "Transferencia",
+    "status": "Entregado",
+    "shipping_cost": 32.11,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00088",
+    "timestamp": "26 de June de 2024",
+    "product": "PARLANTE BLUETOOTH JBL",
+    "qty": 1,
+    "unit_price": 755.04,
+    "customer": {
+      "name": "Mónica López",
+      "email": "mónica.lópez@yahoo.com",
+      "city": "Cochabamba"
+    },
+    "payment_method": "QR",
+    "status": "En camino",
+    "shipping_cost": 73.76,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00395",
+    "timestamp": "2024-04-24T00:00:00",
+    "product": "Monitor Samsung 24\"",
+    "qty": 1,
+    "unit_price": 1840.03,
+    "customer": {
+      "name": "Javier Rojas",
+      "email": "javier.rojas@yahoo.com",
+      "city": "Cochabamba"
+    },
+    "payment_method": "Tarjeta Crédito",
+    "status": "Entregado",
+    "shipping_cost": 38.42,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00092",
+    "timestamp": "2024-07-20T00:00:00",
+    "product": "Audífonos JBL Tune  ",
+    "qty": 4,
+    "unit_price": 419.13,
+    "customer": {
+      "name": "Mónica Morales",
+      "email": "mónica.morales@gmail.com",
+      "city": "Potosí"
+    },
+    "payment_method": "QR",
+    "status": "Entregado",
+    "shipping_cost": 76.57,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00164",
+    "timestamp": "2024/12/24",
+    "product": "Kit Limpieza Pantalla  ",
+    "qty": 1,
+    "unit_price": 39.08,
+    "customer": "Patricia Rojas",
+    "payment_method": "Tarjeta Débito",
+    "status": "Entregado",
+    "shipping_cost": 58.08,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00396",
+    "timestamp": "2024-12-09T00:00:00",
+    "product": "Mouse Gamer Razer",
+    "qty": 4,
+    "unit_price": 477.35,
+    "customer": {
+      "name": "Andrés Mamani",
+      "email": "andrés.mamani@hotmail.com",
+      "city": "Santa Cruz"
+    },
+    "payment_method": "Tarjeta Crédito",
+    "status": "Entregado",
+    "shipping_cost": 60.25,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00375",
+    "timestamp": "2024-03-03T00:00:00",
+    "product": " Memoria USB 64GB",
+    "qty": 3,
+    "unit_price": "Bs 84",
+    "customer": {
+      "name": "Martín Rojas",
+      "email": "martín.rojas@gmail.com",
+      "city": "Cobija"
+    },
+    "payment_method": "Tarjeta Débito",
+    "status": "Cancelado",
+    "shipping_cost": 47.2,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00139",
+    "timestamp": "2024-08-03T00:00:00",
+    "product": "Impresora HP DeskJet",
+    "qty": 3,
+    "unit_price": 1030.9,
+    "customer": {
+      "name": "Lorena Salazar",
+      "email": "lorena.salazar@gmail.com",
+      "city": "LP"
+    },
+    "payment_method": "Efectivo",
+    "status": "Entregado",
+    "shipping_cost": 65.19,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00053",
+    "timestamp": "2024-03-01T00:00:00",
+    "product": "Audifonos Sony WH-1000",
+    "qty": 4,
+    "unit_price": 2050.06,
+    "customer": {
+      "name": "Martín Choque",
+      "email": "martín.choque@outlook.com",
+      "city": "Potosi"
+    },
+    "payment_method": "Tarjeta Crédito",
+    "status": "Entregado",
+    "shipping_cost": 52.96,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00198",
+    "timestamp": "2024/04/16",
+    "product": " Laptop Lenovo ThinkPad",
+    "qty": 4,
+    "unit_price": 8786.0,
+    "customer": {
+      "name": "Martín Condori",
+      "email": "martín.condori@ucb.edu.bo",
+      "city": "Oruro"
+    },
+    "payment_method": "QR",
+    "status": "Devuelto",
+    "shipping_cost": 56.32,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00258",
+    "timestamp": "2025-01-18T00:00:00",
+    "product": "Funda para Laptop 15\"  ",
+    "qty": 4,
+    "unit_price": 163.18,
+    "customer": {
+      "name": "Sebastián García",
+      "email": "sebastián.garcía@ucb.edu.bo",
+      "city": "Potosí"
+    },
+    "payment_method": "Transferencia",
+    "status": "Entregado",
+    "shipping_cost": 40.15,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00343",
+    "timestamp": "2024-06-17T00:00:00",
+    "product": "Procesador AMD Ryzen 5",
+    "qty": 2,
+    "unit_price": 1723.09,
+    "customer": {
+      "name": "Daniela García",
+      "email": "daniela.garcía@yahoo.com",
+      "city": "Tarija"
+    },
+    "payment_method": "Tarjeta Débito",
+    "status": "Cancelado",
+    "shipping_cost": 40.85,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00023",
+    "timestamp": "2024-10-30T00:00:00",
+    "product": "Cargador  Universal  USB-C",
+    "qty": null,
+    "unit_price": 132.36,
+    "customer": {
+      "name": "Carla Vargas",
+      "email": "carla.vargas@hotmail.com",
+      "city": "Sucre"
+    },
+    "payment_method": "Tarjeta Débito",
+    "status": "Entregado",
+    "shipping_cost": 34.56,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00024",
+    "timestamp": "2024-01-14T00:00:00",
+    "product": "Cable HDMI 2m",
+    "qty": -3,
+    "unit_price": 40.49,
+    "customer": {
+      "name": "Patricia Rojas",
+      "email": "patricia.rojas@outlook.com",
+      "city": "Sucre"
+    },
+    "payment_method": "Transferencia",
+    "status": "En camino",
+    "shipping_cost": 26.63,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00061",
+    "timestamp": "05/12/2024",
+    "product": "KIT LIMPIEZA PANTALLA",
+    "qty": 1,
+    "unit_price": 39.79,
+    "customer": {
+      "name": "Patricia Mendoza",
+      "email": "patricia.mendoza@gmail.com",
+      "city": "CBBA"
+    },
+    "payment_method": "Tarjeta Débito",
+    "status": "En camino",
+    "shipping_cost": 56.03,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00277",
+    "timestamp": "2024-11-02T00:00:00",
+    "product": " Hub USB 4 puertos",
+    "qty": 2,
+    "unit_price": "BOB 87.81",
+    "customer": {
+      "name": "Sebastián Salazar",
+      "email": "sebastián.salazar@gmail.com",
+      "city": "CBBA"
+    },
+    "payment_method": null,
+    "status": "Entregado",
+    "shipping_cost": null,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00074",
+    "timestamp": "2024-01-16T00:00:00",
+    "product": "Cable HDMI 2m",
+    "qty": -4,
+    "unit_price": "Bs. 49.26",
+    "customer": {
+      "name": "Silvia López",
+      "email": "silvia.lópez@outlook.com",
+      "city": "Tarija"
+    },
+    "payment_method": "Tarjeta Débito",
+    "status": "Entregado",
+    "shipping_cost": 18.88,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00211",
+    "timestamp": "2024-06-07T00:00:00",
+    "product": "monitor samsung 24\"",
+    "qty": 2,
+    "unit_price": 1687.9,
+    "customer": {
+      "name": "Andrés López",
+      "email": "andrés.lópez@ucb.edu.bo",
+      "city": "Potosí"
+    },
+    "payment_method": "Tarjeta Débito",
+    "status": "Devuelto",
+    "shipping_cost": null,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00193",
+    "timestamp": "2024-01-14T00:00:00",
+    "product": " Cargador Universal USB-C",
+    "qty": 1,
+    "unit_price": 108.38,
+    "customer": {
+      "name": "Verónica Salazar",
+      "email": "verónica.salazar@ucb.edu.bo",
+      "city": "LP"
+    },
+    "payment_method": "QR",
+    "status": "Entregado",
+    "shipping_cost": 17.83,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00393",
+    "timestamp": "2024-10-10T00:00:00",
+    "product": "LAPTOP LENOVO THINKPAD",
+    "qty": 2,
+    "unit_price": "Bs. 8634.17",
+    "customer": {
+      "name": "Alejandro Mendoza",
+      "email": "alejandro.mendoza@gmail.com",
+      "city": "Sucre"
+    },
+    "payment_method": "Tarjeta Crédito",
+    "status": "Entregado",
+    "shipping_cost": 33.6,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00082",
+    "timestamp": "12-17-2024",
+    "product": "Audífonos  JBL  Tune",
+    "qty": -2,
+    "unit_price": "BOB 339.83",
+    "customer": {
+      "name": "Mónica Vargas",
+      "email": "mónica.vargas@yahoo.com",
+      "city": "Cochabamba"
+    },
+    "payment_method": "Tarjeta Débito",
+    "status": "Entregado",
+    "shipping_cost": 79.09,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00256",
+    "timestamp": "21/01/2025",
+    "product": "Tablet  iPad  Air",
+    "qty": 3,
+    "unit_price": "4941.19 Bs",
+    "customer": {
+      "name": "Miguel Morales",
+      "email": "miguel.morales@yahoo.com",
+      "city": "LP"
+    },
+    "payment_method": "Tarjeta Débito",
+    "status": "Cancelado",
+    "shipping_cost": 64.05,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00304",
+    "timestamp": "2025-02-16T00:00:00",
+    "product": "Cargador Universal USB-C",
+    "qty": 1,
+    "unit_price": 107.08,
+    "customer": {
+      "name": "Verónica Fernández",
+      "email": "verónica.fernández@ucb.edu.bo",
+      "city": "Potosi"
+    },
+    "payment_method": "QR",
+    "status": "Entregado",
+    "shipping_cost": 47.04,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00150",
+    "timestamp": "2024-02-15T00:00:00",
+    "product": "Impresora Epson L3250",
+    "qty": 3,
+    "unit_price": 1851.23,
+    "customer": {
+      "name": "Javier García",
+      "email": "javier.garcía@ucb.edu.bo",
+      "city": "Potosí"
+    },
+    "payment_method": "QR",
+    "status": "Entregado",
+    "shipping_cost": 70.12,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00354",
+    "timestamp": "2024-09-25T00:00:00",
+    "product": "Parlante Bluetooth JBL",
+    "qty": 4,
+    "unit_price": 789.22,
+    "customer": {
+      "name": "Javier López",
+      "email": "javier.lópez@gmail.com",
+      "city": "LP"
+    },
+    "payment_method": "Efectivo",
+    "status": "Pendiente",
+    "shipping_cost": 53.39,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00148",
+    "timestamp": "2024-02-21T00:00:00",
+    "product": "KIT LIMPIEZA PANTALLA",
+    "qty": 1,
+    "unit_price": 37.62,
+    "customer": {
+      "name": "Eduardo García",
+      "email": "eduardo.garcía@yahoo.com",
+      "city": "santa cruz"
+    },
+    "payment_method": "Transferencia",
+    "status": "Entregado",
+    "shipping_cost": null,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00229",
+    "timestamp": "2025-03-14T00:00:00",
+    "product": "Router WiFi TP-Link  ",
+    "qty": 1,
+    "unit_price": 422.57,
+    "customer": {
+      "name": "Gabriela Gutiérrez",
+      "email": "gabriela.gutiérrez @hotmail.com",
+      "city": "Trinidad"
+    },
+    "payment_method": "Tarjeta Débito",
+    "status": "En camino",
+    "shipping_cost": 52.2,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00374",
+    "timestamp": "2024-12-16T00:00:00",
+    "product": "Laptop  HP  Pavilion",
+    "qty": 3,
+    "unit_price": 5375.98,
+    "customer": {
+      "name": "Alejandro Mendoza",
+      "email": "alejandro.mendoza@ucb.edu.bo",
+      "city": "Sucre"
+    },
+    "payment_method": "Efectivo",
+    "status": "Pendiente",
+    "shipping_cost": 67.02,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00303",
+    "timestamp": "2024/01/26",
+    "product": "monitor samsung 24\"",
+    "qty": 2,
+    "unit_price": 1775.68,
+    "customer": {
+      "name": "Martín Salazar",
+      "email": "martín.salazar@gmail.com",
+      "city": "CBBA"
+    },
+    "payment_method": "Tarjeta Crédito",
+    "status": "Entregado",
+    "shipping_cost": 34.11,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00105",
+    "timestamp": "23 de March de 2024",
+    "product": "Funda para Laptop 15\"",
+    "qty": 4,
+    "unit_price": 149.43,
+    "customer": {
+      "name": "Silvia Fernández",
+      "email": "@outlook.com",
+      "city": "cochabamba"
+    },
+    "payment_method": "Tarjeta Crédito",
+    "status": "Entregado",
+    "shipping_cost": 54.7,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00106",
+    "timestamp": "12 de December de 2024",
+    "product": "Disco Duro Externo 1TB",
+    "qty": 4,
+    "unit_price": "Bs.490.6",
+    "customer": {
+      "name": "Verónica Quispe",
+      "email": "verónica.quispe@hotmail.com",
+      "city": "Cobija"
+    },
+    "payment_method": "Efectivo",
+    "status": "Entregado",
+    "shipping_cost": 54.45,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00368",
+    "timestamp": "2024-12-16T00:00:00",
+    "product": "Laptop Lenovo ThinkPad",
+    "qty": 4,
+    "unit_price": 8236.26,
+    "customer": {
+      "name": "Verónica Condori",
+      "email": "verónica.condori@outlook.com",
+      "city": "LP"
+    },
+    "payment_method": "Transferencia",
+    "status": "Entregado",
+    "shipping_cost": 69.28,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00118",
+    "timestamp": "2025-03-10T00:00:00",
+    "product": "Adaptador HDMI a VGA",
+    "qty": 2,
+    "unit_price": 63.02,
+    "customer": {
+      "name": "Alejandro Morales",
+      "email": "alejandro.morales@hotmail.com",
+      "city": "LP"
+    },
+    "payment_method": "Transferencia",
+    "status": "Pendiente",
+    "shipping_cost": 71.95,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00271",
+    "timestamp": "2024-12-31T00:00:00",
+    "product": "Kit Limpieza Pantalla",
+    "qty": 4,
+    "unit_price": 30.14,
+    "customer": {
+      "name": "Patricia Rojas",
+      "email": "patricia.rojas@hotmail.com",
+      "city": "Sucre"
+    },
+    "payment_method": "Transferencia",
+    "status": "Entregado",
+    "shipping_cost": 40.09,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00079",
+    "timestamp": "2024/04/12",
+    "product": "Monitor Samsung 24\"",
+    "qty": 1,
+    "unit_price": 1579.41,
+    "customer": {
+      "name": "Carla Mendoza",
+      "email": "carla.mendoza@hotmail.com",
+      "city": "cochabamba"
+    },
+    "payment_method": "Efectivo",
+    "status": "Entregado",
+    "shipping_cost": 65.17,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00054",
+    "timestamp": "08-23-2024",
+    "product": "Laptop Dell Inspiron",
+    "qty": 3,
+    "unit_price": 6565.89,
+    "customer": {
+      "name": "Natalia Salazar",
+      "email": "natalia.salazar@yahoo.com",
+      "city": "Potosí"
+    },
+    "payment_method": "Tarjeta Crédito",
+    "status": "Entregado",
+    "shipping_cost": 27.79,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00371",
+    "timestamp": "2025-01-18T00:00:00",
+    "product": "memoria usb 64gb",
+    "qty": 2,
+    "unit_price": 86.51,
+    "customer": {
+      "name": "Gabriela Torrez",
+      "email": "gabriela.torrez@yahoo.com",
+      "city": "la paz"
+    },
+    "payment_method": "Efectivo",
+    "status": "Entregado",
+    "shipping_cost": 30.18,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00208",
+    "timestamp": "04 de February de 2025",
+    "product": "AUDÍFONOS SONY WH-1000",
+    "qty": 4,
+    "unit_price": 2496.46,
+    "customer": {
+      "name": "Miguel Choque",
+      "email": "miguel.choque@outlook.com",
+      "city": "CBBA"
+    },
+    "payment_method": "Efectivo",
+    "status": "Entregado",
+    "shipping_cost": 72.51,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00179",
+    "timestamp": "2024/04/13",
+    "product": "Procesador  AMD  Ryzen  5",
+    "qty": 4,
+    "unit_price": 1790.04,
+    "customer": {
+      "name": "Claudia Mendoza",
+      "email": "@ucb.edu.bo",
+      "city": "Oruro"
+    },
+    "payment_method": "Tarjeta Crédito",
+    "status": "Entregado",
+    "shipping_cost": 56.86,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00399",
+    "timestamp": "2024-09-01T00:00:00",
+    "product": "Mouse Inalambrico Logitech",
+    "qty": 2,
+    "unit_price": 191.52,
+    "customer": {
+      "name": "Daniela Morales",
+      "email": "daniela.morales@hotmail.com",
+      "city": "Cochabamba"
+    },
+    "payment_method": "Transferencia",
+    "status": "Cancelado",
+    "shipping_cost": 42.59,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00373",
+    "timestamp": "2024-09-29T00:00:00",
+    "product": "Laptop  Dell  Inspiron",
+    "qty": 3,
+    "unit_price": 6872.05,
+    "customer": {
+      "name": "Sebastián Quispe",
+      "email": "sebastián.quispe@ucb.edu.bo",
+      "city": "Santa Cruz"
+    },
+    "payment_method": "Tarjeta Crédito",
+    "status": "Entregado",
+    "shipping_cost": 30.84,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00355",
+    "timestamp": "2024-12-16T00:00:00",
+    "product": "Router WiFi TP-Link  ",
+    "qty": 1,
+    "unit_price": "Bs.378.02",
+    "customer": {
+      "name": "Alejandro Rojas",
+      "email": "alejandro.rojas@outlook.com",
+      "city": "La Paz"
+    },
+    "payment_method": "Tarjeta Crédito",
+    "status": "En camino",
+    "shipping_cost": 45.25,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00354",
+    "timestamp": "2024-09-25T00:00:00",
+    "product": "Parlante Bluetooth JBL",
+    "qty": 4,
+    "unit_price": 789.22,
+    "customer": {
+      "name": "Javier López",
+      "email": "javier.lópez@gmail.com",
+      "city": "LP"
+    },
+    "payment_method": "Efectivo",
+    "status": "Pendiente",
+    "shipping_cost": 53.39,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00324",
+    "timestamp": "2024-07-26",
+    "product": " Impresora HP DeskJet",
+    "qty": 4,
+    "unit_price": 1136.36,
+    "customer": {
+      "name": "Pablo Mendoza",
+      "email": "pablo.mendoza@yahoo.com",
+      "city": "Cobija"
+    },
+    "payment_method": "Tarjeta Crédito",
+    "status": "Entregado",
+    "shipping_cost": null,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00181",
+    "timestamp": "17 de September de 2024",
+    "product": "Tablet iPad Air  ",
+    "qty": 1,
+    "unit_price": "4173.59 Bs",
+    "customer": "Silvia Morales",
+    "payment_method": "Tarjeta Crédito",
+    "status": "Pendiente",
+    "shipping_cost": 39.57,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00119",
+    "timestamp": "2024-09-23T00:00:00",
+    "product": "Router WiFi TP-Link  ",
+    "qty": 3,
+    "unit_price": 480.26,
+    "customer": {
+      "name": "Natalia Flores",
+      "email": "@yahoo.com",
+      "city": "Sucre"
+    },
+    "payment_method": "Tarjeta Crédito",
+    "status": "Pendiente",
+    "shipping_cost": 55.68,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00329",
+    "timestamp": "2025/03/05",
+    "product": "Tablet Samsung Galaxy Tab",
+    "qty": 1,
+    "unit_price": "Bs.2973.83",
+    "customer": "Pablo Choque",
+    "payment_method": "QR",
+    "status": "En camino",
+    "shipping_cost": 40.25,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00341",
+    "timestamp": "2024-10-05T00:00:00",
+    "product": "Mouse  Gamer  Razer",
+    "qty": 1,
+    "unit_price": 396.38,
+    "customer": {
+      "name": "Miguel Mamani",
+      "email": "miguel.mamani@ucb.edu.bo",
+      "city": "Cochabamba"
+    },
+    "payment_method": "Transferencia",
+    "status": "Entregado",
+    "shipping_cost": 52.25,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00214",
+    "timestamp": "2024-12-20",
+    "product": "Funda para Laptop 15\"  ",
+    "qty": 3,
+    "unit_price": 160.86,
+    "customer": {
+      "name": "Andrés Fernández",
+      "email": "andrés.fernández@outlook.com",
+      "city": "cochabamba"
+    },
+    "payment_method": "Tarjeta Crédito",
+    "status": "Pendiente",
+    "shipping_cost": 37.36,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00078",
+    "timestamp": "2025-02-19T00:00:00",
+    "product": "MEMORIA USB 64GB",
+    "qty": 1,
+    "unit_price": "75.63 Bs",
+    "customer": {
+      "name": "Sebastián Mamani",
+      "email": "sebastián.mamani@ucb.edu.bo",
+      "city": "Potosí"
+    },
+    "payment_method": "Efectivo",
+    "status": "Entregado",
+    "shipping_cost": 31.16,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00013",
+    "timestamp": "02-26-2024",
+    "product": " Monitor LG 27\"",
+    "qty": 2,
+    "unit_price": "Bs. 2366.49",
+    "customer": {
+      "name": "Miguel Vargas",
+      "email": "miguel.vargas@yahoo.com",
+      "city": "Santa Cruz"
+    },
+    "payment_method": "Tarjeta Débito",
+    "status": "Cancelado",
+    "shipping_cost": 65.26,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00016",
+    "timestamp": "2024-12-23T00:00:00",
+    "product": "Router WiFi TP-Link",
+    "qty": 3,
+    "unit_price": 476.24,
+    "customer": {
+      "name": "Miguel Vargas",
+      "email": "miguel.vargas@",
+      "city": "LP"
+    },
+    "payment_method": "QR",
+    "status": "Entregado",
+    "shipping_cost": 39.6,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00207",
+    "timestamp": "2024-07-21T00:00:00",
+    "product": "Impresora Epson L3250",
+    "qty": 2,
+    "unit_price": 1853.66,
+    "customer": {
+      "name": "Carla Torrez",
+      "email": "carla.torrez@yahoo.com",
+      "city": "Tarija"
+    },
+    "payment_method": "QR",
+    "status": "Entregado",
+    "shipping_cost": 23.12,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00366",
+    "timestamp": "2024-06-12T00:00:00",
+    "product": "CABLE HDMI 2M",
+    "qty": 3,
+    "unit_price": 50.26,
+    "customer": {
+      "name": "Silvia Gutiérrez",
+      "email": "silvia.gutiérrez@hotmail.com",
+      "city": "CBBA"
+    },
+    "payment_method": "Efectivo",
+    "status": "Pendiente",
+    "shipping_cost": null,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00201",
+    "timestamp": "18/06/2024",
+    "product": "Monitor  LG  27\"",
+    "qty": 2,
+    "unit_price": "2549.69 Bs",
+    "customer": {
+      "name": "Daniela Vargas",
+      "email": "daniela.vargas@hotmail.com",
+      "city": "La Paz"
+    },
+    "payment_method": "Transferencia",
+    "status": "Entregado",
+    "shipping_cost": 19.91,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00196",
+    "timestamp": "2024-12-22T00:00:00",
+    "product": " Webcam Logitech C920",
+    "qty": 2,
+    "unit_price": 557.56,
+    "customer": {
+      "name": "Carla Rojas",
+      "email": "carla.rojas@outlook.com",
+      "city": "Tarija"
+    },
+    "payment_method": "QR",
+    "status": "Pendiente",
+    "shipping_cost": 55.72,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00217",
+    "timestamp": "18/06/2024",
+    "product": "Tarjeta Gráfica NVIDIA RTX",
+    "qty": 2,
+    "unit_price": "Bs.4871.44",
+    "customer": {
+      "name": "Ricardo Quispe",
+      "email": "ricardo.quispe@ucb.edu.bo",
+      "city": "Tarija"
+    },
+    "payment_method": "Tarjeta Débito",
+    "status": "Pendiente",
+    "shipping_cost": 63.82,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00137",
+    "timestamp": "2024-12-19",
+    "product": "Tarjeta Gráfica NVIDIA RTX  ",
+    "qty": 2,
+    "unit_price": 5086.72,
+    "customer": {
+      "name": "Miguel Quispe",
+      "email": "miguel.quispe@gmail.com",
+      "city": "Tarija"
+    },
+    "payment_method": "Tarjeta Crédito",
+    "status": "Entregado",
+    "shipping_cost": 60.01,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00246",
+    "timestamp": "2024-04-25T00:00:00",
+    "product": "Impresora  Epson  L3250",
+    "qty": 3,
+    "unit_price": "Bs. 1557.78",
+    "customer": {
+      "name": "Alejandro Torrez",
+      "email": "alejandro.torrez@",
+      "city": "santa cruz"
+    },
+    "payment_method": "QR",
+    "status": "Pendiente",
+    "shipping_cost": 67.21,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00311",
+    "timestamp": "09-29-2024",
+    "product": " Mouse Gamer Razer",
+    "qty": 2,
+    "unit_price": "Bs. 386.74",
+    "customer": {
+      "name": "Miguel Vargas",
+      "email": "miguel.vargasgmail.com",
+      "city": "LP"
+    },
+    "payment_method": "QR",
+    "status": "Pendiente",
+    "shipping_cost": 48.2,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00353",
+    "timestamp": "2024-05-28T00:00:00",
+    "product": " Memoria USB 128GB",
+    "qty": 1,
+    "unit_price": 150.18,
+    "customer": {
+      "name": "Sebastián Choque",
+      "email": "sebastián.choque@gmail.com",
+      "city": "Trinidad"
+    },
+    "payment_method": "QR",
+    "status": "Entregado",
+    "shipping_cost": 79.06,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00017",
+    "timestamp": "2025-02-17T00:00:00",
+    "product": "monitor lg 27\"",
+    "qty": 2,
+    "unit_price": 2179.92,
+    "customer": {
+      "name": "Alejandro Rojas",
+      "email": "alejandro.rojas@ucb.edu.bo",
+      "city": "cochabamba"
+    },
+    "payment_method": "Tarjeta Débito",
+    "status": "Pendiente",
+    "shipping_cost": 30.94,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00225",
+    "timestamp": "2024-12-07T00:00:00",
+    "product": "cargador universal usb-c",
+    "qty": 1,
+    "unit_price": "Bs 119",
+    "customer": {
+      "name": "Miguel Vargas",
+      "email": "miguel.vargas@ucb.edu.bo",
+      "city": "Tarija"
+    },
+    "payment_method": "Tarjeta Débito",
+    "status": "Entregado",
+    "shipping_cost": 63.73,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00345",
+    "timestamp": "15/01/2024",
+    "product": "Adaptador HDMI a VGA",
+    "qty": 1,
+    "unit_price": 57.31,
+    "customer": {
+      "name": "Verónica Choque",
+      "email": "verónica.choque@hotmail.com",
+      "city": "LP"
+    },
+    "payment_method": "Tarjeta Débito",
+    "status": "Cancelado",
+    "shipping_cost": 78.06,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00377",
+    "timestamp": "19/02/2024",
+    "product": "laptop lenovo thinkpad",
+    "qty": 3,
+    "unit_price": 8781.38,
+    "customer": {
+      "name": "Lorena Condori",
+      "email": "lorena.condori@hotmail.com",
+      "city": "Oruro"
+    },
+    "payment_method": "Tarjeta Crédito",
+    "status": "En camino",
+    "shipping_cost": 20.09,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00127",
+    "timestamp": "2024-03-06T00:00:00",
+    "product": "Tablet iPad Air",
+    "qty": 2,
+    "unit_price": 4539.25,
+    "customer": {
+      "name": "Pablo Mendoza",
+      "email": "pablo.mendoza@ucb.edu.bo",
+      "city": "LP"
+    },
+    "payment_method": "Tarjeta Débito",
+    "status": "Pendiente",
+    "shipping_cost": 63.9,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00320",
+    "timestamp": "2024-10-30T00:00:00",
+    "product": "Funda para Laptop 15\"  ",
+    "qty": 2,
+    "unit_price": "BOB 151.53",
+    "customer": {
+      "name": "Pablo Morales",
+      "email": "pablo.morales@outlook.com",
+      "city": "Potosi"
+    },
+    "payment_method": "Efectivo",
+    "status": "Entregado",
+    "shipping_cost": 47.43,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00312",
+    "timestamp": "11/02/2024",
+    "product": "Cargador Universal USB-C  ",
+    "qty": 4,
+    "unit_price": 128.53,
+    "customer": {
+      "name": "Ricardo Rojas",
+      "email": "ricardo.rojas@outlook.com",
+      "city": "Trinidad"
+    },
+    "payment_method": "Efectivo",
+    "status": "En camino",
+    "shipping_cost": 33.43,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00125",
+    "timestamp": "2024/09/08",
+    "product": "Laptop Dell Inspiron",
+    "qty": 1,
+    "unit_price": 6353.64,
+    "customer": {
+      "name": "Daniela Gutiérrez",
+      "email": "daniela.gutiérrez@yahoo.com",
+      "city": "Cochabamba"
+    },
+    "payment_method": "QR",
+    "status": "Entregado",
+    "shipping_cost": 54.71,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00133",
+    "timestamp": "2024-05-25T00:00:00",
+    "product": "Mouse  Inalámbrico  Logitech",
+    "qty": 3,
+    "unit_price": 156.63,
+    "customer": {
+      "name": "Pablo Morales",
+      "email": "",
+      "city": "Trinidad"
+    },
+    "payment_method": "Tarjeta Débito",
+    "status": "Cancelado",
+    "shipping_cost": 42.94,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00330",
+    "timestamp": "2024-07-19T00:00:00",
+    "product": "Impresora HP DeskJet",
+    "qty": 1,
+    "unit_price": "1319.83 Bs",
+    "customer": {
+      "name": "Pablo Quispe",
+      "email": "pablo.quispe @ucb.edu.bo",
+      "city": "Potosi"
+    },
+    "payment_method": "QR",
+    "status": "Cancelado",
+    "shipping_cost": 31.02,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00284",
+    "timestamp": "2024-01-09T00:00:00",
+    "product": "Memoria USB 128GB",
+    "qty": 2,
+    "unit_price": 171.0,
+    "customer": {
+      "name": "Pablo Gutiérrez",
+      "email": "pablo.gutiérrezgmail.com",
+      "city": "SCZ"
+    },
+    "payment_method": "Transferencia",
+    "status": "Entregado",
+    "shipping_cost": null,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00178",
+    "timestamp": "2024-10-18T00:00:00",
+    "product": "Audifonos Sony WH-1000",
+    "qty": 3,
+    "unit_price": "Bs 2175",
+    "customer": {
+      "name": "Miguel García",
+      "email": "miguel.garcía@yahoo.com",
+      "city": "la paz"
+    },
+    "payment_method": "QR",
+    "status": "Entregado",
+    "shipping_cost": 18.22,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00075",
+    "timestamp": "2024-02-07T00:00:00",
+    "product": "TABLET SAMSUNG GALAXY TAB",
+    "qty": 4,
+    "unit_price": 3116.95,
+    "customer": null,
+    "payment_method": "Tarjeta Crédito",
+    "status": "En camino",
+    "shipping_cost": null,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00177",
+    "timestamp": "2024-07-02T00:00:00",
+    "product": "tarjeta gráfica nvidia rtx",
+    "qty": 3,
+    "unit_price": 4854.58,
+    "customer": {
+      "name": "Javier Vargas",
+      "email": "javier.vargas@hotmail.com",
+      "city": "Potosi"
+    },
+    "payment_method": "Efectivo",
+    "status": "Entregado",
+    "shipping_cost": null,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00157",
+    "timestamp": "2024/12/07",
+    "product": "Audifonos JBL Tune",
+    "qty": 2,
+    "unit_price": "Bs. 378.4",
+    "customer": {
+      "name": "Gabriela Salazar",
+      "email": "gabriela.salazar@outlook.com",
+      "city": "Potosi"
+    },
+    "payment_method": "Tarjeta Débito",
+    "status": "Cancelado",
+    "shipping_cost": 63.22,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00254",
+    "timestamp": "2024/10/27",
+    "product": "tablet samsung galaxy tab",
+    "qty": 2,
+    "unit_price": 2845.8,
+    "customer": {
+      "name": "Verónica Gutiérrez",
+      "email": "",
+      "city": "Cobija"
+    },
+    "payment_method": "Tarjeta Débito",
+    "status": "Entregado",
+    "shipping_cost": 72.73,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00066",
+    "timestamp": "2024-11-25T00:00:00",
+    "product": "Procesador AMD Ryzen 5",
+    "qty": 3,
+    "unit_price": 1764.0,
+    "customer": {
+      "name": "Gabriela Fernández",
+      "email": "gabriela.fernández@yahoo.com",
+      "city": "Potosí"
+    },
+    "payment_method": "Transferencia",
+    "status": "Cancelado",
+    "shipping_cost": 60.41,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00213",
+    "timestamp": "2024-05-01T00:00:00",
+    "product": "Teclado Logitech K380",
+    "qty": 3,
+    "unit_price": null,
+    "customer": {
+      "name": "Alejandro Quispe",
+      "email": "alejandro.quispe@ucb.edu.bo",
+      "city": "Trinidad"
+    },
+    "payment_method": "Tarjeta Débito",
+    "status": "En camino",
+    "shipping_cost": 69.94,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00358",
+    "timestamp": "04 de December de 2024",
+    "product": "Webcam  Logitech  C920",
+    "qty": 4,
+    "unit_price": 706.88,
+    "customer": {
+      "name": "Andrés Fernández",
+      "email": "andrés.fernández@ucb.edu.bo",
+      "city": "Tarija"
+    },
+    "payment_method": null,
+    "status": "Entregado",
+    "shipping_cost": null,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00205",
+    "timestamp": "2024-03-18T00:00:00",
+    "product": "router wifi tp-link",
+    "qty": 4,
+    "unit_price": 413.07,
+    "customer": "Martín Gutiérrez",
+    "payment_method": "Efectivo",
+    "status": "Cancelado",
+    "shipping_cost": 68.24,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00165",
+    "timestamp": "14 de November de 2024",
+    "product": " Cargador Universal USB-C",
+    "qty": 3,
+    "unit_price": 103.82,
+    "customer": {
+      "name": "Fernando Mendoza",
+      "email": "fernando.mendoza@ucb.edu.bo",
+      "city": "Trinidad"
+    },
+    "payment_method": "Efectivo",
+    "status": "Entregado",
+    "shipping_cost": 32.88,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00248",
+    "timestamp": "2024-11-07T00:00:00",
+    "product": "Cargador Universal USB-C  ",
+    "qty": 4,
+    "unit_price": 126.1,
+    "customer": {
+      "name": "Ricardo Condori",
+      "email": "",
+      "city": "santa cruz"
+    },
+    "payment_method": "Tarjeta Débito",
+    "status": "Entregado",
+    "shipping_cost": null,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00235",
+    "timestamp": "2024-02-20T00:00:00",
+    "product": "Adaptador HDMI a VGA",
+    "qty": 4,
+    "unit_price": 63.58,
+    "customer": {
+      "name": "Verónica Morales",
+      "email": "@hotmail.com",
+      "city": "Oruro"
+    },
+    "payment_method": "Efectivo",
+    "status": "Entregado",
+    "shipping_cost": null,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00359",
+    "timestamp": "2024-03-21T00:00:00",
+    "product": "Mouse Gamer Razer",
+    "qty": 4,
+    "unit_price": 397.64,
+    "customer": {
+      "name": "Carla Vargas",
+      "email": "carla.vargas@yahoo.com",
+      "city": "CBBA"
+    },
+    "payment_method": "Transferencia",
+    "status": "Entregado",
+    "shipping_cost": 37.45,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00155",
+    "timestamp": "2025-01-30T00:00:00",
+    "product": "Cargador Universal USB-C",
+    "qty": 3,
+    "unit_price": 130.57,
+    "customer": {
+      "name": "Sebastián López",
+      "email": "sebastián.lópez@outlook.com",
+      "city": "Potosí"
+    },
+    "payment_method": "QR",
+    "status": "Pendiente",
+    "shipping_cost": 24.38,
+    "channel": "online"
+  },
+  {
+    "order_id": "ONL-00151",
+    "timestamp": "2024/10/07",
+    "product": "Laptop  HP  Pavilion",
+    "qty": 2,
+    "unit_price": "Bs.4682.67",
+    "customer": {
+      "name": "Natalia Rojas",
+      "email": "natalia.rojas@yahoo.com",
+      "city": "LP"
+    },
+    "payment_method": "Transferencia",
+    "status": "Pendiente",
+    "shipping_cost": 25.42,
+    "channel": "online"
+  }
+]
