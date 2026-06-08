@@ -1,0 +1,19 @@
+{
+  "name": "bronze_ventas_scz",
+  "properties": {
+    "linkedServiceName": {
+      "referenceName": "LS_AzureSQL_Ventas",
+      "type": "LinkedServiceReference"
+    },
+    "folder": {
+      "name": "bronze"
+    },
+    "annotations": [],
+    "type": "AzureSqlTable",
+    "schema": [],
+    "typeProperties": {
+      "schema": "bronze",
+      "table": "ventas_scz_raw"
+    }
+  }
+}

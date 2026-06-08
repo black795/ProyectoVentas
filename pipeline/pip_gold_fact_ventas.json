@@ -1,0 +1,32 @@
+{
+  "name": "pip_gold_fact_ventas",
+  "properties": {
+    "activities": [
+      {
+        "name": "Cargar_Fact_Ventas",
+        "type": "SqlServerStoredProcedure",
+        "dependsOn": [],
+        "policy": {
+          "timeout": "0.12:00:00",
+          "retry": 0,
+          "retryIntervalInSeconds": 30,
+          "secureOutput": false,
+          "secureInput": false
+        },
+        "userProperties": [],
+        "typeProperties": {
+          "storedProcedureName": "[gold].[sp_gold_fact_ventas]"
+        },
+        "linkedServiceName": {
+          "referenceName": "LS_AzureSQL_Ventas",
+          "type": "LinkedServiceReference"
+        }
+      }
+    ],
+    "folder": {
+      "name": "gold"
+    },
+    "annotations": []
+  },
+  "type": "Microsoft.DataFactory/factories/pipelines"
+}

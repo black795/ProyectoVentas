@@ -1,0 +1,111 @@
+{
+  "name": "df_silver_ventas_scz",
+  "properties": {
+    "folder": {
+      "name": "silver"
+    },
+    "type": "MappingDataFlow",
+    "typeProperties": {
+      "sources": [
+        {
+          "dataset": {
+            "referenceName": "bronze_ventas_scz",
+            "type": "DatasetReference"
+          },
+          "name": "source1"
+        }
+      ],
+      "sinks": [
+        {
+          "dataset": {
+            "referenceName": "silver_ventas_scz",
+            "type": "DatasetReference"
+          },
+          "name": "sink1"
+        }
+      ],
+      "transformations": [
+        {
+          "name": "filter1"
+        },
+        {
+          "name": "derivedColumn1"
+        }
+      ],
+      "scriptLines": [
+        "source(output(",
+        "          id_venta as string,",
+        "          fecha as string,",
+        "          producto as string,",
+        "          cantidad as string,",
+        "          precio_unitario as string,",
+        "          vendedor as string,",
+        "          cliente_nombre as string,",
+        "          cliente_email as string,",
+        "          metodo_pago as string",
+        "     ),",
+        "     allowSchemaDrift: true,",
+        "     validateSchema: false,",
+        "     isolationLevel: 'READ_UNCOMMITTED',",
+        "     query: 'SELECT id_venta, fecha, producto, cantidad, precio_unitario, vendedor, cliente_nombre, cliente_email, metodo_pago FROM bronze.ventas_scz_raw',",
+        "     format: 'query') ~> source1",
+        "source1 filter(!isNull(id_venta) && length(trim(id_venta)) > 0) ~> filter1",
+        "filter1 derive(fecha = coalesce(toDate(fecha,'yyyy-MM-dd'), toDate(left(fecha,10),'yyyy-MM-dd'), toDate(fecha,'dd-MMM-yyyy'), toDate(fecha,'MMMM dd, yyyy'), toDate(fecha,'yyyy/MM/dd'), toDate(fecha,'dd/MM/yyyy'), toDate(replace(fecha,' de ',' '),'dd MMMM yyyy'), toDate(fecha,'MM-dd-yyyy')),",
+        "          producto = trim(regexReplace(producto, '\\\\s+', ' ')),",
+        "          cantidad = toInteger(toFloat(cantidad)),",
+        "          precio_unitario = toDecimal(regexReplace(lower(precio_unitario),'[^0-9.]',''), 18, 2),",
+        "          sucursal = 'Santa Cruz',",
+        "          vendedor = iif(isNull(vendedor) || length(trim(vendedor))==0, toString(null()), trim(vendedor)),",
+        "          cliente_nombre = trim(cliente_nombre),",
+        "          cliente_email = iif(isNull(cliente_email) || length(trim(cliente_email))==0, toString(null()), lower(trim(cliente_email))),",
+        "          cliente_ciudad = toString(null()),",
+        "          metodo_pago = iif(isNull(metodo_pago) || length(trim(metodo_pago))==0, toString(null()), trim(metodo_pago)),",
+        "          estado = toString(null()),",
+        "          shipping_cost = toDecimal(0, 18, 2),",
+        "          canal = 'SCZ') ~> derivedColumn1",
+        "derivedColumn1 sink(allowSchemaDrift: true,",
+        "     validateSchema: false,",
+        "     input(",
+        "          id_venta as string,",
+        "          fecha as date,",
+        "          producto as string,",
+        "          cantidad as integer,",
+        "          precio_unitario as decimal(18,2),",
+        "          sucursal as string,",
+        "          vendedor as string,",
+        "          cliente_nombre as string,",
+        "          cliente_email as string,",
+        "          cliente_ciudad as string,",
+        "          metodo_pago as string,",
+        "          estado as string,",
+        "          shipping_cost as decimal(18,2),",
+        "          canal as string",
+        "     ),",
+        "     deletable:false,",
+        "     insertable:true,",
+        "     updateable:false,",
+        "     upsertable:false,",
+        "     format: 'table',",
+        "     skipDuplicateMapInputs: true,",
+        "     skipDuplicateMapOutputs: true,",
+        "     errorHandlingOption: 'stopOnFirstError',",
+        "     mapColumn(",
+        "          id_venta,",
+        "          fecha,",
+        "          producto,",
+        "          cantidad,",
+        "          precio_unitario,",
+        "          sucursal,",
+        "          vendedor,",
+        "          cliente_nombre,",
+        "          cliente_email,",
+        "          cliente_ciudad,",
+        "          metodo_pago,",
+        "          estado,",
+        "          shipping_cost,",
+        "          canal",
+        "     )) ~> sink1"
+      ]
+    }
+  }
+}

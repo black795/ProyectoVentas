@@ -1,0 +1,19 @@
+{
+  "name": "silver_ventas_lpz",
+  "properties": {
+    "linkedServiceName": {
+      "referenceName": "LS_AzureSQL_Ventas",
+      "type": "LinkedServiceReference"
+    },
+    "folder": {
+      "name": "silver"
+    },
+    "annotations": [],
+    "type": "AzureSqlTable",
+    "schema": [],
+    "typeProperties": {
+      "schema": "silver",
+      "table": "ventas_lpz"
+    }
+  }
+}

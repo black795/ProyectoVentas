@@ -1,0 +1,370 @@
+{
+  "name": "pl_master_etl",
+  "properties": {
+    "activities": [
+      {
+        "name": "Limpiar_Base_Datos",
+        "type": "Script",
+        "dependsOn": [],
+        "policy": {
+          "timeout": "0.12:00:00",
+          "retry": 0,
+          "retryIntervalInSeconds": 30,
+          "secureOutput": false,
+          "secureInput": false
+        },
+        "userProperties": [],
+        "linkedServiceName": {
+          "referenceName": "LS_AzureSQL_Ventas",
+          "type": "LinkedServiceReference"
+        },
+        "typeProperties": {
+          "scripts": [
+            {
+              "type": "NonQuery",
+              "text": "DELETE FROM gold.fact_ventas;\nDELETE FROM gold.fact_inventario;\n\nDELETE FROM gold.dim_producto;\nDELETE FROM gold.dim_cliente;\nDELETE FROM gold.dim_sucursal;\nDELETE FROM gold.dim_vendedor;\n\nTRUNCATE TABLE silver.ventas_lpz;\nTRUNCATE TABLE silver.ventas_scz;\nTRUNCATE TABLE silver.ventas_online;\nTRUNCATE TABLE silver.inventario;\n\nTRUNCATE TABLE bronze.ventas_lpz_raw;\nTRUNCATE TABLE bronze.ventas_scz_raw;\nTRUNCATE TABLE bronze.ventas_online_raw;\nTRUNCATE TABLE bronze.inventario_raw;"
+            }
+          ]
+        }
+      },
+      {
+        "name": "Cargar_Bronze",
+        "type": "ExecutePipeline",
+        "dependsOn": [
+          {
+            "activity": "Limpiar_Base_Datos",
+            "dependencyConditions": [
+              "Succeeded"
+            ]
+          }
+        ],
+        "userProperties": [],
+        "typeProperties": {
+          "pipeline": {
+            "referenceName": "pip_cargar_datos_bronce",
+            "type": "PipelineReference"
+          },
+          "waitOnCompletion": true
+        }
+      },
+      {
+        "name": "Silver_Ventas_Lpz",
+        "type": "ExecutePipeline",
+        "dependsOn": [
+          {
+            "activity": "Cargar_Bronze",
+            "dependencyConditions": [
+              "Succeeded"
+            ]
+          }
+        ],
+        "userProperties": [],
+        "typeProperties": {
+          "pipeline": {
+            "referenceName": "pip_silver_ventas_lpz",
+            "type": "PipelineReference"
+          },
+          "waitOnCompletion": true
+        }
+      },
+      {
+        "name": "Silver_Ventas_Scz",
+        "type": "ExecutePipeline",
+        "dependsOn": [
+          {
+            "activity": "Cargar_Bronze",
+            "dependencyConditions": [
+              "Succeeded"
+            ]
+          }
+        ],
+        "userProperties": [],
+        "typeProperties": {
+          "pipeline": {
+            "referenceName": "pip_silver_ventas_scz",
+            "type": "PipelineReference"
+          },
+          "waitOnCompletion": true
+        }
+      },
+      {
+        "name": "Silver_Ventas_Online",
+        "type": "ExecutePipeline",
+        "dependsOn": [
+          {
+            "activity": "Cargar_Bronze",
+            "dependencyConditions": [
+              "Succeeded"
+            ]
+          }
+        ],
+        "userProperties": [],
+        "typeProperties": {
+          "pipeline": {
+            "referenceName": "pip_silver_ventas_online",
+            "type": "PipelineReference"
+          },
+          "waitOnCompletion": true
+        }
+      },
+      {
+        "name": "Silver_Inventario",
+        "type": "ExecutePipeline",
+        "dependsOn": [
+          {
+            "activity": "Cargar_Bronze",
+            "dependencyConditions": [
+              "Succeeded"
+            ]
+          }
+        ],
+        "userProperties": [],
+        "typeProperties": {
+          "pipeline": {
+            "referenceName": "pip_silver_inventario",
+            "type": "PipelineReference"
+          },
+          "waitOnCompletion": true
+        }
+      },
+      {
+        "name": "Gold_Dim_Tiempo",
+        "type": "ExecutePipeline",
+        "dependsOn": [
+          {
+            "activity": "Cargar_Bronze",
+            "dependencyConditions": [
+              "Succeeded"
+            ]
+          }
+        ],
+        "userProperties": [],
+        "typeProperties": {
+          "pipeline": {
+            "referenceName": "pip_gold_dim_tiempo",
+            "type": "PipelineReference"
+          },
+          "waitOnCompletion": true
+        }
+      },
+      {
+        "name": "Gold_Dim_Producto",
+        "type": "ExecutePipeline",
+        "dependsOn": [
+          {
+            "activity": "Silver_Inventario",
+            "dependencyConditions": [
+              "Succeeded"
+            ]
+          }
+        ],
+        "userProperties": [],
+        "typeProperties": {
+          "pipeline": {
+            "referenceName": "pip_gold_dim_producto",
+            "type": "PipelineReference"
+          },
+          "waitOnCompletion": true
+        }
+      },
+      {
+        "name": "Gold_Dim_Cliente",
+        "type": "ExecutePipeline",
+        "dependsOn": [
+          {
+            "activity": "Silver_Ventas_Lpz",
+            "dependencyConditions": [
+              "Succeeded"
+            ]
+          },
+          {
+            "activity": "Silver_Ventas_Scz",
+            "dependencyConditions": [
+              "Succeeded"
+            ]
+          },
+          {
+            "activity": "Silver_Ventas_Online",
+            "dependencyConditions": [
+              "Succeeded"
+            ]
+          }
+        ],
+        "userProperties": [],
+        "typeProperties": {
+          "pipeline": {
+            "referenceName": "pip_gold_dim_cliente",
+            "type": "PipelineReference"
+          },
+          "waitOnCompletion": true
+        }
+      },
+      {
+        "name": "Gold_Dim_Sucursal",
+        "type": "ExecutePipeline",
+        "dependsOn": [
+          {
+            "activity": "Silver_Ventas_Lpz",
+            "dependencyConditions": [
+              "Succeeded"
+            ]
+          },
+          {
+            "activity": "Silver_Ventas_Scz",
+            "dependencyConditions": [
+              "Succeeded"
+            ]
+          },
+          {
+            "activity": "Silver_Ventas_Online",
+            "dependencyConditions": [
+              "Succeeded"
+            ]
+          },
+          {
+            "activity": "Silver_Inventario",
+            "dependencyConditions": [
+              "Succeeded"
+            ]
+          }
+        ],
+        "userProperties": [],
+        "typeProperties": {
+          "pipeline": {
+            "referenceName": "pip_gold_dim_sucursal",
+            "type": "PipelineReference"
+          },
+          "waitOnCompletion": true
+        }
+      },
+      {
+        "name": "Gold_Dim_Vendedor",
+        "type": "ExecutePipeline",
+        "dependsOn": [
+          {
+            "activity": "Silver_Ventas_Lpz",
+            "dependencyConditions": [
+              "Succeeded"
+            ]
+          },
+          {
+            "activity": "Silver_Ventas_Scz",
+            "dependencyConditions": [
+              "Succeeded"
+            ]
+          }
+        ],
+        "userProperties": [],
+        "typeProperties": {
+          "pipeline": {
+            "referenceName": "pip_gold_dim_vendedor",
+            "type": "PipelineReference"
+          },
+          "waitOnCompletion": true
+        }
+      },
+      {
+        "name": "Gold_Fact_Ventas",
+        "type": "ExecutePipeline",
+        "dependsOn": [
+          {
+            "activity": "Gold_Dim_Tiempo",
+            "dependencyConditions": [
+              "Succeeded"
+            ]
+          },
+          {
+            "activity": "Gold_Dim_Producto",
+            "dependencyConditions": [
+              "Succeeded"
+            ]
+          },
+          {
+            "activity": "Gold_Dim_Cliente",
+            "dependencyConditions": [
+              "Succeeded"
+            ]
+          },
+          {
+            "activity": "Gold_Dim_Sucursal",
+            "dependencyConditions": [
+              "Succeeded"
+            ]
+          },
+          {
+            "activity": "Gold_Dim_Vendedor",
+            "dependencyConditions": [
+              "Succeeded"
+            ]
+          },
+          {
+            "activity": "Silver_Ventas_Lpz",
+            "dependencyConditions": [
+              "Succeeded"
+            ]
+          },
+          {
+            "activity": "Silver_Ventas_Scz",
+            "dependencyConditions": [
+              "Succeeded"
+            ]
+          },
+          {
+            "activity": "Silver_Ventas_Online",
+            "dependencyConditions": [
+              "Succeeded"
+            ]
+          }
+        ],
+        "userProperties": [],
+        "typeProperties": {
+          "pipeline": {
+            "referenceName": "pip_gold_fact_ventas",
+            "type": "PipelineReference"
+          },
+          "waitOnCompletion": true
+        }
+      },
+      {
+        "name": "Gold_Fact_Inventario",
+        "type": "ExecutePipeline",
+        "dependsOn": [
+          {
+            "activity": "Gold_Dim_Producto",
+            "dependencyConditions": [
+              "Succeeded"
+            ]
+          },
+          {
+            "activity": "Gold_Dim_Sucursal",
+            "dependencyConditions": [
+              "Succeeded"
+            ]
+          },
+          {
+            "activity": "Gold_Dim_Tiempo",
+            "dependencyConditions": [
+              "Succeeded"
+            ]
+          },
+          {
+            "activity": "Silver_Inventario",
+            "dependencyConditions": [
+              "Succeeded"
+            ]
+          }
+        ],
+        "userProperties": [],
+        "typeProperties": {
+          "pipeline": {
+            "referenceName": "pip_gold_fact_inventario",
+            "type": "PipelineReference"
+          },
+          "waitOnCompletion": true
+        }
+      }
+    ],
+    "annotations": []
+  },
+  "type": "Microsoft.DataFactory/factories/pipelines"
+}

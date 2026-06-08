@@ -1,0 +1,19 @@
+{
+  "name": "gold_fact_inventario",
+  "properties": {
+    "linkedServiceName": {
+      "referenceName": "LS_AzureSQL_Ventas",
+      "type": "LinkedServiceReference"
+    },
+    "folder": {
+      "name": "gold"
+    },
+    "annotations": [],
+    "type": "AzureSqlTable",
+    "schema": [],
+    "typeProperties": {
+      "schema": "gold",
+      "table": "fact_inventario"
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "name": "LS_AzureSQL_Ventas",
+  "type": "Microsoft.DataFactory/factories/linkedservices",
+  "properties": {
+    "annotations": [],
+    "type": "AzureSqlDatabase",
+    "typeProperties": {
+      "server": "sql-ucb-ventas-5756067.database.windows.net",
+      "database": "dw_ventas",
+      "encrypt": "mandatory",
+      "trustServerCertificate": false,
+      "authenticationType": "SQL",
+      "userName": "adminventas"
+    }
+  }
+}

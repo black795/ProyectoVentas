@@ -1,0 +1,24 @@
+{
+  "name": "ds_file_inventario",
+  "properties": {
+    "linkedServiceName": {
+      "referenceName": "LS_DataLake_Ventas",
+      "type": "LinkedServiceReference"
+    },
+    "folder": {
+      "name": "bronze_origen"
+    },
+    "annotations": [],
+    "type": "Excel",
+    "typeProperties": {
+      "location": {
+        "type": "AzureBlobFSLocation",
+        "fileName": "inventario.xlsx",
+        "fileSystem": "bronze"
+      },
+      "sheetName": "Sheet1",
+      "firstRowAsHeader": true
+    },
+    "schema": []
+  }
+}

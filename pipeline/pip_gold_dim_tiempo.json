@@ -1,0 +1,32 @@
+{
+  "name": "pip_gold_dim_tiempo",
+  "properties": {
+    "activities": [
+      {
+        "name": "Generar_Dim_Tiempo",
+        "type": "SqlServerStoredProcedure",
+        "dependsOn": [],
+        "policy": {
+          "timeout": "0.12:00:00",
+          "retry": 0,
+          "retryIntervalInSeconds": 30,
+          "secureOutput": false,
+          "secureInput": false
+        },
+        "userProperties": [],
+        "typeProperties": {
+          "storedProcedureName": "[gold].[sp_generate_dim_tiempo]"
+        },
+        "linkedServiceName": {
+          "referenceName": "LS_AzureSQL_Ventas",
+          "type": "LinkedServiceReference"
+        }
+      }
+    ],
+    "folder": {
+      "name": "gold"
+    },
+    "annotations": []
+  },
+  "type": "Microsoft.DataFactory/factories/pipelines"
+}

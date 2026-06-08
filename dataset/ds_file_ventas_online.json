@@ -1,0 +1,22 @@
+{
+  "name": "ds_file_ventas_online",
+  "properties": {
+    "linkedServiceName": {
+      "referenceName": "LS_DataLake_Ventas",
+      "type": "LinkedServiceReference"
+    },
+    "folder": {
+      "name": "bronze_origen"
+    },
+    "annotations": [],
+    "type": "Json",
+    "typeProperties": {
+      "location": {
+        "type": "AzureBlobFSLocation",
+        "fileName": "ventas_online.json",
+        "fileSystem": "bronze"
+      }
+    },
+    "schema": []
+  }
+}

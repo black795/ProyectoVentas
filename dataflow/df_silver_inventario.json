@@ -1,0 +1,105 @@
+{
+  "name": "df_silver_inventario",
+  "properties": {
+    "folder": {
+      "name": "silver"
+    },
+    "type": "MappingDataFlow",
+    "typeProperties": {
+      "sources": [
+        {
+          "dataset": {
+            "referenceName": "bronze_inventario",
+            "type": "DatasetReference"
+          },
+          "name": "source1"
+        }
+      ],
+      "sinks": [
+        {
+          "dataset": {
+            "referenceName": "silver_inventario",
+            "type": "DatasetReference"
+          },
+          "name": "sink1"
+        }
+      ],
+      "transformations": [
+        {
+          "name": "filter1"
+        },
+        {
+          "name": "derivedColumn1"
+        }
+      ],
+      "scriptLines": [
+        "source(output(",
+        "          codigo_producto as string,",
+        "          nombre_producto as string,",
+        "          categoria as string,",
+        "          precio_venta as string,",
+        "          costo_adquisicion as string,",
+        "          stock_actual as string,",
+        "          stock_minimo as string,",
+        "          sucursal as string,",
+        "          proveedor as string,",
+        "          ultima_reposicion as string,",
+        "          activo as string",
+        "     ),",
+        "     allowSchemaDrift: true,",
+        "     validateSchema: false,",
+        "     isolationLevel: 'READ_UNCOMMITTED',",
+        "     query: 'SELECT codigo_producto, nombre_producto, categoria, precio_venta, costo_adquisicion, stock_actual, stock_minimo, sucursal, proveedor, ultima_reposicion, activo FROM bronze.inventario_raw',",
+        "     format: 'query') ~> source1",
+        "source1 filter(!isNull(codigo_producto) && length(trim(codigo_producto)) > 0) ~> filter1",
+        "filter1 derive(codigo_producto = trim(codigo_producto),",
+        "          nombre_producto = trim(regexReplace(nombre_producto, '\\\\s+', ' ')),",
+        "          categoria = case(instr(upper(categoria),'PERIF')!=0,'Periféricos', instr(upper(categoria),'ACC')==1,'Accesorios', instr(upper(categoria),'ALMACEN')!=0 || instr(upper(categoria),'STORAGE')!=0,'Almacenamiento', instr(upper(categoria),'AUDIO')!=0 || instr(upper(categoria),'SONIDO')!=0,'Audio', instr(upper(categoria),'IMPRES')!=0 || instr(upper(categoria),'PRINTER')!=0,'Impresoras', instr(upper(categoria),'MONITOR')!=0 || instr(upper(categoria),'PANTALLA')!=0,'Monitores', instr(upper(categoria),'COMPUTAD')!=0 || left(upper(categoria),2)=='PC','Computadoras', instr(upper(categoria),'TABLET')!=0,'Tablets', instr(upper(categoria),'RED')!=0,'Redes', instr(upper(categoria),'HARDWARE')!=0 || instr(upper(categoria),'COMPONENT')!=0,'Componentes', initCap(trim(categoria))),",
+        "          precio_venta = toDecimal(regexReplace(lower(precio_venta),'[^0-9.]',''), 18, 2),",
+        "          costo_adquisicion = toDecimal(regexReplace(lower(costo_adquisicion),'[^0-9.]',''), 18, 2),",
+        "          stock_actual = toInteger(toFloat(stock_actual)),",
+        "          stock_minimo = toInteger(toFloat(stock_minimo)),",
+        "          sucursal = case(instr(upper(replace(sucursal,'.','')),'PAZ')!=0 || instr(upper(replace(sucursal,'.','')),'LAPAZ')!=0 || left(upper(replace(sucursal,'.','')),2)=='LP','La Paz', instr(upper(replace(sucursal,'.','')),'CRUZ')!=0 || left(upper(replace(sucursal,'.','')),2)=='SC','Santa Cruz', instr(upper(sucursal),'COCHA')!=0 || instr(upper(sucursal),'CBBA')!=0,'Cochabamba', trim(sucursal)),",
+        "          proveedor = trim(proveedor),",
+        "          ultima_reposicion = coalesce(toDate(ultima_reposicion,'yyyy-MM-dd'), toDate(left(ultima_reposicion,10),'yyyy-MM-dd'), toDate(ultima_reposicion,'dd-MMM-yyyy'), toDate(ultima_reposicion,'MMMM dd, yyyy'), toDate(ultima_reposicion,'yyyy/MM/dd'), toDate(ultima_reposicion,'dd/MM/yyyy'), toDate(replace(ultima_reposicion,' de ',' '),'dd MMMM yyyy'), toDate(ultima_reposicion,'MM-dd-yyyy')),",
+        "          activo = iif(in(['1','true','si','sí','s','yes','y'], lower(trim(activo))), true(), false())) ~> derivedColumn1",
+        "derivedColumn1 sink(allowSchemaDrift: true,",
+        "     validateSchema: false,",
+        "     input(",
+        "          codigo_producto as string,",
+        "          nombre_producto as string,",
+        "          categoria as string,",
+        "          precio_venta as decimal(18,2),",
+        "          costo_adquisicion as decimal(18,2),",
+        "          stock_actual as integer,",
+        "          stock_minimo as integer,",
+        "          sucursal as string,",
+        "          proveedor as string,",
+        "          ultima_reposicion as date,",
+        "          activo as boolean",
+        "     ),",
+        "     deletable:false,",
+        "     insertable:true,",
+        "     updateable:false,",
+        "     upsertable:false,",
+        "     format: 'table',",
+        "     skipDuplicateMapInputs: true,",
+        "     skipDuplicateMapOutputs: true,",
+        "     errorHandlingOption: 'stopOnFirstError',",
+        "     mapColumn(",
+        "          codigo_producto,",
+        "          nombre_producto,",
+        "          categoria,",
+        "          precio_venta,",
+        "          costo_adquisicion,",
+        "          stock_actual,",
+        "          stock_minimo,",
+        "          sucursal,",
+        "          proveedor,",
+        "          ultima_reposicion,",
+        "          activo",
+        "     )) ~> sink1"
+      ]
+    }
+  }
+}

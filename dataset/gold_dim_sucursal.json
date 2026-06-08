@@ -1,0 +1,19 @@
+{
+  "name": "gold_dim_sucursal",
+  "properties": {
+    "linkedServiceName": {
+      "referenceName": "LS_AzureSQL_Ventas",
+      "type": "LinkedServiceReference"
+    },
+    "folder": {
+      "name": "gold"
+    },
+    "annotations": [],
+    "type": "AzureSqlTable",
+    "schema": [],
+    "typeProperties": {
+      "schema": "gold",
+      "table": "dim_sucursal"
+    }
+  }
+}

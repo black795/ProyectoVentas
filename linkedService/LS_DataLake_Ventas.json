@@ -1,0 +1,11 @@
+{
+  "name": "LS_DataLake_Ventas",
+  "type": "Microsoft.DataFactory/factories/linkedservices",
+  "properties": {
+    "annotations": [],
+    "type": "AzureBlobFS",
+    "typeProperties": {
+      "url": "https://saventas5756067.dfs.core.windows.net/"
+    }
+  }
+}

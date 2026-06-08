@@ -1,0 +1,401 @@
+{
+  "name": "pip_cargar_datos_bronce",
+  "properties": {
+    "activities": [
+      {
+        "name": "Copy_Ventas_LPZ",
+        "type": "Copy",
+        "dependsOn": [],
+        "policy": {
+          "timeout": "0.12:00:00",
+          "retry": 0,
+          "retryIntervalInSeconds": 30,
+          "secureOutput": false,
+          "secureInput": false
+        },
+        "userProperties": [],
+        "typeProperties": {
+          "source": {
+            "type": "DelimitedTextSource",
+            "storeSettings": {
+              "type": "AzureBlobFSReadSettings",
+              "recursive": true,
+              "enablePartitionDiscovery": false
+            },
+            "formatSettings": {
+              "type": "DelimitedTextReadSettings"
+            }
+          },
+          "sink": {
+            "type": "AzureSqlSink",
+            "writeBehavior": "insert",
+            "sqlWriterUseTableLock": false,
+            "preCopyScript": "TRUNCATE TABLE bronze.ventas_lpz_raw",
+            "disableMetricsCollection": false
+          },
+          "enableStaging": false,
+          "translator": {
+            "type": "TabularTranslator",
+            "mappings": [
+              {
+                "source": {
+                  "name": "ID_Venta",
+                  "type": "String"
+                },
+                "sink": {
+                  "name": "id_venta"
+                }
+              },
+              {
+                "source": {
+                  "name": "Fecha_Venta",
+                  "type": "String"
+                },
+                "sink": {
+                  "name": "fecha_venta"
+                }
+              },
+              {
+                "source": {
+                  "name": "Producto",
+                  "type": "String"
+                },
+                "sink": {
+                  "name": "producto"
+                }
+              },
+              {
+                "source": {
+                  "name": "Cant",
+                  "type": "String"
+                },
+                "sink": {
+                  "name": "cant"
+                }
+              },
+              {
+                "source": {
+                  "name": "PrecioUnit",
+                  "type": "String"
+                },
+                "sink": {
+                  "name": "preciounit"
+                }
+              },
+              {
+                "source": {
+                  "name": "Sucursal",
+                  "type": "String"
+                },
+                "sink": {
+                  "name": "sucursal"
+                }
+              },
+              {
+                "source": {
+                  "name": "Vendedor",
+                  "type": "String"
+                },
+                "sink": {
+                  "name": "vendedor"
+                }
+              },
+              {
+                "source": {
+                  "name": "NombreCliente",
+                  "type": "String"
+                },
+                "sink": {
+                  "name": "nombre_cliente"
+                }
+              },
+              {
+                "source": {
+                  "name": "EmailCliente",
+                  "type": "String"
+                },
+                "sink": {
+                  "name": "email_cliente"
+                }
+              },
+              {
+                "source": {
+                  "name": "MetodoPago",
+                  "type": "String"
+                },
+                "sink": {
+                  "name": "metodopago"
+                }
+              }
+            ]
+          }
+        },
+        "inputs": [
+          {
+            "referenceName": "ds_file_ventas_lpz",
+            "type": "DatasetReference"
+          }
+        ],
+        "outputs": [
+          {
+            "referenceName": "bronze_ventas_lpz",
+            "type": "DatasetReference"
+          }
+        ]
+      },
+      {
+        "name": "Copy_Ventas_SCZ",
+        "type": "Copy",
+        "dependsOn": [],
+        "policy": {
+          "timeout": "0.12:00:00",
+          "retry": 0,
+          "retryIntervalInSeconds": 30,
+          "secureOutput": false,
+          "secureInput": false
+        },
+        "userProperties": [],
+        "typeProperties": {
+          "source": {
+            "type": "DelimitedTextSource",
+            "storeSettings": {
+              "type": "AzureBlobFSReadSettings",
+              "recursive": true,
+              "enablePartitionDiscovery": false
+            },
+            "formatSettings": {
+              "type": "DelimitedTextReadSettings"
+            }
+          },
+          "sink": {
+            "type": "AzureSqlSink",
+            "writeBehavior": "insert",
+            "sqlWriterUseTableLock": false,
+            "preCopyScript": "TRUNCATE TABLE bronze.ventas_scz_raw",
+            "disableMetricsCollection": false
+          },
+          "enableStaging": false
+        },
+        "inputs": [
+          {
+            "referenceName": "ds_file_ventas_scz",
+            "type": "DatasetReference"
+          }
+        ],
+        "outputs": [
+          {
+            "referenceName": "bronze_ventas_scz",
+            "type": "DatasetReference"
+          }
+        ]
+      },
+      {
+        "name": "Copy_Ventas_Online",
+        "type": "Copy",
+        "dependsOn": [],
+        "policy": {
+          "timeout": "0.12:00:00",
+          "retry": 0,
+          "retryIntervalInSeconds": 30,
+          "secureOutput": false,
+          "secureInput": false
+        },
+        "userProperties": [],
+        "typeProperties": {
+          "source": {
+            "type": "JsonSource",
+            "storeSettings": {
+              "type": "AzureBlobFSReadSettings",
+              "recursive": true,
+              "enablePartitionDiscovery": false
+            },
+            "formatSettings": {
+              "type": "JsonReadSettings"
+            }
+          },
+          "sink": {
+            "type": "AzureSqlSink",
+            "writeBehavior": "insert",
+            "sqlWriterUseTableLock": false,
+            "preCopyScript": "TRUNCATE TABLE bronze.ventas_online_raw",
+            "disableMetricsCollection": false
+          },
+          "enableStaging": false,
+          "translator": {
+            "type": "TabularTranslator",
+            "mappings": [
+              {
+                "source": {
+                  "path": "$['order_id']",
+                  "type": "String"
+                },
+                "sink": {
+                  "name": "order_id"
+                }
+              },
+              {
+                "source": {
+                  "path": "$['timestamp']",
+                  "type": "String"
+                },
+                "sink": {
+                  "name": "timestamp"
+                }
+              },
+              {
+                "source": {
+                  "path": "$['product']",
+                  "type": "String"
+                },
+                "sink": {
+                  "name": "product"
+                }
+              },
+              {
+                "source": {
+                  "path": "$['qty']",
+                  "type": "String"
+                },
+                "sink": {
+                  "name": "qty"
+                }
+              },
+              {
+                "source": {
+                  "path": "$['unit_price']",
+                  "type": "String"
+                },
+                "sink": {
+                  "name": "unit_price"
+                }
+              },
+              {
+                "source": {
+                  "path": "$['customer']['name']",
+                  "type": "String"
+                },
+                "sink": {
+                  "name": "customer_name"
+                }
+              },
+              {
+                "source": {
+                  "path": "$['customer']['email']",
+                  "type": "String"
+                },
+                "sink": {
+                  "name": "customer_email"
+                }
+              },
+              {
+                "source": {
+                  "path": "$['customer']['city']",
+                  "type": "String"
+                },
+                "sink": {
+                  "name": "customer_city"
+                }
+              },
+              {
+                "source": {
+                  "path": "$['payment_method']",
+                  "type": "String"
+                },
+                "sink": {
+                  "name": "payment_method"
+                }
+              },
+              {
+                "source": {
+                  "path": "$['status']",
+                  "type": "String"
+                },
+                "sink": {
+                  "name": "status"
+                }
+              },
+              {
+                "source": {
+                  "path": "$['shipping_cost']",
+                  "type": "String"
+                },
+                "sink": {
+                  "name": "shipping_cost"
+                }
+              },
+              {
+                "source": {
+                  "path": "$['channel']",
+                  "type": "String"
+                },
+                "sink": {
+                  "name": "channel"
+                }
+              }
+            ]
+          }
+        },
+        "inputs": [
+          {
+            "referenceName": "ds_file_ventas_online",
+            "type": "DatasetReference"
+          }
+        ],
+        "outputs": [
+          {
+            "referenceName": "bronze_ventas_online",
+            "type": "DatasetReference"
+          }
+        ]
+      },
+      {
+        "name": "Copy_Inventario",
+        "type": "Copy",
+        "dependsOn": [],
+        "policy": {
+          "timeout": "0.12:00:00",
+          "retry": 0,
+          "retryIntervalInSeconds": 30,
+          "secureOutput": false,
+          "secureInput": false
+        },
+        "userProperties": [],
+        "typeProperties": {
+          "source": {
+            "type": "ExcelSource",
+            "storeSettings": {
+              "type": "AzureBlobFSReadSettings",
+              "recursive": true,
+              "enablePartitionDiscovery": false
+            }
+          },
+          "sink": {
+            "type": "AzureSqlSink",
+            "writeBehavior": "insert",
+            "sqlWriterUseTableLock": false,
+            "preCopyScript": "TRUNCATE TABLE bronze.inventario_raw",
+            "disableMetricsCollection": false
+          },
+          "enableStaging": false
+        },
+        "inputs": [
+          {
+            "referenceName": "ds_file_inventario",
+            "type": "DatasetReference"
+          }
+        ],
+        "outputs": [
+          {
+            "referenceName": "bronze_inventario",
+            "type": "DatasetReference"
+          }
+        ]
+      }
+    ],
+    "folder": {
+      "name": "bronze"
+    },
+    "annotations": []
+  },
+  "type": "Microsoft.DataFactory/factories/pipelines"
+}

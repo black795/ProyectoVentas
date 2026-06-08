@@ -1,50 +1,94 @@
 CREATE SCHEMA gold;
 GO
 
--- 1. Dimensión Tiempo
+-- ============================================================
+-- CAPA GOLD: modelo estrella. Dimensiones aplanadas + hechos.
+-- dim_tiempo usa fecha_key = CAST(CONVERT(VARCHAR(8),fecha,112) AS INT)
+-- (formato YYYYMMDD), idéntico al proyecto de referencia.
+-- ============================================================
+
+-- DIMENSIONES -------------------------------------------------
+
+-- 1. Dimensión Tiempo (generada por SP)
 CREATE TABLE gold.dim_tiempo (
-    id_tiempo INT PRIMARY KEY IDENTITY(1,1),
-    fecha DATE UNIQUE,
-    anio INT,
-    mes INT,
-    dia INT,
-    nombre_mes VARCHAR(20),
-    trimestre INT
+    fecha_key INT PRIMARY KEY,            -- YYYYMMDD
+    fecha DATE NOT NULL,
+    anio SMALLINT,
+    mes TINYINT,
+    nombre_mes VARCHAR(15),
+    trimestre TINYINT,
+    dia_semana TINYINT,
+    nombre_dia VARCHAR(15)
 );
 
--- 2. Dimensión Cliente
-CREATE TABLE gold.dim_cliente (
-    id_cliente INT PRIMARY KEY IDENTITY(1,1),
-    nombre VARCHAR(100),
-    email VARCHAR(150) UNIQUE
-);
-
--- 3. Dimensión Producto
+-- 2. Dimensión Producto (APLANADA: producto + proveedor + categoría)
 CREATE TABLE gold.dim_producto (
-    id_producto INT PRIMARY KEY IDENTITY(1,1),
-    codigo VARCHAR(50) UNIQUE,
-    nombre VARCHAR(255),
-    categoria VARCHAR(100)
+    producto_key INT IDENTITY(1,1) PRIMARY KEY,
+    codigo_producto VARCHAR(50),
+    nombre_producto VARCHAR(255),
+    categoria VARCHAR(100),
+    proveedor VARCHAR(100),          -- aplanado desde inventario
+    precio_venta_ref DECIMAL(18,2),  -- precio de lista de referencia
+    costo_adquisicion DECIMAL(18,2),
+    activo BIT
 );
 
--- 4. Dimensión Sucursal
+-- 3. Dimensión Cliente
+CREATE TABLE gold.dim_cliente (
+    cliente_key INT IDENTITY(1,1) PRIMARY KEY,
+    nombre_cliente VARCHAR(150),
+    email_cliente VARCHAR(150),
+    ciudad VARCHAR(100)              -- sólo disponible en ventas online
+);
+
+-- 4. Dimensión Sucursal / Canal
 CREATE TABLE gold.dim_sucursal (
-    id_sucursal INT PRIMARY KEY IDENTITY(1,1),
-    nombre VARCHAR(50) UNIQUE,
-    tipo VARCHAR(20) -- Fí­sica u Online
+    sucursal_key INT IDENTITY(1,1) PRIMARY KEY,
+    nombre_sucursal VARCHAR(50),
+    tipo VARCHAR(20)                 -- 'Física' u 'Online'
 );
 
--- 5. Hechos Ventas
+-- 5. Dimensión Vendedor (sólo aplica a ventas en sucursal física)
+CREATE TABLE gold.dim_vendedor (
+    vendedor_key INT IDENTITY(1,1) PRIMARY KEY,
+    nombre_vendedor VARCHAR(100)
+);
+
+-- TABLAS DE HECHOS (FACT TABLES) ------------------------------
+
+-- 6. Hechos Ventas (grano: 1 línea de venta)
 CREATE TABLE gold.fact_ventas (
-    id_fact INT PRIMARY KEY IDENTITY(1,1),
-    id_venta_origen VARCHAR(50),
-    id_tiempo INT FOREIGN KEY REFERENCES gold.dim_tiempo(id_tiempo),
-    id_cliente INT FOREIGN KEY REFERENCES gold.dim_cliente(id_cliente),
-    id_producto INT FOREIGN KEY REFERENCES gold.dim_producto(id_producto),
-    id_sucursal INT FOREIGN KEY REFERENCES gold.dim_sucursal(id_sucursal),
+    venta_key INT IDENTITY(1,1) PRIMARY KEY,
+    fecha_key INT FOREIGN KEY REFERENCES gold.dim_tiempo(fecha_key),
+    producto_key INT FOREIGN KEY REFERENCES gold.dim_producto(producto_key),
+    cliente_key INT FOREIGN KEY REFERENCES gold.dim_cliente(cliente_key),
+    sucursal_key INT FOREIGN KEY REFERENCES gold.dim_sucursal(sucursal_key),
+    vendedor_key INT FOREIGN KEY REFERENCES gold.dim_vendedor(vendedor_key), -- NULL en online
+
+    -- Métricas
     cantidad INT,
     precio_unitario DECIMAL(18,2),
-    total_venta DECIMAL(18,2),
+    total_venta DECIMAL(18,2),       -- cantidad * precio_unitario
+    shipping_cost DECIMAL(18,2),     -- 0 en sucursal física
+
+    -- Atributos degenerados
+    id_venta_origen VARCHAR(50),
     metodo_pago VARCHAR(50),
-    canal_venta VARCHAR(20)
+    estado VARCHAR(50),              -- estado del pedido online
+    canal VARCHAR(20)
+);
+
+-- 7. Hechos Inventario (grano: producto × sucursal, snapshot)
+CREATE TABLE gold.fact_inventario (
+    inventario_key INT IDENTITY(1,1) PRIMARY KEY,
+    producto_key INT FOREIGN KEY REFERENCES gold.dim_producto(producto_key),
+    sucursal_key INT FOREIGN KEY REFERENCES gold.dim_sucursal(sucursal_key),
+    fecha_reposicion_key INT FOREIGN KEY REFERENCES gold.dim_tiempo(fecha_key),
+
+    -- Métricas
+    stock_actual INT,
+    stock_minimo INT,
+    precio_venta DECIMAL(18,2),
+    costo_adquisicion DECIMAL(18,2),
+    margen_unitario DECIMAL(18,2)    -- precio_venta - costo_adquisicion
 );

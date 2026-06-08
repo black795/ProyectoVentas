@@ -1,0 +1,27 @@
+{
+  "name": "ds_file_ventas_scz",
+  "properties": {
+    "linkedServiceName": {
+      "referenceName": "LS_DataLake_Ventas",
+      "type": "LinkedServiceReference"
+    },
+    "folder": {
+      "name": "bronze_origen"
+    },
+    "annotations": [],
+    "type": "DelimitedText",
+    "typeProperties": {
+      "location": {
+        "type": "AzureBlobFSLocation",
+        "fileName": "ventas_sucursal_scz.csv",
+        "fileSystem": "bronze"
+      },
+      "columnDelimiter": ",",
+      "escapeChar": "\\",
+      "quoteChar": "\"",
+      "firstRowAsHeader": true,
+      "encodingName": "UTF-8"
+    },
+    "schema": []
+  }
+}

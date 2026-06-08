@@ -1,0 +1,19 @@
+{
+  "name": "bronze_inventario",
+  "properties": {
+    "linkedServiceName": {
+      "referenceName": "LS_AzureSQL_Ventas",
+      "type": "LinkedServiceReference"
+    },
+    "folder": {
+      "name": "bronze"
+    },
+    "annotations": [],
+    "type": "AzureSqlTable",
+    "schema": [],
+    "typeProperties": {
+      "schema": "bronze",
+      "table": "inventario_raw"
+    }
+  }
+}
