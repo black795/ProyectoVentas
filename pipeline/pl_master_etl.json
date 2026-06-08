@@ -22,29 +22,9 @@
           "scripts": [
             {
               "type": "NonQuery",
-              "text": "DELETE FROM gold.fact_ventas;\nDELETE FROM gold.fact_inventario;\n\nDELETE FROM gold.dim_producto;\nDELETE FROM gold.dim_cliente;\nDELETE FROM gold.dim_sucursal;\nDELETE FROM gold.dim_vendedor;\n\nTRUNCATE TABLE silver.ventas_lpz;\nTRUNCATE TABLE silver.ventas_scz;\nTRUNCATE TABLE silver.ventas_online;\nTRUNCATE TABLE silver.inventario;\n\nTRUNCATE TABLE bronze.ventas_lpz_raw;\nTRUNCATE TABLE bronze.ventas_scz_raw;\nTRUNCATE TABLE bronze.ventas_online_raw;\nTRUNCATE TABLE bronze.inventario_raw;"
+              "text": "DELETE FROM gold.fact_ventas;\nDELETE FROM gold.fact_inventario;\n\nDELETE FROM gold.dim_producto;\nDELETE FROM gold.dim_cliente;\nDELETE FROM gold.dim_sucursal;\nDELETE FROM gold.dim_vendedor;\n\nTRUNCATE TABLE silver.ventas_lpz;\nTRUNCATE TABLE silver.ventas_scz;\nTRUNCATE TABLE silver.ventas_online;\nTRUNCATE TABLE silver.inventario;"
             }
           ]
-        }
-      },
-      {
-        "name": "Cargar_Bronze",
-        "type": "ExecutePipeline",
-        "dependsOn": [
-          {
-            "activity": "Limpiar_Base_Datos",
-            "dependencyConditions": [
-              "Succeeded"
-            ]
-          }
-        ],
-        "userProperties": [],
-        "typeProperties": {
-          "pipeline": {
-            "referenceName": "pip_cargar_datos_bronce",
-            "type": "PipelineReference"
-          },
-          "waitOnCompletion": true
         }
       },
       {
@@ -52,7 +32,7 @@
         "type": "ExecutePipeline",
         "dependsOn": [
           {
-            "activity": "Cargar_Bronze",
+            "activity": "Limpiar_Base_Datos",
             "dependencyConditions": [
               "Succeeded"
             ]
@@ -72,7 +52,7 @@
         "type": "ExecutePipeline",
         "dependsOn": [
           {
-            "activity": "Cargar_Bronze",
+            "activity": "Limpiar_Base_Datos",
             "dependencyConditions": [
               "Succeeded"
             ]
@@ -92,7 +72,7 @@
         "type": "ExecutePipeline",
         "dependsOn": [
           {
-            "activity": "Cargar_Bronze",
+            "activity": "Limpiar_Base_Datos",
             "dependencyConditions": [
               "Succeeded"
             ]
@@ -112,7 +92,7 @@
         "type": "ExecutePipeline",
         "dependsOn": [
           {
-            "activity": "Cargar_Bronze",
+            "activity": "Limpiar_Base_Datos",
             "dependencyConditions": [
               "Succeeded"
             ]
@@ -132,7 +112,7 @@
         "type": "ExecutePipeline",
         "dependsOn": [
           {
-            "activity": "Cargar_Bronze",
+            "activity": "Limpiar_Base_Datos",
             "dependencyConditions": [
               "Succeeded"
             ]
